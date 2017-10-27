@@ -1,0 +1,8 @@
+
+@font-face {
+  font-family: 'Archer-Book';
+  src: url('Archer-Book.eot?#iefix') format('embedded-opentype'),  url('Archer-Book.otf')  format('opentype'),
+	     url('Archer-Book.woff') format('woff'), url('Archer-Book.ttf')  format('truetype'), url('Archer-Book.svg#Archer-Book') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}

@@ -1,0 +1,58 @@
+# Hbilita el módulo de Reescritura
+RewriteEngine On
+AddDefaultCharset UTF-8
+php_value default_charset UTF-8
+
+
+# Server Local estrés
+RewriteBase /microsite_loterianavidad/
+
+#Servidor Amnisita
+#RewriteBase /justiciapornavidad/
+
+
+#RewriteCond %{THE_REQUEST} \s/+(.+?)\.php[\s?] [NC]
+#RewriteRule ^ /%1.html [R=302,L,NE]
+
+
+# Permite que los archivos o directorios que existen sean mostrados directamente
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^([^/]+)$ $1.php [L]
+
+# BEGIN GZIP
+<ifmodule mod_deflate.c>
+	AddOutputFilterByType DEFLATE text/text text/html text/plain text/xml text/css application/x-javascript application/javascript
+	AddOutputFilterByType DEFLATE image/x-icon
+	AddOutputFilterByType DEFLATE image/gif
+	AddOutputFilterByType DEFLATE image/png
+	AddOutputFilterByType DEFLATE image/jpeg
+</ifmodule>
+# END GZIP
+
+<ifmodule mod_expires.c>
+	ExpiresActive On
+	ExpiresDefault A3600
+	<filesmatch ".(jpg|JPG|gif|GIF|png|css|ico|woff|js)$">
+		ExpiresDefault "access plus 2 weeks"
+	</filesmatch>
+</ifmodule>
+
+<ifModule mod_headers.c>
+	Header set Connection keep-alive
+</ifModule>
+
+<IfModule mod_headers.c>
+	<FilesMatch "\.(js|css|xml|gz)$">
+		Header append Vary: Accept-Encoding
+	</FilesMatch>
+</IfModule>
+
+<ifModule mod_headers.c>
+	Header unset ETag
+</ifModule>
+
+FileETag None
+AddCharset UTF-8 .html
+AddCharset UTF-8 .php
