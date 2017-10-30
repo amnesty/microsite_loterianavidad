@@ -2,7 +2,7 @@
 /*
 [VERSIÓN 2017]
 
-Se cambió: where accion = 'justiciapornavidad' por: where accion LIKE 'justiciapornavidad%' 
+Se cambió: where accion = 'justiciapornavidad' por: where accion LIKE 'justiciapornavidad%'
 porque tendremos la segementación por casos por quién firman
 */
 
@@ -195,7 +195,7 @@ $progress_percent = (($num_firmas_bd_bak+$num_firmas) / $num_firmas_total)*100;
                   <div class="box-check">
                       <button id="btnEnviar" type="submit" class="btn-formulario">Envía tu firma</button>
                       <button id="btnEnviando" type="button" class="btn-formulario" style="display:none;">Enviando...</button>
-                      
+
                       <!--<p>Al participar aceptas la <a href="https://www.es.amnesty.org/politica-de-privacidad/" title="Política de Privacidad." target="_blank">Política de Privacidad.</a></p>-->
                   </div>
                   <div class="form-check clearfix">
