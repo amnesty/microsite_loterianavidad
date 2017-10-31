@@ -145,7 +145,7 @@ if($_GET['error_form'] == 1){
                                             <div class="col-12">
                                                 <p><b>Sigue colaborando con la campaña</b> y, al mismo tiempo, adorna tu Navidad con buenos deseos. Haz un donativo y te enviaremos este adorno para que lo coloques en casa o lo uses como postal para felicitar las fiestas.</p>
                                             
-                                                <a class="btn-principal" target="_blank" href="https://crm.es.amnesty.org/haz-un-donativo-loteria/gracias/<?=$segmentacion_origen?>" title="Consigue el adorno">Consigue el adorno</a>
+                                                <a class="btn-principal" target="_blank" href="https://crm.es.amnesty.org/haz-un-donativo-loteria/<?=$segmentacion_origen?>" title="Consigue el adorno">Consigue el adorno</a>
                                             </div>
                                         </div>
                                     </div> 
@@ -161,7 +161,7 @@ if($_GET['error_form'] == 1){
                                 <div class="box-text">
                                     <p><b>ÚNETE a Amnistía Internacional para apoyar la defensa de los derechos humanos todos los días.</b></p>
                                     <p>Somos independientes porque no aceptamos subvenciones de gobiernos ni donaciones de partidos políticos. La independencia nos hace libres para defender los derechos humanos en cualquier lugar.</p>
-                                    <a class="btn-principal" href="https://crm.es.amnesty.org/unete-a-amnistia-loteria/gracias/<?=$segmentacion_origen?>" target="_blank" title="Únete">Únete</a>
+                                    <a class="btn-principal" href="https://crm.es.amnesty.org/unete-a-amnistia-loteria/<?=$segmentacion_origen?>" target="_blank" title="Únete">Únete</a>
                                 </div>
                             </div>
                         </section>
