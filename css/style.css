@@ -357,6 +357,33 @@ a.animated-button.btn-animate-white:hover:after {
 	opacity: 1;
 }
 
+a.animated-button.btn-animate-cream {
+	background: #eadec6;
+	color: #000;
+	border: 2px solid #eadec6;
+	/*background: #998a54;
+	color: #fff;*/
+}
+
+a.animated-button.btn-animate-cream {
+	/*background: #FFFFFF;
+	color: #000;
+	opacity: .5;
+	-moz-transform: translateX(-50%) translateY(-50%);
+	-ms-transform: translateX(-50%) translateY(-50%);
+	-webkit-transform: translateX(-50%) translateY(-50%);
+	transform: translateX(-50%) translateY(-50%);*/
+}
+a.animated-button.btn-animate-cream:hover{
+	opacity: 1;
+	border: 2px solid #351d0b;
+	/*background: #FFFFFF;
+	color: #000;*/
+
+	background: #351d0b;
+	color: #FFF;
+}
+
 /* Botones */
 /* ---------------------- */
 /* ---------------------- */
@@ -371,6 +398,26 @@ a.animated-button.btn-animate-white:hover:after {
   padding: 5px 10px;
   text-align: center;
 }
+/*
+.btn-header.btn-firma {	
+	border: 0;
+	background-color: #a98a54;
+	color: #ffffff;
+	cursor: pointer;
+	padding: 5px 10px;
+  	text-align: center;
+  	text-transform: uppercase;
+	-moz-transition: all 0.4s ease-in;
+	-o-transition: all 0.4s ease-in;
+	-webkit-transition: all 0.4s ease-in;
+}
+.btn-header.btn-firma:hover {
+  background-color: #ffffff;
+  color: #111010;
+  text-decoration: none;
+}
+*/
+
 .btn-header:hover,
 .btn-header:focus{
   color: #ffffff;
@@ -542,6 +589,7 @@ header.interior{
 .modulo-home .box-text p{
 	max-width: 390px;
 	color: #ffffff;
+	font-size: 1.650em;
 }
 .modulo-home .box-text a{
 	font-family: 'Archer-Medium';
@@ -582,7 +630,7 @@ header.interior{
 	margin: auto;
 }
 .modulo-firma .box-text p {
-	max-width: 85ch;
+	max-width: 80ch;
 	margin: 0 auto 20px;
 }
 .modulo-firma .box-text p a {
@@ -668,8 +716,8 @@ form.formulario-firma.row{
 	margin-right: 20px;
 }
 .formulario-firma .form-check-label {
-	font-family: 'Archer-Bold';
-  font-size: 0.813em;
+	font-family: 'Archer-Book';
+  font-size: 0.925em;
   text-align: left;
   padding-left: 20px;
   margin-top: 10px;
@@ -737,13 +785,14 @@ form.formulario-firma.row{
 .modulo-casos .slide-casos .owl-item{
 	display: -webkit-flex;
     display: flex;
-	opacity: 0.4;
+	opacity: 0.4;	
 }
 .modulo-casos .slide-casos .owl-item .item{
 	width: 100%;
 }
 .modulo-casos .slide-casos .owl-item.active.center{
 	opacity: 1;
+	cursor:pointer;
 }
 .modulo-casos .slide-casos .box-content{
 	padding: 10px 20px;
@@ -763,7 +812,7 @@ form.formulario-firma.row{
 	float: right;
 	text-align: right!important;
 	position: relative;
-  top: 12px;
+  	top: 12px;
 }
 .modulo-casos .slide-casos.owl-theme .owl-dots .owl-dot span {
     width: 175px;
@@ -776,6 +825,13 @@ form.formulario-firma.row{
 }
 .modulo-casos .slide-casos.owl-theme .owl-nav.disabled+.owl-dots{
 	margin-top: 20px;
+}
+
+.modulo-casos a.disabled { 
+	cursor:default;
+}
+.modulo-casos a.enabled {
+	cursor:pointer;
 }
 
 /* Módulo gobierno */
@@ -851,6 +907,9 @@ form.formulario-firma.row{
 .modulo-colabora .box-sms p{
 	font-size: 2.188em;
 	margin-bottom: 0;
+}
+.modulo-colabora .box-sms p sup{
+	font-size: 0.650em;
 }
 .modulo-colabora .box-sms h4{
 	font-family: 'Archer-Semibold';
@@ -1183,6 +1242,9 @@ footer a{
 	.modulo-casos .slide-casos.owl-theme .owl-dots .owl-dot span {
 	  width: 100px;
 	}
+	.modulo-home .box-text p{
+	font-size: 1.375em;
+	}
 }
 /* max-widht: 575px */
 @media only screen and (max-width: 575px) {
@@ -1200,6 +1262,7 @@ footer a{
     max-width: 390px;
     width: 80%;
 	}
+	
 	.modulo-home .rrss {
     margin-top: 0;
     top: 20px;

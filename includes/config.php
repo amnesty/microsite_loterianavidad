@@ -17,15 +17,17 @@ session_start();
 //ESTABLECE LA URL DEL SITE para construir las URLs y usarlas en Redes Sociales y Meta Etiquetas
 if ( strpos ( $_SERVER['SERVER_NAME'], "amnistia.bit" )) {
 	define("URL_SITE",     "http://dev.amnistia.bit/microsite_loterianavidad/"); // Servidor Local estrés
+} elseif ( $_SERVER['SERVER_NAME'] == "localhost" && $_SERVER["SERVER_PORT"] == '8080' ) {
+	define("URL_SITE",     "http://localhost:8080/loteria/"); // Local amnistia 2
+	$tabla = 'firmas';
 }elseif ( $_SERVER['SERVER_NAME'] == "localhost" ) {
-	define("URL_SITE",     "http://localhost:8088/justiciapornavidad/"); // Local amnistia
+	define("URL_SITE",     "http://localhost:8088/loteria/"); // Local amnistia
 	$tabla = 'test_firmas';
 } else {
 	//define("URL_SITE", "http://estanavidadtoca.org/"); // Producción Amnistía
-	define("URL_SITE", "https://www.es.amnesty.org/justiciapornavidad/"); // Producción Amnistía
+	define("URL_SITE", "https://www.es.amnesty.org/loteria/"); // Producción Amnistía
 	$tabla = 'firmas';
 }
-
 //Se usa para calcular el % de firmas para rellenar la "Progress Bar" en "/includes/firma-form.php"
 //En <div class="progress-wrap-firmas progress-firmas" data-progress-percent="20">
 //EL valor de "data-progress-percent" (0-100) hará que se rellena la progress bar con el valor indicado

@@ -22,9 +22,11 @@ $(document).ready(function() {
 		items:2,
 		loop:true,
 		margin:0,
+		mouseDrag: true,
 		autoplay:true,
 		autoplayTimeout:5000,
 		autoplayHoverPause:true,
+		onChanged: callbackOwl,
 		responsive:{
 			0:{
 				items:1
@@ -32,8 +34,9 @@ $(document).ready(function() {
 			767:{
 				items:2
 			}
-		}
+		}		
 	});
+
 
 	//SOCIAL SHARE
 	$('.twitter-share').click(function(e){
@@ -356,4 +359,23 @@ function ocultarTel(valor) {
 		$('input[name=telefono]').attr('readonly', 'readonly');
 		$('input[name=telefono]').val('');
 	}
+}
+
+function callbackOwl(event) {
+    // Provided by the core
+    var page = event.page.index;     // Position of the current page
+
+	//console.log('> '+page);
+
+    $('.owl-item .item').each(function( index ) {
+    	if($(this).hasClass('num-'+page) != page && page != -1) {
+    		$('.owl-item .item a').attr('href', 'javascript:void(0);');
+    		$('.owl-item .item a').addClass('disabled');
+    		$('.owl-item .item a').removeClass('enabled');
+    	}
+    });
+
+	$('.owl-item .item.num-'+page+' a').removeClass('disabled');
+	$('.owl-item .item.num-'+page+' a').addClass('enabled');
+	$('.owl-item .item.num-'+page+' a').attr('href', $('.owl-item .item.num-'+page).data('enlace'));
 }

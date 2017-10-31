@@ -129,7 +129,7 @@ if($isMobile) {
 <?php
 if($isMobile) {
 ?>
-                <li><a class="fa fa-whatsapp" title="Compartir en Whatsapp" data-href="<?php echo URL_SITE; ?>" data-action="share/whatsapp/share" href="whatsapp://send?text=<?=urlencode('Esta Navidad toca Justicia – Amnistía Internacional https://goo.gl/DequCx')?>"></a></li>
+                <li><a class="fa fa-whatsapp" title="Compartir en Whatsapp" data-enlace="<?php echo URL_SITE; ?>" data-action="share/whatsapp/share" href="whatsapp://send?text=<?=urlencode('Esta Navidad toca Justicia – Amnistía Internacional https://goo.gl/DequCx')?>"></a></li>
 <?php
 }
 ?>
@@ -165,7 +165,7 @@ if($isMobile) {
             </div>
 
             <div class="slide-casos owl-carousel owl-theme">
-            <div class="item">
+            <div class="item num-0" data-enlace="antonio-narvaez">
                 <a href="antonio-narvaez"><img src="images/caso-antonio.jpg" alt="Antonio Narváez"></a>
                 <div class="box-content clearfix">
                     <div class="box-text">
@@ -178,28 +178,28 @@ if($isMobile) {
                 </div>
             </div>
 
-            <div class="item">
-                <a href="rosa-maria"><img src="images/caso-rosa.jpg" alt="Rosa María"></a>
+            <div class="item num-1" data-enlace="rosa-maria">
+                <a class="disabled" href="rosa-maria"><img src="images/caso-rosa.jpg" alt="Rosa María"></a>
                 <div class="box-content clearfix">
                     <div class="box-text">
-                        <h3><a href="rosa-maria" title="Rosa María">Rosa María,</a></h3>
-                        <p><a href="rosa-maria" title="la historia de una mujer torturada">la historia de una mujer torturada.</a></p>
+                        <h3><a class="disabled" href="rosa-maria" title="Rosa María">Rosa María,</a></h3>
+                        <p><a class="disabled" href="rosa-maria" title="la historia de una mujer torturada">la historia de una mujer torturada.</a></p>
                     </div>
                     <div class="box-boton">
-                        <a class="btn-caso" href="rosa-maria" title="Ver su historia">Ver su historia</a>
+                        <a class="btn-caso disabled" href="rosa-maria" title="Ver su historia">Ver su historia</a>
                     </div>
                 </div>
             </div>
 
-            <div class="item">
-                <a href="jaime"><img src="images/caso-jaime.jpg" alt="Jaime"></a>
+            <div class="item num-2" data-enlace="jaime">
+                <a class="disabled" href="jaime"><img src="images/caso-jaime.jpg" alt="Jaime"></a>
                 <div class="box-content clearfix">
                     <div class="box-text">
-                        <h3><a href="jaime" title="Jaime">Jaime,</a></h3>
-                        <p><a href="jaime" title="sigue buscando a su tío">sigue buscando a su tío.</a></p>
+                        <h3><a class="disabled" href="jaime" title="Jaime">Jaime,</a></h3>
+                        <p><a class="disabled" href="jaime" title="sigue buscando a su tío">sigue buscando a su tío.</a></p>
                     </div>
                     <div class="box-boton">
-                        <a class="btn-caso" href="jaime" title="Ver su historia">Ver su historia</a>
+                        <a class="btn-caso disabled" href="jaime" title="Ver su historia">Ver su historia</a>
                     </div>
                 </div>
             </div>
@@ -217,7 +217,7 @@ if($isMobile) {
                 <p>Que la ilusión de las víctimas de la guerra civil y el franquismo se haga realidad no es una cuestión de suerte. Depende de que el gobierno y el resto de grupos parlamentarios en el Congreso y en el Senado den los pasos adecuados.</p>
                 <p>Por eso, pedimos que:
                 <br/>Frente a las violaciones de derechos humanos cometidas, impulsen medidas para garantizar: <b>que se conozca la verdad</b> de lo ocurrido, que se investiguen los hechos para <b>que se haga justicia</b> y <b>que se repare</b> el sufrimiento de las víctimas y de sus familias como merecen.</p>
-                <p>Ya hemos entregado más de 200.000 firmas al Ministro de Justicia: ahora queremos enviar muchas más a los grupos parlamentarios.</p>
+                <!--<p>Ya hemos entregado más de 200.000 firmas al Ministro de Justicia: ahora queremos enviar muchas más a los grupos parlamentarios.</p>-->
             </div>
         </div>
     </section>
@@ -233,7 +233,7 @@ if($isMobile) {
                     <div class="box-content-text">
                         <h2>Adorna esta Navidad de una forma diferente</h2>
                         <p>Decora tu casa y a la vez colabora con el trabajo que hacemos por el derecho a la verdad, justicia y reparación de todas las personas.</p>
-                        <p><b>Haz un donativo y recibirás en tu casa esta estrella</b> para que la cuelgues en el árbol, en tu puerta o para regalarla a quien quieras. Así ayudarás a mantener viva la ilusión de miles de personas durante estas fechas.</p>
+                        <p><b>Haz un donativo y recibirás en tu casa esta estrella</b> en el idioma que escojas, para que la cuelgues en el árbol, en tu puerta o para regalarla a quien quieras. Así ayudarás a mantener viva la ilusión de miles de personas durante estas fechas.</p>
                         <a class="btn-principal" target="_blank" href="https://crm.es.amnesty.org/haz-un-donativo-loteria/?origen=justiciapornavidad" title="Consigue el adorno">Consigue el adorno</a>
                     </div>
                 </div> 
@@ -246,9 +246,9 @@ if($isMobile) {
         <div class="container">
             <h2>Colabora con la campaña.</h2>
             <div class="box-sms">
-                <p>Envía un SMS con la palabra</p>
+                <p>Envía un SMS<sup>*</sup> con la palabra</p>
                 <h4>JUSTICIA al 28014</h4>
-                <p>para donar 1,20€*.</p>
+                <p>para donar 1,20€.</p>
             </div>
         </div>
     </section>
@@ -256,9 +256,9 @@ if($isMobile) {
     <!-- Módulo socio -->
     <section class="modulo-socio">
         <div class="container">
-            <h2>Hazte socio/a.<br/>Puedes hacer más por mantener viva la ilusión de quienes sufren</h2>
+            <h2>Hazte socio/a.<br/>Puedes mantener viva la ilusión por conseguir justicia de quienes más sufren</h2>
             <div class="box-text">
-                <p>Hacer realidad la ilusión de conseguir justicia depende de personas como Antonio, Rosa María y Jaume. Y también de personas como tú. Ser socio/a es hacer más fuerte la defensa de las víctimas de graves violaciones de derechos humanos.</p>
+                <p>Hacer realidad la ilusión de conseguir justicia depende de personas como Antonio, Rosa María y Jaime. Y también de personas como tú. Ser socio/a es hacer más fuerte la defensa de las víctimas de graves violaciones de derechos humanos.</p>
                 <p>Sin ti, no hay Amnistía Internacional: <b>necesitamos tu apoyo.</b></p>
                 <a class="btn-principal" target="_blank" href="https://crm.es.amnesty.org/unete-a-amnistia-loteria/?origen=justiciapornavidad" title="Hazte socio/a">Hazte socio/a</a>
             </div>

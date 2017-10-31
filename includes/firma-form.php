@@ -2,7 +2,7 @@
 /*
 [VERSIÓN 2017]
 
-Se cambió: where accion = 'justiciapornavidad' por: where accion LIKE 'justiciapornavidad%' 
+Se cambió: where accion = 'justiciapornavidad' por: where accion LIKE 'justiciapornavidad%'
 porque tendremos la segementación por casos por quién firman
 */
 
@@ -22,7 +22,7 @@ if ( isset($_GET['utm_campaign']) || isset($_GET['pk_kwd']) ){
 <section id="firma" class="modulo-firma clearfix">
     <div class="container">
         <div class="box-text">
-            <p><b>Miles de víctimas de la guerra civil y el franquismo, y sus familias, mantienen viva la ilusión de conseguir justicia.</b></p>
+            <p>Miles de víctimas de la guerra civil y el franquismo, y sus familias, mantienen viva la ilusión de conseguir justicia.</p>
         </div>
 
         <div class="formulario-inicial">
@@ -32,7 +32,7 @@ if ( isset($_GET['utm_campaign']) || isset($_GET['pk_kwd']) ){
 <?php
 $num_firmas_total = NUM_FIRMAS_TOTAL; // config.php -> Se puede modificar bajo demanda. Establecido a 5000
 $num_firmas = ""; // Guardar en esta variable "$num_firmas" el nº de firmas actualziado que se lleva para esta campaña.
-$num_firmas_bd_bak = "213309"; // Numero de firmas de la tabla datos_firmas_backup (83252) + datos_firmas (71331). Pte incorporar a tabla firmas
+$num_firmas_bd_bak = "154477"; // Numero de firmas de la tabla datos_firmas_backup (83252) + datos_firmas (71331). Pte incorporar a tabla firmas
 
 if($tabla == 'test_firmas')
   $num_firmas_bd_bak = 0;
@@ -195,7 +195,7 @@ $progress_percent = (($num_firmas_bd_bak+$num_firmas) / $num_firmas_total)*100;
                   <div class="box-check">
                       <button id="btnEnviar" type="submit" class="btn-formulario">Envía tu firma</button>
                       <button id="btnEnviando" type="button" class="btn-formulario" style="display:none;">Enviando...</button>
-                      
+
                       <!--<p>Al participar aceptas la <a href="https://www.es.amnesty.org/politica-de-privacidad/" title="Política de Privacidad." target="_blank">Política de Privacidad.</a></p>-->
                   </div>
                   <div class="form-check clearfix">
