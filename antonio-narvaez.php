@@ -138,6 +138,9 @@ if($isMobile) {
 
     <!-- cookies  -->
     <?php include "includes/cookies.php";?>
+    
+    <!-- pixel google  -->
+    <?php include ("includes/pixelret.php"); ?>
 
 </body>
 </html>
