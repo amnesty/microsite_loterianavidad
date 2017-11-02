@@ -4,3 +4,4 @@ includes/api2.php
 includes/test_connection.php
 includes/file.txt
 *.htaccess
+.htaccess

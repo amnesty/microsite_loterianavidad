@@ -5,11 +5,11 @@ php_value default_charset UTF-8
 
 
 # Server Local estrés
-#RewriteBase /microsite_loterianavidad/
+RewriteBase /microsite_loterianavidad/
 
 #Servidor Amnisita
 #RewriteBase /justiciapornavidad/
-RewriteBase /loteria/
+#RewriteBase /loteria/
 
 
 #RewriteCond %{THE_REQUEST} \s/+(.+?)\.php[\s?] [NC]
