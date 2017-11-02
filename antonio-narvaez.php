@@ -12,7 +12,7 @@ $caso = 1;
 	<title>Esta Navidad toca Justicia – Amnistía Internacional</title>
     <meta name="description" content="Personas como Antonio tienen familiares “desaparecidos” en fosas comunes. Todo lo que desean es que vuelva la Justicia. Firma y ayúdales a conseguirlo.">
     <link rel="canonical" href="<?php echo URL_SITE; ?>antonio-narvaez" />
-    <link rel="image_src" href="<?php echo URL_SITE; ?>images/COMPARTIR-TWT-ANTONIO.png" />
+    <link rel="image_src" href="<?php echo URL_SITE; ?>images/compartir-twt-antonio.png" />
     <link rel="icon" href="favicon.ico?v=3" type="image/x-icon" />
     <meta name="pinterest-rich-pin" content="false" />
     <meta name="pinterest" content="nopin" />
@@ -94,8 +94,8 @@ $caso = 1;
 						<p class="subtitle">“El día 17 de julio de 1936 le pegaron un tiro por la espalda (a mi padre)… Mi hermano tenía 5 años y yo tenía 3, (…) y aún se permitieron el lujo de llevarse a mi madre y matarla.”</p>
                         <p>A Antonio le contaron que a su padre lo enterraron en una fosa común; y de su madre nunca volvió a saber nada.</p>
                         <p>El gobierno español nunca lo ha investigado y, por eso, Antonio decidió recurrir a la justicia argentina. En 2015, con 82 años, pudo por fin, por primera vez en su vida, contar su historia ante un juzgado.</p>
-                        <p>Por el momento, no ha habido avances en el caso. Lo que sí que se sabe es que el gobierno español está bloqueando la investigación sobre otros casos y peticiones de exhumación de fosas comunes.</p>
-                        <p>El caso de Antonio no es único. Se estima que miles de personas fueron víctimas de desaparición forzada durante la guerra civil y el franquismo, que aún están en fosas comunes de todo el territorio español. Personas que nunca volvieron a casa. Sus familias sólo piden justicia. </p>
+                        <p>Por el momento, no ha habido avances en el caso. Lo que sí que se sabe es que el gobierno español está bloqueando la investigación sobre otros casos y deja en manos de familiares y asociaciones la exhumación de fosas comunes.</p>
+                        <p>El caso de Antonio no es único. Se estima que miles de personas fueron víctimas de desaparición forzada durante la guerra civil y el franquismo, que aún están en fosas comunes de todo el territorio español. Personas que todavía hoy mantienen viva la ilusión de conseguir justicia.</p>
                     </div><!-- /box-text -->
 				</div>
 
@@ -108,12 +108,12 @@ $caso = 1;
                     </div>
                     <div class="rrss">
                         <ul class="clearfix">
-                            <li><a data-shareurl="<?php echo URL_SITE . 'antonio-narvaez' . TRACK_FB_UTM ; ?>" class="fa fa-facebook facebook-share" href="#" title="Compartir en Facebook"></a></li>                            
-                            <li><a data-shareurl="<?php echo urlencode('https://goo.gl/2ZtG4n'); ?>" data-texto="Firma y ayuda a Antonio a hacer realidad un deseo que lleva muchos años sin cumplirse justicia" class="fa fa-twitter twitter-share" title="Compartir en Twitter" href="#"></a></li>
+                            <li><a data-e_c="justiciapornavidad" data-e_a="<?=$casos[$caso][2]?> comp FB" data-e_l="<?=$casos[$caso][2]?> comp FB" data-shareurl="<?php echo URL_SITE . 'antonio-narvaez' . TRACK_FB_UTM ; ?>" class="fa fa-facebook facebook-share send-piwik-event" href="#" title="Compartir en Facebook"></a></li>                            
+                            <li><a data-e_c="justiciapornavidad" data-e_a="<?=$casos[$caso][2]?> comp TW" data-e_l="<?=$casos[$caso][2]?> comp TW" data-shareurl="<?php echo urlencode('https://goo.gl/2ZtG4n'); ?>" data-texto="Firma y ayuda a Antonio a hacer realidad un deseo que lleva muchos años sin cumplirse justicia" class="fa fa-twitter twitter-share send-piwik-event" title="Compartir en Twitter" href="#"></a></li>
 <?php
 if($isMobile) {
 ?>
-                            <li><a class="fa fa-whatsapp" title="Compartir en Whatsapp" data-href="<?php echo URL_SITE; ?>antonio-narvaez" data-action="share/whatsapp/share" href="whatsapp://send?text=<?=urlencode('Esta Navidad toca Justicia – Amnistía Internacional https://goo.gl/1FCsOG')?>"></a></li>
+                            <li><a data-e_c="justiciapornavidad" data-e_a="<?=$casos[$caso][2]?> comp WH" data-e_l="<?=$casos[$caso][2]?> comp WH" class="fa fa-whatsapp send-piwik-event" title="Compartir en Whatsapp" data-href="<?php echo URL_SITE; ?>antonio-narvaez" data-action="share/whatsapp/share" href="whatsapp://send?text=<?=urlencode('Esta Navidad toca Justicia – Amnistía Internacional https://goo.gl/1FCsOG')?>"></a></li>
 <?php
 }
 ?>

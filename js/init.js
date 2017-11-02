@@ -52,16 +52,7 @@ $(document).ready(function() {
 
 	$('.facebook-share').click(function(e){
 		e.preventDefault();
-		var shareurl = $(this).data('shareurl');
-		var texto = $(this).data('texto');
-		var title = $(this).data('title');
-		var imagen = $(this).data('imagen');
-		var caption = $(this).data('caption');
-		title = window.encodeURIComponent(title);
-		texto = window.encodeURIComponent(texto);
-		shareurl = window.encodeURIComponent(shareurl);
-		imagen = window.encodeURIComponent(imagen);
-		caption = window.encodeURIComponent(caption);		
+		var shareurl = $(this).data('shareurl');		
 		window.open('https://www.facebook.com/sharer/sharer.php?u=' + shareurl +'' , 'ventana-facebook', "toolbar=0, status=0, width=650, height=450");
 	});
 
@@ -118,6 +109,19 @@ $(document).ready(function() {
 	    $('html, body').animate({scrollTop: $(this.hash).offset().top - capaHeaderHeight + 1}, 600);
 	});
 
+	//EVENTOS GOOGLE ANALYTICS
+    $('.send-piwik-event').on('click', function(event) {
+    	if ( !$(this).hasClass( "disabled" )) {
+	        var category  = $(this).data("e_c");
+	        var action  = $(this).data("e_a");
+	        var label  = $(this).data("e_l");
+
+	        piwik_event(category, action, label);
+        }
+
+    });
+
+
 });//.document ready
 
 
@@ -130,6 +134,11 @@ if (existeCookie('cookieAlert3')) {
 	}else {
 	    videoOnReady = "showVideo";
 	}
+}
+
+// FUNCION SENG GOOGLE EVENT
+function piwik_event(category, action, label) {
+    _paq.push(['trackEvent', category, action, label]);
 }
 
 

@@ -27,7 +27,7 @@ if ( isset($_GET['utm_campaign']) || isset($_GET['pk_kwd']) ){
 
         <div class="formulario-inicial">
             <div class="box-text">
-                <p>Que la consigan no es cuestión de suerte. Firma para enviar <a class="enlace-peticion" href="#" data-toggle="modal" data-target="#modal-peticion">esta carta</a> a los partidos políticos en el Congreso y pide que este año por fin se haga justicia.</p>
+                <p>Que la consigan no es cuestión de suerte. Firma para enviar <a data-e_c="justiciapornavidad" data-e_a="formulario petición_carta" data-e_l="formulario petición_carta" class="enlace-peticion send-piwik-event" href="#" data-toggle="modal" data-target="#modal-peticion">esta carta</a> a los partidos políticos en el Congreso y pide que este año por fin se haga justicia.</p>
             </div>
 <?php
 $num_firmas_total = NUM_FIRMAS_TOTAL; // config.php -> Se puede modificar bajo demanda. Establecido a 5000

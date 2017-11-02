@@ -7,8 +7,8 @@ Se añadió la array con los casos para segementación/página de gracias
 
 session_start();
 
-//ini_set('display_errors', 0);
-//ini_set('display_startup_errors', 0);
+ini_set('display_errors', 0);
+ini_set('display_startup_errors', 0);
 
 /***********************
 *     CONSTANTES       *
@@ -42,10 +42,6 @@ define ("TRACK_FB_UTM", "?utm_source=facebook&utm_campaign=comp&utm_medium=socia
 define ("TRACK_TW_UTM", "?utm_source=twitter&utm_campaign=comp&utm_medium=social_com&utm_term=Killings_disappearances&utm_content=Web_petition-justiciapornavidad-twitter");
 define ("TRACK_WH_UTM", "?utm_source=whatsapp&utm_campaign=comp&utm_medium=social_com&utm_term=Killings_disappearances&utm_content=Web_petition-justiciapornavidad-whatsapp");
 
-//ID de YouTube. Código alfanumérico de 11 carácteres
-define ("VIDEO_CONGRESO_ID", "cdKjNkXB7tw");
-define ("VIDEO_SPOT_ID", "84lhB7PkuXA");
-
 
 /***********************
 *     FUNCIONES        *
@@ -69,6 +65,7 @@ if(isset($_GET['utm_campaign'])) {
 //Array con los casos para usarse en la segmentación y/o en la página de gracias si hace falta saber por quién han firmado
 $casos = array( 0 => array('', 'justiciapornavidad', ''), 1 => array('Antonio Narváez', 'justiciapornavidad_antonio', 'antonio'), 2 => array('Rosa María', 'justiciapornavidad_rosamaria', 'rosamaria'), 3 => array('Jaime', 'justiciapornavidad_jaime', 'jaime') );
 
+//POR SI NO SE SELECCIONA NINGÚN CASO
 $caso = 0;
 
 //setcookie("cookieAlert3", 1, time() + 60*60*24*365, '/', '.es.amnesty.org');

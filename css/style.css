@@ -282,6 +282,7 @@ a:focus {
 	-moz-transition:color 0.2s ease-in;
   -o-transition:color 0.2s ease-in;
   -webkit-transition:color 0.2s ease-in;
+  text-decoration: none;
 }
 .rrss ul li a:hover{
 	color: #a98a54;

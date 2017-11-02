@@ -101,7 +101,7 @@ if($isMobile) {
       <div class="modal-dialog" role="document">
         <div class="modal-content">
           <div class="modal-body">
-            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+            <button data-e_c="justiciapornavidad" data-e_a="home boton saltar video" data-e_l="home boton saltar video" type="button" class="close send-piwik-event" data-dismiss="modal" aria-hidden="true">
               <span aria-hidden="true">Saltar video</span>
             </button>
 
@@ -124,12 +124,12 @@ if($isMobile) {
     <section class="modulo-home clearfix">
         <div class="rrss">
             <ul class="clearfix">
-                <li><a data-shareurl="<?php echo URL_SITE . TRACK_FB_UTM; ?>" class="fa fa-facebook-official facebook-share" href="#" title="Compartir en Facebook"></a></li>                
-                <li><a data-shareurl="<?php echo urlencode('https://goo.gl/AlHkRv') ; ?>" data-texto="Los 'desaparecidos' durante la guerra civil y el franquismo no volvieron a casa. Firma y pide justicia" class="fa fa-twitter twitter-share" title="Compartir en Twitter" href="#"></a></li>
+                <li><a data-e_c="justiciapornavidad" data-e_a="home comp FB" data-e_l="home comp FB" data-shareurl="<?php echo URL_SITE . TRACK_FB_UTM; ?>" class="fa fa-facebook-official facebook-share send-piwik-event" href="#" title="Compartir en Facebook"></a></li>                
+                <li><a data-e_c="justiciapornavidad" data-e_a="home comp TW" data-e_l="home comp TW" data-shareurl="<?php echo urlencode('https://goo.gl/AlHkRv') ; ?>" data-texto="Los 'desaparecidos' durante la guerra civil y el franquismo no volvieron a casa. Firma y pide justicia" class="fa fa-twitter twitter-share send-piwik-event" title="Compartir en Twitter" href="#"></a></li>
 <?php
 if($isMobile) {
 ?>
-                <li><a class="fa fa-whatsapp" title="Compartir en Whatsapp" data-enlace="<?php echo URL_SITE; ?>" data-action="share/whatsapp/share" href="whatsapp://send?text=<?=urlencode('Esta Navidad toca Justicia – Amnistía Internacional https://goo.gl/DequCx')?>"></a></li>
+                <li><a data-e_c="justiciapornavidad" data-e_a="home comp WH" data-e_l="home comp WH" class="fa fa-whatsapp send-piwik-event" title="Compartir en Whatsapp" data-enlace="<?php echo URL_SITE; ?>" data-action="share/whatsapp/share" href="whatsapp://send?text=<?=urlencode('Esta Navidad toca Justicia – Amnistía Internacional https://goo.gl/DequCx')?>"></a></li>
 <?php
 }
 ?>
@@ -143,7 +143,7 @@ if($isMobile) {
 
                     <div class="box">
                         <p>Firma para hacer realidad la ilusión de miles de personas más.</p> 
-                        <a id="myplay" href="#" title="play" data-toggle="modal" data-target="#videoModal"><img src="images/play-button.png" alt=""><span>Ver vídeo</span></a> 
+                        <a data-e_c="justiciapornavidad" data-e_a="home boton ver video" data-e_l="home boton ver video" id="myplay" href="#" title="play" data-toggle="modal" data-target="#videoModal" class="send-piwik-event"><img src="images/play-button.png" alt=""><span>Ver vídeo</span></a> 
                     </div>
                     
                 </div>
@@ -166,40 +166,40 @@ if($isMobile) {
 
             <div class="slide-casos owl-carousel owl-theme">
             <div class="item num-0" data-enlace="antonio-narvaez">
-                <a href="antonio-narvaez"><img src="images/caso-antonio.jpg" alt="Antonio Narváez"></a>
+                <a data-e_c="justiciapornavidad" data-e_a="home boton firma_por_Antonio" data-e_l="home boton firma_por_Antonio" href="antonio-narvaez" class="send-piwik-event"><img src="images/caso-antonio.jpg" alt="Antonio Narváez"></a>
                 <div class="box-content clearfix">
                     <div class="box-text">
-                        <h3><a href="antonio-narvaez" title="Antonio Narváez">Antonio Narváez,</a></h3>
-                        <p><a href="antonio-narvaez" title="sus padres están en una fosa común">sus padres están en una fosa común.</a></p>
+                        <h3><a data-e_c="justiciapornavidad" data-e_a="home boton firma_por_Antonio" data-e_l="home boton firma_por_Antonio" href="antonio-narvaez" title="Antonio Narváez" class="send-piwik-event">Antonio Narváez,</a></h3>
+                        <p><a data-e_c="justiciapornavidad" data-e_a="home boton firma_por_Antonio" data-e_l="home boton firma_por_Antonio" href="antonio-narvaez" title="sus padres están en una fosa común" class="send-piwik-event">sus padres están en una fosa común.</a></p>
                     </div>
                     <div class="box-boton">
-                        <a class="btn-caso" href="antonio-narvaez" title="Ver su historia">Ver su historia</a>
+                        <a data-e_c="justiciapornavidad" data-e_a="home boton firma_por_Antonio" data-e_l="home boton firma_por_Antonio" class="btn-caso send-piwik-event" href="antonio-narvaez" title="Ver su historia">Ver su historia</a>
                     </div>
                 </div>
             </div>
 
             <div class="item num-1" data-enlace="rosa-maria">
-                <a class="disabled" href="rosa-maria"><img src="images/caso-rosa.jpg" alt="Rosa María"></a>
+                <a data-e_c="justiciapornavidad" data-e_a="home boton firma_por_Rosa" data-e_l="home boton firma_por_Rosa" class="disabled send-piwik-event" href="rosa-maria"><img src="images/caso-rosa.jpg" alt="Rosa García"></a>
                 <div class="box-content clearfix">
                     <div class="box-text">
-                        <h3><a class="disabled" href="rosa-maria" title="Rosa María">Rosa María,</a></h3>
-                        <p><a class="disabled" href="rosa-maria" title="la historia de una mujer torturada">la historia de una mujer torturada.</a></p>
+                        <h3><a data-e_c="justiciapornavidad" data-e_a="home boton firma_por_Rosa" data-e_l="home boton firma_por_Rosa" class="disabled send-piwik-event" href="rosa-maria" title="Rosa María">Rosa García,</a></h3>
+                        <p><a data-e_c="justiciapornavidad" data-e_a="home boton firma_por_Rosa" data-e_l="home boton firma_por_Rosa" class="disabled send-piwik-event" href="rosa-maria" title="la historia de una mujer torturada">la historia de una mujer torturada.</a></p>
                     </div>
                     <div class="box-boton">
-                        <a class="btn-caso disabled" href="rosa-maria" title="Ver su historia">Ver su historia</a>
+                        <a data-e_c="justiciapornavidad" data-e_a="home boton firma_por_Rosa" data-e_l="home boton firma_por_Rosa" class="btn-caso disabled send-piwik-event" href="rosa-maria" title="Ver su historia">Ver su historia</a>
                     </div>
                 </div>
             </div>
 
             <div class="item num-2" data-enlace="jaime">
-                <a class="disabled" href="jaime"><img src="images/caso-jaime.jpg" alt="Jaime"></a>
+                <a data-e_c="justiciapornavidad" data-e_a="home boton firma_por_Jaime" data-e_l="home boton firma_por_Jaime" class="disabled send-piwik-event" href="jaime"><img src="images/caso-jaime.jpg" alt="Jaime"></a>
                 <div class="box-content clearfix">
                     <div class="box-text">
-                        <h3><a class="disabled" href="jaime" title="Jaime">Jaime,</a></h3>
-                        <p><a class="disabled" href="jaime" title="sigue buscando a su tío">sigue buscando a su tío.</a></p>
+                        <h3><a data-e_c="justiciapornavidad" data-e_a="home boton firma_por_Jaime" data-e_l="home boton firma_por_Jaime" class="disabled send-piwik-event" href="jaime" title="Jaime">Jaime Romera,</a></h3>
+                        <p><a data-e_c="justiciapornavidad" data-e_a="home boton firma_por_Jaime" data-e_l="home boton firma_por_Jaime" class="disabled send-piwik-event" href="jaime" title="sigue buscando a su tío">sigue buscando a su tío.</a></p>
                     </div>
                     <div class="box-boton">
-                        <a class="btn-caso disabled" href="jaime" title="Ver su historia">Ver su historia</a>
+                        <a data-e_c="justiciapornavidad" data-e_a="home boton firma_por_Jaime" data-e_l="home boton firma_por_Jaime" class="btn-caso disabled send-piwik-event" href="jaime" title="Ver su historia">Ver su historia</a>
                     </div>
                 </div>
             </div>
@@ -234,7 +234,7 @@ if($isMobile) {
                         <h2>Adorna esta Navidad de una forma diferente</h2>
                         <p>Decora tu casa y a la vez colabora con el trabajo que hacemos por el derecho a la verdad, justicia y reparación de todas las personas.</p>
                         <p><b>Haz un donativo y recibirás en tu casa esta estrella</b> en el idioma que escojas, para que la cuelgues en el árbol, en tu puerta o para regalarla a quien quieras. Así ayudarás a mantener viva la ilusión de miles de personas durante estas fechas.</p>
-                        <a class="btn-principal" target="_blank" href="https://crm.es.amnesty.org/haz-un-donativo-loteria/?origen=justiciapornavidad" title="Consigue el adorno">Consigue el adorno</a>
+                        <a data-e_c="justiciapornavidad" data-e_a="home boton haz donativo" data-e_l="home boton haz donativo" class="btn-principal send-piwik-event" target="_blank" href="https://crm.es.amnesty.org/haz-un-donativo-loteria/?origen=justiciapornavidad" title="Consigue el adorno">Consigue el adorno</a>
                     </div>
                 </div> 
             </div>
@@ -260,7 +260,7 @@ if($isMobile) {
             <div class="box-text">
                 <p>Hacer realidad la ilusión de conseguir justicia depende de personas como Antonio, Rosa María y Jaime. Y también de personas como tú. Ser socio/a es hacer más fuerte la defensa de las víctimas de graves violaciones de derechos humanos.</p>
                 <p>Sin ti, no hay Amnistía Internacional: <b>necesitamos tu apoyo.</b></p>
-                <a class="btn-principal" target="_blank" href="https://crm.es.amnesty.org/unete-a-amnistia-loteria/?origen=justiciapornavidad" title="Hazte socio/a">Hazte socio/a</a>
+                <a data-e_c="justiciapornavidad" data-e_a="home boton socio" data-e_l="home boton socio" class="btn-principal send-piwik-event" target="_blank" href="https://crm.es.amnesty.org/unete-a-amnistia-loteria/?origen=justiciapornavidad" title="Hazte socio/a">Hazte socio/a</a>
             </div>
         </div>
     </section>
@@ -269,7 +269,7 @@ if($isMobile) {
     <?php include "includes/footer.php";?>
 
     <!-- Boton Firma -->
-    <a href="#firma" title="Firma" class="boton-fijo btns btn-firma">Firma</a>
+    <a data-e_c="justiciapornavidad" data-e_a="home boton footer firma" data-e_l="home boton footer firma" href="#firma" title="Firma" class="boton-fijo btns btn-firma send-piwik-event">Firma</a>
 
     <!-- cookies  -->
     <?php include "includes/cookies.php";?>
