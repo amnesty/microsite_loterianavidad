@@ -179,19 +179,47 @@ if($_GET['error_form'] == 1){
     <!-- Piwik -->
     <script type="text/javascript">
         var nuevoFirmante = <?php echo $_GET['s']; ?>;
+        var casoPiwik = <?php echo $_GET['caso']; ?>;
         //console.log('nuevoFirmante: '+nuevoFirmante);
         var _paq = _paq || [];
         _paq.push(["setDocumentTitle", document.domain + "/" + document.title]);
         _paq.push(["setCookieDomain", "*.es.amnesty.org"]);
         _paq.push(["setDomains", ["*.es.amnesty.org",]]);
+        // definimos custom events para cada caso
+        if (casoPiwik == 1) {
+            _paq.push(['setCustomDimension', 4, 'Antonio']);
+        } else if (casoPiwik == 2) {
+            _paq.push(['setCustomDimension', 4, 'Rosa']);
+        } else if (casoPiwik == 3) {
+            _paq.push(['setCustomDimension', 4, 'Jaime']);
+        } else {
+            _paq.push(['setCustomDimension', 4, 'general']);
+        }
         _paq.push(['trackPageView']);
         _paq.push(['enableLinkTracking']);
-        _paq.push(['trackGoal', 45]);
+        // marcamos los goals, tanto geneŕicos como especiales de la micro
         _paq.push(["trackGoal", 6]);
         _paq.push(["trackGoal", 33]);
-        if (nuevoFirmante == 2) {
+        _paq.push(['trackGoal', 45]);
+        if (nuevoFirmante == 1) {
+            _paq.push(["trackGoal", 57]);
+        } else if (nuevoFirmante == 2) {
             _paq.push(["trackGoal", 8]);
+            _paq.push(["trackGoal", 59]);
+        } else {
+            _paq.push(["trackGoal", 58]);
         }
+        // Lanzamos eventos para cada caso
+        if (casoPiwik == 1) {
+            _paq.push(['trackEvent', 'FormJusticia', 'Gracias Antonio']);
+        } else if (casoPiwik == 2) {
+            _paq.push(['trackEvent', 'FormJusticia', 'Gracias Rosa']);
+        } else if (casoPiwik == 3) {
+            _paq.push(['trackEvent', 'FormJusticia', 'Gracias Jaime']);
+        } else {
+            _paq.push(['trackEvent', 'FormJusticia', 'Gracias general']);
+        }
+
         (function() {
             var u="//estadisticas.es.amnesty.org/piwik/";
             _paq.push(['setTrackerUrl', u+'piwik.php']);
