@@ -63,7 +63,7 @@ if(isset($_GET['utm_campaign'])) {
 }
 
 //Array con los casos para usarse en la segmentación y/o en la página de gracias si hace falta saber por quién han firmado
-$casos = array( 0 => array('', 'justiciapornavidad', ''), 1 => array('Antonio Narváez', 'justiciapornavidad_antonio', 'antonio'), 2 => array('Rosa María', 'justiciapornavidad_rosamaria', 'rosamaria'), 3 => array('Jaime', 'justiciapornavidad_jaime', 'jaime') );
+$casos = array( 0 => array('', 'justiciapornavidad', ''), 1 => array('Antonio Narváez', 'justiciapornavidad_antonio', 'antonio'), 2 => array('Rosa María', 'justiciapornavidad_rosa', 'rosa'), 3 => array('Jaime', 'justiciapornavidad_jaime', 'jaime') );
 
 //POR SI NO SE SELECCIONA NINGÚN CASO
 $caso = 0;

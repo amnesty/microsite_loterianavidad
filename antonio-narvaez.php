@@ -12,7 +12,7 @@ $caso = 1;
 	<title>Esta Navidad toca Justicia – Amnistía Internacional</title>
     <meta name="description" content="Personas como Antonio tienen familiares “desaparecidos” en fosas comunes. Todo lo que desean es que vuelva la Justicia. Firma y ayúdales a conseguirlo.">
     <link rel="canonical" href="<?php echo URL_SITE; ?>antonio-narvaez" />
-    <link rel="image_src" href="<?php echo URL_SITE; ?>images/compartir-twt-antonio.png" />
+    <link rel="image_src" href="<?php echo URL_SITE; ?>images/compartir-tw-caso-antonio.png" />
     <link rel="icon" href="favicon.ico?v=3" type="image/x-icon" />
     <meta name="pinterest-rich-pin" content="false" />
     <meta name="pinterest" content="nopin" />
@@ -35,7 +35,7 @@ $caso = 1;
     <meta name="twitter:creator" content="@amnistiaespana">
     <meta name="twitter:title" content="Esta Navidad toca Justicia – Amnistía Internacional" />
     <meta name="twitter:description" content="Personas como Antonio tienen familiares “desaparecidos” en fosas comunes. Todo lo que desean es que vuelva la Justicia. Firma y ayúdales a conseguirlo." />
-    <meta name="twitter:image" content="<?php echo URL_SITE; ?>images/compartir-twt-antonio.png" />
+    <meta name="twitter:image" content="<?php echo URL_SITE; ?>images/compartir-tw-caso-antonio.png" />
     <meta name="twitter:image:width" content="1024" />
     <meta name="twitter:image:height" content="512" />
     <meta name="twitter:image:alt" content="Esta Navidad toca Justicia – Amnistía Internacional" />

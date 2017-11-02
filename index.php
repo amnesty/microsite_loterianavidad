@@ -178,28 +178,28 @@ if($isMobile) {
                 </div>
             </div>
 
-            <div class="item num-1" data-enlace="rosa-maria">
-                <a data-e_c="justiciapornavidad" data-e_a="home boton firma_por_Rosa" data-e_l="home boton firma_por_Rosa" class="disabled send-piwik-event" href="rosa-maria"><img src="images/caso-rosa.jpg" alt="Rosa García"></a>
+            <div class="item num-1" data-enlace="rosa-garcia">
+                <a data-e_c="justiciapornavidad" data-e_a="home boton firma_por_Rosa" data-e_l="home boton firma_por_Rosa" class="disabled send-piwik-event" href="rosa-garcia"><img src="images/caso-rosa.jpg" alt="Rosa García"></a>
                 <div class="box-content clearfix">
                     <div class="box-text">
-                        <h3><a data-e_c="justiciapornavidad" data-e_a="home boton firma_por_Rosa" data-e_l="home boton firma_por_Rosa" class="disabled send-piwik-event" href="rosa-maria" title="Rosa María">Rosa García,</a></h3>
-                        <p><a data-e_c="justiciapornavidad" data-e_a="home boton firma_por_Rosa" data-e_l="home boton firma_por_Rosa" class="disabled send-piwik-event" href="rosa-maria" title="la historia de una mujer torturada">la historia de una mujer torturada.</a></p>
+                        <h3><a data-e_c="justiciapornavidad" data-e_a="home boton firma_por_Rosa" data-e_l="home boton firma_por_Rosa" class="disabled send-piwik-event" href="rosa-garcia" title="Rosa María">Rosa García,</a></h3>
+                        <p><a data-e_c="justiciapornavidad" data-e_a="home boton firma_por_Rosa" data-e_l="home boton firma_por_Rosa" class="disabled send-piwik-event" href="rosa-garcia" title="la historia de una mujer torturada">la historia de una mujer torturada.</a></p>
                     </div>
                     <div class="box-boton">
-                        <a data-e_c="justiciapornavidad" data-e_a="home boton firma_por_Rosa" data-e_l="home boton firma_por_Rosa" class="btn-caso disabled send-piwik-event" href="rosa-maria" title="Ver su historia">Ver su historia</a>
+                        <a data-e_c="justiciapornavidad" data-e_a="home boton firma_por_Rosa" data-e_l="home boton firma_por_Rosa" class="btn-caso disabled send-piwik-event" href="rosa-garcia" title="Ver su historia">Ver su historia</a>
                     </div>
                 </div>
             </div>
 
-            <div class="item num-2" data-enlace="jaime">
-                <a data-e_c="justiciapornavidad" data-e_a="home boton firma_por_Jaime" data-e_l="home boton firma_por_Jaime" class="disabled send-piwik-event" href="jaime"><img src="images/caso-jaime.jpg" alt="Jaime"></a>
+            <div class="item num-2" data-enlace="jaime-romera">
+                <a data-e_c="justiciapornavidad" data-e_a="home boton firma_por_Jaime" data-e_l="home boton firma_por_Jaime" class="disabled send-piwik-event" href="jaime-romera"><img src="images/caso-jaime.jpg" alt="Jaime"></a>
                 <div class="box-content clearfix">
                     <div class="box-text">
-                        <h3><a data-e_c="justiciapornavidad" data-e_a="home boton firma_por_Jaime" data-e_l="home boton firma_por_Jaime" class="disabled send-piwik-event" href="jaime" title="Jaime">Jaime Romera,</a></h3>
-                        <p><a data-e_c="justiciapornavidad" data-e_a="home boton firma_por_Jaime" data-e_l="home boton firma_por_Jaime" class="disabled send-piwik-event" href="jaime" title="sigue buscando a su tío">sigue buscando a su tío.</a></p>
+                        <h3><a data-e_c="justiciapornavidad" data-e_a="home boton firma_por_Jaime" data-e_l="home boton firma_por_Jaime" class="disabled send-piwik-event" href="jaime-romera" title="Jaime">Jaime Romera,</a></h3>
+                        <p><a data-e_c="justiciapornavidad" data-e_a="home boton firma_por_Jaime" data-e_l="home boton firma_por_Jaime" class="disabled send-piwik-event" href="jaime-romera" title="sigue buscando a su tío">sigue buscando a su tío.</a></p>
                     </div>
                     <div class="box-boton">
-                        <a data-e_c="justiciapornavidad" data-e_a="home boton firma_por_Jaime" data-e_l="home boton firma_por_Jaime" class="btn-caso disabled send-piwik-event" href="jaime" title="Ver su historia">Ver su historia</a>
+                        <a data-e_c="justiciapornavidad" data-e_a="home boton firma_por_Jaime" data-e_l="home boton firma_por_Jaime" class="btn-caso disabled send-piwik-event" href="jaime-romera" title="Ver su historia">Ver su historia</a>
                     </div>
                 </div>
             </div>
