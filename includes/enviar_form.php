@@ -8,11 +8,13 @@ Se añadió la segmentación por casos $segmentacion = $casos[$caso][1];
 if( $_POST['guardar_form'] ) {
 
 	// Config
-	include_once('config.php');	
+	include_once('config.php');
 	// BD
 	include_once('connect.php');
-	// API
+	// APIS
 	include_once('api2.php');
+  //include_once('experian_api.php');
+
 
 	extract($_POST);
 
@@ -65,7 +67,7 @@ if( $_POST['guardar_form'] ) {
 		if(!isset($existe)) {
 
 			// fichero texto
-/*		
+/*
 			$now = date("Y-m-d h:i:sa");
 			$txt = $nombre."\t".$apellidos."\t".$email."\t".$telefono."\t".$pais."\t".$politika."\t".$origen.":".$campanya."\t".$ip."\t".$socio."\t".$now."\n";
 			$myfile = fopen("file.txt", "a");
@@ -151,23 +153,28 @@ if( $_POST['guardar_form'] ) {
 			// si no existe el member, lo creamos internamente
 			if(!isset($member_id)) {
 				$member = post_member_ai($email, $nombre, $apellidos, $telefono, $pais_siglas, $pais_nombre);
-				$member_id = $member['id'];
+				$members_id = $member['id'];
+				//insertamos el member en la plaforma de envio de correos
+				post_member_experian($members_id, $nombre, $apellidos, $email, $telefono, $pais_siglas, $pais_nombre);
+				//echo $member_id.' - '.$nombre.' - '.$apellidos.' - '.$email.' - '.$telefono.' - '.$pais_siglas.' - '.$pais_nombre;
+				//var_dump ($m);
+				//exit(0);
 			}
 			// vemos si existe la purchase internamente
-			$purchase = get_purchase_by_member_product($product_id, $member_id);
+			$purchase = get_purchase_by_member_product($product_id, $members_id);
 
 			// si no existe la purchase, la creamos en experian, junto con el member (crear o actualizar)
 			if($purchase["count"] == 0) {
-				$purchase = post_purchase_ai($member_id, $product_id);
+				$purchase = post_purchase_ai($members_id, $product_id);
 				$purchase_id = $purchase["id"];
-				//post_member_purchase_experian($member_id, $purchase_id, $product_id, $nombre, $apellidos, $email, $telefono, $pais_siglas, $pais_nombre);
+				post_member_purchase_experian($purchase_id, $product_id, $members_id, $email);
 			}
-			//else {
-				//$purchase_id = $purchase["results"][0]["id"];
-			//}
+			else {
+				$purchase_id = $purchase["results"][0]["id"];
+			}
 
 		}
-		header("location: ../gracias/?s=$socio&caso=$caso"); //Añadir &caso=$caso para mostrar en la página de gracias por quién ha firmado
+		header("location: ../gracias?s=$socio&caso=$caso"); //Añadir &caso=$caso para mostrar en la página de gracias por quién ha firmado
 
 	} catch(Exception $e) {
 		header("location: ../gracias/?error_form=1");
