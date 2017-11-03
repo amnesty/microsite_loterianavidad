@@ -9,8 +9,8 @@ $caso = 2;
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0" />
-	<title>Esta Navidad toca Justicia – Amnistía Internacional</title>
-    <meta name="description" content="Personas como Antonio tienen familiares “desaparecidos” en fosas comunes. Todo lo que desean es que vuelva la Justicia. Firma y ayúdales a conseguirlo.">
+	<title>Esta Navidad toca justicia – Amnistía Internacional</title>
+    <meta name="description" content="Este vídeo de Rosa me ha emocionado. Yo ya he firmado para que cumpla su ilusión de conseguir justicia por ser torturada #EstaNavidadToca.">
     <link rel="canonical" href="<?php echo URL_SITE; ?>rosa-garcia" />
     <link rel="image_src" href="<?php echo URL_SITE; ?>images/compartir-tw-caso-rosa.png" />
     <link rel="icon" href="favicon.ico?v=3" type="image/x-icon" />
@@ -21,9 +21,9 @@ $caso = 2;
     <meta property="og:url" content="<?php echo URL_SITE; ?>rosa-garcia" />
     <meta property="og:type" content="website" />
     <meta property="og:locale" content="es_ES" />
-    <meta property="og:title" content="Esta Navidad toca Justicia – Amnistía Internacional" />
-    <meta property="og:description" content="Personas como Antonio tienen familiares “desaparecidos” en fosas comunes. Todo lo que desean es que vuelva la Justicia. Firma y ayúdales a conseguirlo." />
-    <meta property="og:site_name" content="Esta Navidad toca Justicia – Amnistía Internacional" />
+    <meta property="og:title" content="Esta Navidad toca" />
+    <meta property="og:description" content="Este vídeo de Rosa me ha emocionado. Yo ya he firmado para que cumpla su ilusión de conseguir justicia por ser torturada #EstaNavidadToca." />
+    <meta property="og:site_name" content="Esta Navidad toca" />
     <meta property="og:image" content="<?php echo URL_SITE; ?>images/compartir-fb-caso-rosa.png" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
@@ -33,12 +33,12 @@ $caso = 2;
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="@amnistiaespana">
     <meta name="twitter:creator" content="@amnistiaespana">
-    <meta name="twitter:title" content="Esta Navidad toca Justicia – Amnistía Internacional" />
-    <meta name="twitter:description" content="Personas como Antonio tienen familiares “desaparecidos” en fosas comunes. Todo lo que desean es que vuelva la Justicia. Firma y ayúdales a conseguirlo." />
+    <meta name="twitter:title" content="Esta Navidad toca" />
+    <meta name="twitter:description" content="Este vídeo de Rosa me ha emocionado. Yo ya he firmado para que cumpla su ilusión de conseguir justicia por ser torturada #EstaNavidadToca." />
     <meta name="twitter:image" content="<?php echo URL_SITE; ?>images/compartir-tw-caso-rosa.png" />
     <meta name="twitter:image:width" content="1024" />
     <meta name="twitter:image:height" content="512" />
-    <meta name="twitter:image:alt" content="Esta Navidad toca Justicia – Amnistía Internacional" />
+    <meta name="twitter:image:alt" content="Esta Navidad toca" />
     <!--Open Graph-->    
 
     <!-- Owl Stylesheets -->
@@ -109,11 +109,11 @@ $caso = 2;
                     <div class="rrss">
                         <ul class="clearfix">
                             <li><a data-e_c="justiciapornavidad" data-e_a="<?=$casos[$caso][2]?> comp FB" data-e_l="<?=$casos[$caso][2]?> comp FB" data-shareurl="<?php echo URL_SITE . 'rosa-garcia' . TRACK_FB_UTM ; ?>" class="fa fa-facebook facebook-share send-piwik-event" href="#" title="Compartir en Facebook"></a></li>                            
-                            <li><a data-e_c="justiciapornavidad" data-e_a="<?=$casos[$caso][2]?> comp TW" data-e_l="<?=$casos[$caso][2]?> comp TW" data-shareurl="<?php echo urlencode('https://goo.gl/2ZtG4n'); ?>" data-texto="Firma y ayuda a Rosa María a hacer realidad un deseo que lleva muchos años sin cumplirse justicia" class="fa fa-twitter twitter-share send-piwik-event" title="Compartir en Twitter" href="#"></a></li>
+                            <li><a data-e_c="justiciapornavidad" data-e_a="<?=$casos[$caso][2]?> comp TW" data-e_l="<?=$casos[$caso][2]?> comp TW" data-shareurl="<?php echo urlencode('https://goo.gl/X47sf3'); ?>" data-texto="Ya he firamado para que Rosa cumpla su ilusión de conseguir justicia por ser torturada #EstaNavidadToca" class="fa fa-twitter twitter-share send-piwik-event" title="Compartir en Twitter" href="#"></a></li>
 <?php
 if($isMobile) {
 ?>
-                            <li><a data-e_c="justiciapornavidad" data-e_a="<?=$casos[$caso][2]?> comp WH" data-e_l="<?=$casos[$caso][2]?> comp WH" class="fa fa-whatsapp send-piwik-event" title="Compartir en Whatsapp" data-href="<?php echo URL_SITE; ?>rosa-garcia" data-action="share/whatsapp/share" href="whatsapp://send?text=<?=urlencode('Esta Navidad toca Justicia – Amnistía Internacional https://goo.gl/1FCsOG')?>"></a></li>
+                            <li><a data-e_c="justiciapornavidad" data-e_a="<?=$casos[$caso][2]?> comp WH" data-e_l="<?=$casos[$caso][2]?> comp WH" class="fa fa-whatsapp send-piwik-event" title="Compartir en Whatsapp" data-href="<?php echo URL_SITE; ?>rosa-garcia" data-action="share/whatsapp/share" href="whatsapp://send?text=<?=urlencode('Ya he firamado para que Rosa cumpla su ilusión de conseguir justicia por ser torturada #EstaNavidadToca https://goo.gl/FGacKb')?>"></a></li>
 <?php
 }
 ?>

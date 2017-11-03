@@ -200,7 +200,7 @@ $progress_percent = (($num_firmas_bd_bak+$num_firmas) / $num_firmas_total)*100;
                   </div>
                   <div class="form-check clearfix">
                     <label class="form-check-label">
-                      <input type="checkbox" checked="true" class="form-check-input">
+                      <input type="checkbox" checked="true" class="form-check-input" name="politica">
                       <span>Deseo más información de Amnistía Internacional. Al participar aceptas la <a href="https://www.es.amnesty.org/politica-de-privacidad/" title="Política de Privacidad." target="_blank">Política de Privacidad.</a></span>
                     </label>
                   </div>

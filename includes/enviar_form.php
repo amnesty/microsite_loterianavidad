@@ -167,10 +167,10 @@ if( $_POST['guardar_form'] ) {
 			//}
 
 		}
-		header("location: ../gracias.php?s=$socio&caso=$caso"); //Añadir &caso=$caso para mostrar en la página de gracias por quién ha firmado
+		header("location: ../gracias/?s=$socio&caso=$caso"); //Añadir &caso=$caso para mostrar en la página de gracias por quién ha firmado
 
 	} catch(Exception $e) {
-		header("location: ../gracias.php?error_form=1");
+		header("location: ../gracias/?error_form=1");
 	}
 }else {
 	echo "No hay post!";

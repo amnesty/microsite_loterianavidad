@@ -16,8 +16,8 @@ if($caso) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0" />
-    <title>Seguimos pidiendo Justicia – Amnistía Internacional</title>
-    <meta name="description" content="Miles de personas 'desaparecidas' durante la guerra civil y el franquismo no volvieron a casa. Firma para pedir al gobierno que este año no se olvide de ellas.">
+    <title>Esta Navidad toca justicia – Amnistía Internacional</title>
+    <meta name="description" content="No te pierdas este emotivo anuncio de Navidad. Haz que se cumpla la ilusión de miles de personas.">
     <link rel="canonical" href="<?php echo URL_SITE; ?>" />
     <link rel="image_src" href="<?php echo URL_SITE; ?>images/compartir-tw.png" />
     <link rel="icon" href="favicon.ico?v=3" type="image/x-icon" />
@@ -28,9 +28,9 @@ if($caso) {
     <meta property="og:url" content="<?php echo URL_SITE; ?>" />
     <meta property="og:type" content="website" />
     <meta property="og:locale" content="es_ES" />
-    <meta property="og:title" content="Seguimos pidiendo Justicia – Amnistía Internacional" />
-    <meta property="og:description" content="Miles de personas 'desaparecidas' durante la guerra civil y el franquismo no volvieron a casa. Firma para pedir al gobierno que este año no se olvide de ellas." />
-    <meta property="og:site_name" content="Seguimos pidiendo Justicia – Amnistía Internacional" />
+    <meta property="og:title" content="Esta Navidad toca justicia – Amnistía Internacional" />
+    <meta property="og:description" content="No te pierdas este emotivo anuncio de Navidad. Haz que se cumpla la ilusión de miles de personas." />
+    <meta property="og:site_name" content="Seguimos pidiendo justicia – Amnistía Internacional" />
     <meta property="og:image" content="<?php echo URL_SITE; ?>images/compartir-fb.png" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
@@ -40,12 +40,12 @@ if($caso) {
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="@amnistiaespana">
     <meta name="twitter:creator" content="@amnistiaespana">
-    <meta name="twitter:title" content="Seguimos pidiendo Justicia – Amnistía Internacional" />
-    <meta name="twitter:description" content="Miles de personas 'desaparecidas' durante la guerra civil y el franquismo no volvieron a casa. Firma para pedir al gobierno que este año no se olvide de ellas." />
+    <meta name="twitter:title" content="Esta Navidad toca justicia – Amnistía Internacional" />
+    <meta name="twitter:description" content="No te pierdas este emotivo anuncio de Navidad. Haz que se cumpla la ilusión de miles de personas." />
     <meta name="twitter:image" content="<?php echo URL_SITE; ?>images/compartir-tw.png" />
     <meta name="twitter:image:width" content="1024" />
     <meta name="twitter:image:height" content="512" />
-    <meta name="twitter:image:alt" content="Seguimos pidiendo Justicia – Amnistía Internacional" />
+    <meta name="twitter:image:alt" content="Esta Navidad toca justicia – Amnistía Internacional" />
     <!--Open Graph-->
 
     <!-- Owl Stylesheets -->
