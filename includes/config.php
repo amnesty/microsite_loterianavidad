@@ -5,6 +5,12 @@
 Se añadió la array con los casos para segementación/página de gracias
 */
 
+//redirección temporal al antiguo site
+if (!isset($_GET['activo']) || $_GET['activo'] == 0)
+{
+		//header( 'Location: https://www.es.amnesty.org/justicia/' ) ;
+}
+
 session_start();
 
 ini_set('display_errors', 0);
