@@ -204,6 +204,19 @@ if($isMobile) {
                 </div>
             </div>
 
+            <div class="item num-3" data-enlace="soledad-luque">
+                <a data-e_c="justiciapornavidad" data-e_a="home boton firma_por_Soledad" data-e_l="home boton firma_por_Soledad" class="disabled send-piwik-event" href="soledad-luque"><img src="images/caso-soledad.jpg" alt="Soledad"></a>
+                <div class="box-content clearfix">
+                    <div class="box-text">
+                        <h3><a data-e_c="justiciapornavidad" data-e_a="home boton firma_por_Soledad" data-e_l="home boton firma_por_Soledad" class="disabled send-piwik-event" href="soledad-luque" title="Soledad">Soledad Luque,</a></h3>
+                        <p><a data-e_c="justiciapornavidad" data-e_a="home boton firma_por_Soledad" data-e_l="home boton firma_por_Soledad" class="disabled send-piwik-event" href="soledad-luque" title="sigue buscando a su tío">la historia de un bebé robado.</a></p>
+                    </div>
+                    <div class="box-boton">
+                        <a data-e_c="justiciapornavidad" data-e_a="home boton firma_por_Soledad" data-e_l="home boton firma_por_Soledad" class="btn-caso disabled send-piwik-event" href="soledad-luque" title="Ver su historia">Ver su historia</a>
+                    </div>
+                </div>
+            </div>
+
           </div>
         
         </div>
