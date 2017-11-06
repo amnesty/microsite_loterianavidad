@@ -87,15 +87,15 @@ $caso = 2;
 
 	<section class="modulo-interior clearfix">
 		<div class="container">
-            <h1>Rosa García fue torturada por Billy el Niño.</h1>
+            <h1>Rosa García, fue torturada por pertenecer a una asociación de estudiantes.</h1>
 			<div class="row">
 				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
 					<div class="box-text">
 						<p class="subtitle">“Me detuvieron en la calle a las 11 de la noche porque yo estaba militando en una asociación de estudiantes. Me llevaron a la Dirección General de Seguridad. Allí me recibió Billy El Niño a bofetadas, puñetazos, golpes.”</p>
-                        <p>Rosa fue detenida y torturada por Antonio González Pacheco, alias Billy el Niño.</p>
-                        <p>Rosa va a interponer una denuncia por tortura contra él. En 2013, la juez argentina María Servini dictó una orden de extradición para interrogar a Billy el Niño por su posible relación con otros casos de torturas. Pero el gobierno español está bloqueando la investigación.</p>
+                        <p>Rosa fue detenida y torturada por pertenecer a una asociación de estudiantes.</p>
+                        <p>Rosa va a interponer una denuncia por tortura contra Antonio González Pacheco, alias Billy el Niño. En 2013, la juez argentina María Servini dictó una orden de extradición para interrogar a Billy el Niño por su posible relación con otros casos de torturas. Pero el gobierno español está bloqueando la investigación.</p>
                         <p>Su ilusión es que se haga justicia y que el gobierno español deje de bloquear la investigación sobre otros casos como el suyo.</p>
-                        <p>El caso de Rosa no es único. Muchas personas fueron detenidas injustamente y torturadas durante el franquismo por su forma de pensar. Personas que todavía hoy mantienen viva la ilusión de conseguir justicia.</p>
+                        <p>El caso de Rosa no es único. Muchas personas fueron detenidas injustamente y torturadas durante el franquismo entre otras razones, por motivos políticos. Personas que todavía hoy mantienen viva la ilusión de conseguir justicia.</p>
                     </div><!-- /box-text -->
 				</div>
 
@@ -103,7 +103,7 @@ $caso = 2;
 
                     <div class="youtubevideowrap">
                         <div class="video-container">
-                            <iframe width="580" height="320" src="https://www.youtube.com/embed/JtgxMb8r9dM" frameborder="0" allowfullscreen></iframe>
+                            <iframe width="580" height="320" src="https://www.youtube.com/embed/o-KXbgy2GF8" frameborder="0" allowfullscreen></iframe>
                         </div>
                     </div>
                     <div class="rrss">

@@ -91,9 +91,9 @@ $caso = 3;
 			<div class="row">
 				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
 					<div class="box-text">
-						<p class="subtitle">“Mi tío (Arsenio) todavía está enterrado en la cuneta de la carretera de Barcones, pero no sabemos dónde... le mataron por sus ideas. Mi ilusión es que un día podamos encontrar sus restos… y darle una sepultura en condiciones. ”</p>
+						<p class="subtitle">“Mi tío (Arsenio) todavía está enterrado en la cuneta de la carretera de Barcones, pero no sabemos dónde... le mataron por sus ideas. Mi ilusión es que un día podamos encontrar sus restos… y darle una sepultura en condiciones.”</p>
                         <p>A Arsenio, el tío de Jaime, le detuvieron un 21 de julio de 1936 y su familia no volvió a saber nada de él. Era sindicalista y, varias semanas después de su detención, les contaron que le habían matado y enterrado en una fosa común.</p>
-                        <p>Desde entonces, la familia no ha parado de buscarle. El caso de Arsenio ya se ha presentado ante la Justicia y se ha archivado en dos ocasiones. El Estado español nunca ha querido investigarlo de forma exhaustiva.</p>
+                        <p>Desde entonces, la familia no ha parado de buscarle. A través de la Asociación Recuerdo y Dignidad, el caso de Arsenio ya se ha presentado ante la Justicia y se ha archivado en dos ocasiones. El Estado español nunca ha querido investigarlo de forma exhaustiva.</p>
                         <p>La  ilusión de Jaime es encontrar los restos de su tío para darles una sepultura digna y que se sepa lo que pasó con el fin de que no vuelva a pasar nunca más.</p>
                         <p>El caso de Jaime no es único. Se estima que miles de personas fueron víctimas de desaparición forzada durante la guerra civil y el franquismo, que aún están en fosas comunes de todo el territorio español. Personas que todavía hoy mantienen viva la ilusión de conseguir justicia.</p>
                     </div><!-- /box-text -->
@@ -103,7 +103,7 @@ $caso = 3;
 
                     <div class="youtubevideowrap">
                         <div class="video-container">
-                            <iframe width="580" height="320" src="https://www.youtube.com/embed/JtgxMb8r9dM" frameborder="0" allowfullscreen></iframe>
+                            <iframe width="580" height="320" src="https://www.youtube.com/embed/aCjD3d-OpT0" frameborder="0" allowfullscreen></iframe>
                         </div>
                     </div>
                     <div class="rrss">

@@ -40,7 +40,7 @@ if ( strpos ( $_SERVER['SERVER_NAME'], "amnistia.bit" )) {
 
 //Para calcular el valor, es necesario sabnerl el nº de firmas que se llevan en cada momento, meidante una consulta SQL a la base de datos.
 //Luego se calucla esto: data-progress-percent =   (nº firmas / NUM_FIRMAS_TOTAL )*100
-define ("NUM_FIRMAS_TOTAL", "220000");
+define ("NUM_FIRMAS_TOTAL", "620000");
 
 
 //Trackeado de enlaces con UTM de Google Analytics

@@ -10,19 +10,27 @@
       </div>
       <div class="modal-body">
         <p>
-        Estimado señor:<br/><br/>
+          Estimado/a señor/a:
 
-        He tenido conocimiento de la campaña lanzada por Amnistía Internacional en relación a la falta de investigación y colaboración por parte de España para investigar crímenes de derecho internacional cometidos durante la guerra civil y el franquismo. Esta campaña denuncia cómo los derechos a la verdad, justicia y reparación de dichas víctimas siguen siendo denegados por España, por lo que quiero hacerle llegar las siguientes peticiones:<br/><br/>
+          <br/><br/>Le escribo para mostrarle mi más profunda preocupación por la falta de investigación y colaboración por parte de España para investigar crímenes de derecho internacional cometidos durante la guerra civil y el franquismo. Los derechos a la verdad, justicia y reparación de las víctimas siguen siendo denegados por España, por ello le pido:
 
-        Iniciar el proceso de adhesión, sin reservas o sin declaraciones interpretativas que pudieran constituir reservas, a la Convención sobre la imprescriptibilidad de los crímenes de guerra y de los crímenes de lesa humanidad de Naciones Unidas.<br/>
+          <br/><br/>• Impulsar los trámites legislativos necesarios para que España acceda a la Convención sobre la Imprescriptibilidad de los Crímenes de Guerra y de los Crímenes de Lesa Humanidad de Naciones Unidas.
 
-        Adoptar medidas inmediatas para aplicar plenamente las recomendaciones de los órganos internacionales en relación a la Ley de Amnistía y a la imprescriptibilidad de los crímenes de derecho internacional, incluidas las del Comité de Derechos Humanos, el Consejo de Europa, el Grupo de Trabajo sobre Desapariciones Forzadas o Involuntarias, y el Comité contra la Tortura.<br/>
+          <br/><br/>• Adoptar e instar al gobierno a que adopte medidas para aplicar las recomendaciones de los órganos internacionales en relación con la Ley de Amnistía y con la imprescriptibilidad de los crímenes de derecho internacional, incluidas las del Comité de Derechos Humanos, el Consejo de Europa, el Grupo de Trabajo sobre Desapariciones Forzadas o Involuntarias, y el Comité contra la Tortura.
 
-        Asegurar que la aplicación de la Ley de Memoria Histórica es complementaria y de ninguna manera puede suplir la actividad e investigación judicial.<br/><br/>
+          <br/><br/>• Impulsar medidas legislativas para garantizar el derecho a la verdad de las víctimas y sus familiares, entre otras, la conservación de archivos, exhumación de fosas, identificación y devolución de restos a familiares, o la promoción de la creación de una Comisión de la Verdad con el mandato de investigar los abusos graves, según el derecho internacional, cometidos durante la Guerra Civil y el franquismo.
 
-        Por último, le pido que España colabore en la obligación de enjuiciar a los responsables de crímenes de derecho internacional y de cooperar, en su caso, con la justicia de otros países en su identificación, detención, extradición y castigo. En concreto, ante la investigación abierta en Argentina, le pido que haga cuanto esté en su mano para que España coopere con la investigación que actualmente está llevando a cabo el Juzgado Criminal y Correccional Federal Nº 1 de Buenos Aires, Argentina, a cargo de la jueza María Servini de Cubría, en particular con todo lo relativo a la interrogación de los 19 ciudadanos españoles imputados y referidos en dicha investigación. De la misma manera, en caso de tramitarse nuevas solicitudes de extradición por parte de Argentina u otras jurisdicciones, colabore con prontitud, a menos que los presuntos autores vayan a ser juzgados en España.<br/><br/>
+          <br/><br/>• Adoptar medidas que contribuyan a la búsqueda e identificación de los niños y niñas que podrían haber sido víctimas de apropiación, desaparición forzada y/o sustitución de su identidad.
 
-        Atentamente,</p>
+          <br/><br/>• Ampliar el reconocimiento y la cobertura de los programas de reparación para incluir todas las categorías de víctimas que hayan quedado fuera de los programas existentes. En este mismo sentido, ampliar la cobertura del Estatuto de la Víctima a las víctimas del franquismo y la Guerra Civil.
+
+          <br/><br/>• Impulsar medidas legislativas para hacer efectiva la nulidad de las sentencias adoptadas durante la Guerra Civil y el franquismo en violación de los principios fundamentales del derecho a un juicio justo.
+
+          <br/><br/>• Formular disculpas públicas que precisen la naturaleza de los actos criminales, sus circunstancias y la realidad concreta de los daños infligidos.
+
+
+          <br/><br/>Atentamente,
+        </p>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
