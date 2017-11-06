@@ -9,7 +9,7 @@ php_value default_charset UTF-8
 
 #Servidor Amnisita
 #RewriteBase /justiciapornavidad/
-RewriteBase /loteria/
+RewriteBase /justicia/
 
 
 #RewriteCond %{THE_REQUEST} \s/+(.+?)\.php[\s?] [NC]
