@@ -116,7 +116,7 @@ function es_interesado($email) {
     // 0 = interesado, 1 = socio, 2 = nuevo
     $essocio = 2;
     if( isset($member["id"]) ){
-      if($member["properties"][2]["value"] > 0){
+      if($member["crm_id"] > 0){
         $essocio = 1;
       } else {
         $essocio = 0;
