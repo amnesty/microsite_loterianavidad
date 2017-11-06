@@ -31,7 +31,7 @@ if ( strpos ( $_SERVER['SERVER_NAME'], "amnistia.bit" )) {
 	$tabla = 'test_firmas';
 } else {
 	//define("URL_SITE", "http://estanavidadtoca.org/"); // Producción Amnistía
-	define("URL_SITE", "https://www.es.amnesty.org/loteria/"); // Producción Amnistía
+	define("URL_SITE", "https://www.es.amnesty.org/justicia/"); // Producción Amnistía
 	$tabla = 'firmas';
 }
 //Se usa para calcular el % de firmas para rellenar la "Progress Bar" en "/includes/firma-form.php"
