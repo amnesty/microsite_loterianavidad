@@ -87,16 +87,14 @@ $caso = 4;
 
 	<section class="modulo-interior clearfix">
 		<div class="container">
-            <h1>Soledad Luque, sospecha que su hermano fue robado.</h1>
+            <h1>Soledad Luque, sospecha que su hermano fue un "bebé robado" </h1>
 			<div class="row">
 				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
 					<div class="box-text">
-						<p class="subtitle">Soledad y su hermano mellizo Francisco nacieron el 25 de enero de 1965 en la maternidad de O’Donnell de Madrid. Allí les dijeron que el niño se quedaba en la incubadora y, semanas después, que había muerto. No les dejaron ver el cadáver y les amenazaron con “tener problemas” si no dejaban de preguntar.</p>
-                        <p>Les dijeron que habían incinerado el cuerpo, pero tampoco les dejaron ver las cenizas. Nunca pudieron velar a su hijo ni llevarle flores al cementerio.</p>
+						<p class="subtitle">Soledad y su hermano mellizo Francisco nacieron en enero de 1965 en la maternidad de O’Donnell de Madrid. Allí dijeron a sus padres que el niño se quedaba en la incubadora y, semanas después, que había muerto. No les dejaron ver el cadáver.</p>
                         <p>¿Dónde está el hermano de Soledad?</p>
-                        <p>La maternidad O’Donnell de Madrid es una de las clínicas en las que se han denunciado más robos de bebés durante el franquismo, con la presunta complicidad de personal médico y religioso.</p>
-                        <p>Soledad y sus hermanos sospechan que su hermano Francisco fue un niño robado y luchan para que se sepa lo que pasó y se haga justicia. Los historiales clínicos han desaparecido, los libros de partos de la clínica tienen hojas arrancadas y la información que arroja la documentación que encuentran es incoherente.</p>
-                        <p>Pusieron una denuncia en España y fue archivada un año después. En enero de 2012 constituyó, junto con sus familia, la asociación “Todos los niños robados son también mis niños” y un tiempo después, con otras asociaciones compañeras y aportando casos similares al suyo, se sumaron a la querella argentina, que desde 2010 está intentando investigar crímenes cometidos durante la Guerra Civil y el franquismo, entre ellos, casos de bebés robados. En 2013, la juez María Servini pidió interrogar al ginecólogo Abelardo García Balaguer por su posible relación con un caso similar al que denuncian Soledad y sus hermanos. Pero el gobierno español está bloqueando la investigación.</p>
+                        <p>La maternidad O’Donnell de Madrid es una de las clínicas de entonces en las que se han denunciado más robos de bebés durante el franquismo, con la presunta complicidad de personal médico y religioso. Los historiales clínicos han desaparecido y los libros de partos de la clínica tienen hojas arrancadas.</p>
+                        <p>Soledad y sus hermanos denunciaron en España el robo de Francisco y se archivó un año después. En 2012, constituyeron la asociación “Todos los niños robados son también mis niños” y, un tiempo después, se sumaron a la querella argentina que investiga los crímenes cometidos durante la Guerra Civil y el franquismo, entre ellos, casos de bebés robados. Pero el gobierno español está bloqueando la investigación.</p>
                         <p>El caso de Soledad no es único. Miles de niños y niñas podrían haber sido víctimas de apropiación, desaparición forzada y/o sustitución de su identidad.</p>
                         <p>Sus familias todavía hoy mantienen viva la ilusión de conseguir justicia.</p>
                     </div><!-- /box-text -->
