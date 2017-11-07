@@ -15,7 +15,6 @@ if( $_POST['guardar_form'] ) {
 	include_once('api2.php');
   //include_once('experian_api.php');
 
-
 	extract($_POST);
 
 	$nombre = $_POST['nombre'];
@@ -29,7 +28,7 @@ if( $_POST['guardar_form'] ) {
 	$caso = $_POST['caso'];
 	$segmentacion = $casos[$caso][1]; //justiciapornavidad; justiciapornavidad_jaime; justiciapornavidad_rosamaria; justiciapornavidad_antonio;
 
-	// IP
+		// IP
 	$ip = $_SERVER['REMOTE_ADDR'];
 	if(!$ip || $ip == '') {
 		$ip = $_SERVER['HTTP_X_FORWARDED_FOR'];
@@ -153,18 +152,18 @@ if( $_POST['guardar_form'] ) {
 			// si no existe el member, lo creamos internamente
 			if(!isset($member_id)) {
 				$member = post_member_ai($email, $nombre, $apellidos, $telefono, $pais_siglas, $pais_nombre);
-				$members_id = $member['id'];
+				$member_id = $member['id'];
 				//insertamos el member en la plaforma de envio de correos
-				post_member_experian($members_id, $nombre, $apellidos, $email, $telefono, $pais_siglas, $pais_nombre);
+				post_member_experian($member_id, $nombre, $apellidos, $email, $telefono, $pais_siglas, $pais_nombre);
 			}
 			// vemos si existe la purchase internamente
-			$purchase = get_purchase_by_member_product($product_id, $members_id);
+			$purchase = get_purchase_by_member_product($product_id, $member_id);
 
 			// si no existe la purchase, la creamos en experian, junto con el member (crear o actualizar)
 			if($purchase["count"] == 0) {
-				$purchase = post_purchase_ai($members_id, $product_id);
+				$purchase = post_purchase_ai($member_id, $product_id);
 				$purchase_id = $purchase["id"];
-				post_member_purchase_experian($purchase_id, $product_id, $members_id, $email);
+				post_member_purchase_experian($purchase_id, $product_id, $member_id, $email);
 			}
 			else {
 				$purchase_id = $purchase["results"][0]["id"];
