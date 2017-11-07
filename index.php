@@ -142,7 +142,7 @@ if($isMobile) {
                     <h1><img src="images/logo-loteria.png" alt="Esta Navidad toca Justicia"></h1>
 
                     <div class="box">
-                        <p>Firma para hacer realidad la ilusión de miles de personas.</p> 
+                        <p>Firma para hacer realidad la ilusión de miles de personas.</p>
                         <a data-e_c="justiciapornavidad" data-e_a="home boton ver video" data-e_l="home boton ver video" id="myplay" href="#" title="play" data-toggle="modal" data-target="#videoModal" class="send-piwik-event"><img src="images/play-button.png" alt=""><span>Ver vídeo</span></a>
                     </div>
 
@@ -160,7 +160,7 @@ if($isMobile) {
     <section class="modulo-casos">
         <div class="container">
             <div class="box-text">
-                <h2>Tres historias de personas que mantienen viva la ilusión de conseguir justicia.</h2>
+                <h2>Cuatro historias de personas que mantienen viva la ilusión de conseguir justicia.</h2>
                 <p>Entre las víctimas de la guerra civil y el franquismo que mantienen viva la ilusión por conseguir justicia, hay miles de casos de desapariciones forzadas, con muchas personas aún enterradas en fosas comunes que fueron ejecutadas extrajudicialmente, de bebés robados a sus familias y de torturas que nunca se han investigado.</p>
             </div>
 
