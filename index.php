@@ -11,7 +11,7 @@
     <link rel="icon" href="favicon.ico?v=3" type="image/x-icon" />
     <meta name="pinterest-rich-pin" content="false" />
     <meta name="pinterest" content="nopin" />
-    
+
     <!--Open Graph-->
     <meta property="og:url" content="<?php echo URL_SITE; ?>" />
     <meta property="og:type" content="website" />
@@ -82,13 +82,13 @@ if($isMobile) {
 }
 ?>
     </script>
-    
+
     <!-- Init -->
     <script src="js/init.js"></script>
 
 	<!-- Tipografía Maven -->
     <link href="https://fonts.googleapis.com/css?family=Maven+Pro:400,700" rel="stylesheet">
- 
+
 </head>
 <body>
     <div class="KW_progressContainer">
@@ -124,7 +124,7 @@ if($isMobile) {
     <section class="modulo-home clearfix">
         <div class="rrss">
             <ul class="clearfix">
-                <li><a data-e_c="justiciapornavidad" data-e_a="home comp FB" data-e_l="home comp FB" data-shareurl="<?php echo URL_SITE . TRACK_FB_UTM; ?>" class="fa fa-facebook-official facebook-share send-piwik-event" href="#" title="Compartir en Facebook"></a></li>                
+                <li><a data-e_c="justiciapornavidad" data-e_a="home comp FB" data-e_l="home comp FB" data-shareurl="<?php echo URL_SITE . TRACK_FB_UTM; ?>" class="fa fa-facebook-official facebook-share send-piwik-event" href="#" title="Compartir en Facebook"></a></li>
                 <li><a data-e_c="justiciapornavidad" data-e_a="home comp TW" data-e_l="home comp TW" data-shareurl="<?php echo urlencode('https://goo.gl/MxgU6p') ; ?>" data-texto="Me ha encantado este anuncio de Navidad de @amnistiaespana. ¡Emocionante! #EstaNavidadToca" class="fa fa-twitter twitter-share send-piwik-event" title="Compartir en Twitter" href="#"></a></li>
 <?php
 if($isMobile) {
@@ -142,10 +142,10 @@ if($isMobile) {
                     <h1><img src="images/logo-loteria.png" alt="Esta Navidad toca Justicia"></h1>
 
                     <div class="box">
-                        <p>Firma para hacer realidad la ilusión de miles de personas más.</p> 
-                        <a data-e_c="justiciapornavidad" data-e_a="home boton ver video" data-e_l="home boton ver video" id="myplay" href="#" title="play" data-toggle="modal" data-target="#videoModal" class="send-piwik-event"><img src="images/play-button.png" alt=""><span>Ver vídeo</span></a> 
+                        <p>Firma para hacer realidad la ilusión de miles de personas.</p> 
+                        <a data-e_c="justiciapornavidad" data-e_a="home boton ver video" data-e_l="home boton ver video" id="myplay" href="#" title="play" data-toggle="modal" data-target="#videoModal" class="send-piwik-event"><img src="images/play-button.png" alt=""><span>Ver vídeo</span></a>
                     </div>
-                    
+
                 </div>
             </div>
 		</div><!-- /container -->
@@ -218,7 +218,7 @@ if($isMobile) {
             </div>
 
           </div>
-        
+
         </div>
     </section>
 
@@ -249,7 +249,7 @@ if($isMobile) {
                         <p><b>Haz un donativo y recibirás en tu casa esta estrella</b> en el idioma que escojas, para que la cuelgues en el árbol, en tu puerta o para regalarla a quien quieras. Así ayudarás a mantener viva la ilusión de miles de personas durante estas fechas.</p>
                         <a data-e_c="justiciapornavidad" data-e_a="home boton haz donativo" data-e_l="home boton haz donativo" class="btn-principal send-piwik-event" target="_blank" href="https://crm.es.amnesty.org/haz-un-donativo-loteria/?origen=justiciapornavidad" title="Consigue el adorno">Consigue el adorno</a>
                     </div>
-                </div> 
+                </div>
             </div>
         </div>
     </section>
@@ -289,7 +289,7 @@ if($isMobile) {
 
     <!-- pixel google  -->
     <?php include ("includes/pixelret.php"); ?>
-    
+
 </body>
 
 </html>
