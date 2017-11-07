@@ -194,6 +194,8 @@ if($_GET['error_form'] == 1){
             _paq.push(['setCustomDimension', 4, 'Rosa']);
         } else if (casoPiwik == 3) {
             _paq.push(['setCustomDimension', 4, 'Jaime']);
+        } else if (casoPiwik == 4) {
+            _paq.push(['setCustomDimension', 4, 'Soledad']);
         } else {
             _paq.push(['setCustomDimension', 4, 'general']);
         }
@@ -218,6 +220,8 @@ if($_GET['error_form'] == 1){
             _paq.push(['trackEvent', 'FormJusticia', 'Gracias Rosa']);
         } else if (casoPiwik == 3) {
             _paq.push(['trackEvent', 'FormJusticia', 'Gracias Jaime']);
+        } else if (casoPiwik == 4) {
+            _paq.push(['trackEvent', 'FormJusticia', 'Gracias Soledad']);
         } else {
             _paq.push(['trackEvent', 'FormJusticia', 'Gracias general']);
         }
