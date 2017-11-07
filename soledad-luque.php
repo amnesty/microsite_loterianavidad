@@ -1,8 +1,8 @@
-<?php 
+<?php
 include_once ("includes/config.php");
 
 //Asignar el caso
-$caso = 1;
+$caso = 4;
 ?>
 <!DOCTYPE html>
 <html lang="es">
@@ -39,7 +39,7 @@ $caso = 1;
     <meta name="twitter:image:width" content="1024" />
     <meta name="twitter:image:height" content="512" />
     <meta name="twitter:image:alt" content="Esta Navidad toca" />
-    <!--Open Graph-->    
+    <!--Open Graph-->
 
     <!-- Owl Stylesheets -->
     <link rel="stylesheet" href="js/owlcarousel/assets/owl.carousel.min.css">
@@ -87,7 +87,7 @@ $caso = 1;
 
 	<section class="modulo-interior clearfix">
 		<div class="container">
-            <h1>Soledad Luque, la historia de un bebé robado.</h1>
+            <h1>Soledad Luque, sospecha que su hermano fue robado.</h1>
 			<div class="row">
 				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
 					<div class="box-text">
@@ -96,10 +96,9 @@ $caso = 1;
                         <p>¿Dónde está el hermano de Soledad?</p>
                         <p>La maternidad O’Donnell de Madrid es una de las clínicas en las que se han denunciado más robos de bebés durante el franquismo, con la presunta complicidad de personal médico y religioso.</p>
                         <p>Soledad y sus hermanos sospechan que su hermano Francisco fue un niño robado y luchan para que se sepa lo que pasó y se haga justicia. Los historiales clínicos han desaparecido, los libros de partos de la clínica tienen hojas arrancadas y la información que arroja la documentación que encuentran es incoherente.</p>
-                        <p>Pusieron una denuncia en España y fue archivada un año después. Por eso, decidió sumarse a la querella argentina, que desde 2010 está intentando investigar crímenes cometidos durante la Guerra Civil y el franquismo, entre ellos, casos de bebés robados. En 2013, la juez María Servini pidió interrogar al ginecólogo Abelardo García por su posible relación con un caso similar al que denuncian Soledad y sus hermanos. Pero cuatro años después, el gobierno español sigue bloqueando la investigación.</p>
+                        <p>Pusieron una denuncia en España y fue archivada un año después. En enero de 2012 constituyó, junto con sus familia, la asociación “Todos los niños robados son también mis niños” y un tiempo después, con otras asociaciones compañeras y aportando casos similares al suyo, se sumaron a la querella argentina, que desde 2010 está intentando investigar crímenes cometidos durante la Guerra Civil y el franquismo, entre ellos, casos de bebés robados. En 2013, la juez María Servini pidió interrogar al ginecólogo Abelardo García Balaguer por su posible relación con un caso similar al que denuncian Soledad y sus hermanos. Pero el gobierno español está bloqueando la investigación.</p>
                         <p>El caso de Soledad no es único. Miles de niños y niñas podrían haber sido víctimas de apropiación, desaparición forzada y/o sustitución de su identidad.</p>
                         <p>Sus familias todavía hoy mantienen viva la ilusión de conseguir justicia.</p>
-
                     </div><!-- /box-text -->
 				</div>
 
@@ -107,12 +106,12 @@ $caso = 1;
 
                     <div class="youtubevideowrap">
                         <div class="video-container">
-                            <iframe width="580" height="320" src="https://www.youtube.com/embed/xxxxx" frameborder="0" allowfullscreen></iframe>
+                            <iframe width="580" height="320" src="https://www.youtube.com/embed/Z8hrEip0NhM" frameborder="0" allowfullscreen></iframe>
                         </div>
                     </div>
                     <div class="rrss">
                         <ul class="clearfix">
-                            <li><a data-e_c="justiciapornavidad" data-e_a="<?=$casos[$caso][2]?> comp FB" data-e_l="<?=$casos[$caso][2]?> comp FB" data-shareurl="<?php echo URL_SITE . 'soledad-luque' . TRACK_FB_UTM ; ?>" class="fa fa-facebook facebook-share send-piwik-event" href="#" title="Compartir en Facebook"></a></li>                            
+                            <li><a data-e_c="justiciapornavidad" data-e_a="<?=$casos[$caso][2]?> comp FB" data-e_l="<?=$casos[$caso][2]?> comp FB" data-shareurl="<?php echo URL_SITE . 'soledad-luque' . TRACK_FB_UTM ; ?>" class="fa fa-facebook facebook-share send-piwik-event" href="#" title="Compartir en Facebook"></a></li>
                             <li><a data-e_c="justiciapornavidad" data-e_a="<?=$casos[$caso][2]?> comp TW" data-e_l="<?=$casos[$caso][2]?> comp TW" data-shareurl="<?php echo urlencode('https://goo.gl/ocmNEn'); ?>" data-texto="Ya he firmado para que Soledad cumpla su ilusión de conseguir justicia por lo que le ocurrió a su hermano #EstaNavidadToca" class="fa fa-twitter twitter-share send-piwik-event" title="Compartir en Twitter" href="#"></a></li>
 <?php
 if($isMobile) {
@@ -130,7 +129,7 @@ if($isMobile) {
 	</section><!-- /modulo-interior -->
 
     <!-- Módulo Firma -->
-    <?php    
+    <?php
     include "includes/firma-form.php";
     ?>
 
@@ -142,7 +141,7 @@ if($isMobile) {
 
     <!-- cookies  -->
     <?php include "includes/cookies.php";?>
-    
+
     <!-- pixel google  -->
     <?php include ("includes/pixelret.php"); ?>
 

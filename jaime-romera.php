@@ -1,4 +1,4 @@
-<?php 
+<?php
 include_once ("includes/config.php");
 
 //Asignar el caso
@@ -39,7 +39,7 @@ $caso = 3;
     <meta name="twitter:image:width" content="1024" />
     <meta name="twitter:image:height" content="512" />
     <meta name="twitter:image:alt" content="Esta Navidad toca" />
-    <!--Open Graph-->    
+    <!--Open Graph-->
 
     <!-- Owl Stylesheets -->
     <link rel="stylesheet" href="js/owlcarousel/assets/owl.carousel.min.css">
@@ -87,7 +87,7 @@ $caso = 3;
 
 	<section class="modulo-interior clearfix">
 		<div class="container">
-            <h1>Jaime Romera, su tío fue desaparecido y estaría en una fosa común</h1>
+            <h1>Jaime Romera, su tío habría sido desaparecido y estaría en una fosa común</h1>
 			<div class="row">
 				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
 					<div class="box-text">
@@ -108,7 +108,7 @@ $caso = 3;
                     </div>
                     <div class="rrss">
                         <ul class="clearfix">
-                            <li><a data-e_c="justiciapornavidad" data-e_a="<?=$casos[$caso][2]?> comp FB" data-e_l="<?=$casos[$caso][2]?> comp FB" data-shareurl="<?php echo URL_SITE . 'jaime-romera' . TRACK_FB_UTM ; ?>" class="fa fa-facebook facebook-share send-piwik-event" href="#" title="Compartir en Facebook"></a></li>                            
+                            <li><a data-e_c="justiciapornavidad" data-e_a="<?=$casos[$caso][2]?> comp FB" data-e_l="<?=$casos[$caso][2]?> comp FB" data-shareurl="<?php echo URL_SITE . 'jaime-romera' . TRACK_FB_UTM ; ?>" class="fa fa-facebook facebook-share send-piwik-event" href="#" title="Compartir en Facebook"></a></li>
                             <li><a data-e_c="justiciapornavidad" data-e_a="<?=$casos[$caso][2]?> comp TW" data-e_l="<?=$casos[$caso][2]?> comp TW" data-shareurl="<?php echo urlencode('https://goo.gl/HJLhqK'); ?>" data-texto="Acabo de firmar para que Jaime cumpla su ilusión de encontrar a su tío en una fosa común #EstaNavidadToca" class="fa fa-twitter twitter-share send-piwik-event" title="Compartir en Twitter" href="#"></a></li>
 <?php
 if($isMobile) {
@@ -126,7 +126,7 @@ if($isMobile) {
 	</section><!-- /modulo-interior -->
 
     <!-- Módulo Firma -->
-    <?php    
+    <?php
     include "includes/firma-form.php";
     ?>
 
