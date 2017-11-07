@@ -3,7 +3,7 @@
 [VERSIÓN 2017]
 Se añadió la segmentación por casos $segmentacion_origen = $casos[$caso][1];
 */
-include_once ("includes/config.php"); 
+include_once ("includes/config.php");
 $caso = $_GET['caso'];
 if($caso) {
     $segmentacion_origen = "?origen=justiciapornavidad&caso=".$casos[$caso][2];
@@ -30,7 +30,7 @@ if($caso) {
     <meta property="og:locale" content="es_ES" />
     <meta property="og:title" content="Esta Navidad toca justicia – Amnistía Internacional" />
     <meta property="og:description" content="No te pierdas este emotivo anuncio de Navidad. Haz que se cumpla la ilusión de miles de personas." />
-    <meta property="og:site_name" content="Seguimos pidiendo justicia – Amnistía Internacional" />
+    <meta property="og:site_name" content="Esta Navidad toca justicia– Amnistía Internacional" />
     <meta property="og:image" content="<?php echo URL_SITE; ?>images/compartir-fb.png" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
@@ -103,7 +103,7 @@ if($caso) {
             </ul>
         </div>
     </header>
-        
+
 
     <!-- Módulo Firma -->
     <div class="gracias-firma">
@@ -140,11 +140,11 @@ if($_GET['error_form'] == 1){
                                         <div class="box-content-text">
                                             <div class="col-12">
                                                 <p><b>Sigue colaborando con la campaña</b> y, al mismo tiempo, adorna tu Navidad con buenos deseos. Haz un donativo y te enviaremos este adorno para que lo coloques en casa o lo uses como postal para felicitar las fiestas.</p>
-                                            
+
                                                 <a data-e_c="justiciapornavidad" data-e_a="gracias boton haz donativo" data-e_l="gracias boton haz donativo" class="btn-principal send-piwik-event" target="_blank" href="https://crm.es.amnesty.org/haz-un-donativo-loteria/<?=$segmentacion_origen?>" title="Consigue el adorno">Consigue el adorno</a>
                                             </div>
                                         </div>
-                                    </div> 
+                                    </div>
                                 </div>
                             </div>
                         </section>
@@ -175,7 +175,7 @@ if($_GET['error_form'] == 1){
       <div class="container">
         <p class="title">Amnistía Internacional 2017</p>
         <p>*Coste 1,2 euros (donación integra para la ONG). Servicio de SMS para recaudación de fondos en campaña de tipo solidario operado por Altiria TIC, <a href="http://www.altiria.com" target="_blank">www.altiria.com</a>, y la Asociación Española de Fundraising, <a href="http://www.aefundraising.org" target="_blank">www.aefundraising.org</a>, nº. atn. clte. 902 00 28 98, apdo. correos 36059 –28080 Madrid.<br/> Colaboran Movistar, Vodafone, Orange, Yoigo, Euskaltel y Telecable.<br/> Más información sobre el uso de los datos en <a href="https://www.es.amnesty.org/politica-de-privacidad" target="_blank">https://www.es.amnesty.org/politica-de-privacidad</a></p>
-      </div>    
+      </div>
     </footer>
 
     <!-- Piwik -->
