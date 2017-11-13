@@ -102,18 +102,18 @@ $caso = 2;
 				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
 
                     <div class="youtubevideowrap">
-                        <div class="video-container">                      
+                        <div class="video-container">
 														<iframe width="580" height="320" src="https://www.youtube.com/embed/2NMm9tbhcyk" frameborder="0" allowfullscreen></iframe>
                         </div>
                     </div>
                     <div class="rrss">
                         <ul class="clearfix">
                             <li><a data-e_c="justiciapornavidad" data-e_a="<?=$casos[$caso][2]?> comp FB" data-e_l="<?=$casos[$caso][2]?> comp FB" data-shareurl="<?php echo URL_SITE . 'rosa-garcia' . TRACK_FB_UTM ; ?>" class="fa fa-facebook facebook-share send-piwik-event" href="#" title="Compartir en Facebook"></a></li>
-                            <li><a data-e_c="justiciapornavidad" data-e_a="<?=$casos[$caso][2]?> comp TW" data-e_l="<?=$casos[$caso][2]?> comp TW" data-shareurl="<?php echo urlencode('https://goo.gl/X47sf3'); ?>" data-texto="Ya he firamado para que Rosa cumpla su ilusión de conseguir justicia por ser torturada #EstaNavidadToca" class="fa fa-twitter twitter-share send-piwik-event" title="Compartir en Twitter" href="#"></a></li>
+                            <li><a data-e_c="justiciapornavidad" data-e_a="<?=$casos[$caso][2]?> comp TW" data-e_l="<?=$casos[$caso][2]?> comp TW" data-shareurl="<?php echo urlencode('https://goo.gl/X47sf3'); ?>" data-texto="Ya he firmado para que Rosa cumpla su ilusión de conseguir justicia por ser torturada #EstaNavidadToca" class="fa fa-twitter twitter-share send-piwik-event" title="Compartir en Twitter" href="#"></a></li>
 <?php
 if($isMobile) {
 ?>
-                            <li><a data-e_c="justiciapornavidad" data-e_a="<?=$casos[$caso][2]?> comp WH" data-e_l="<?=$casos[$caso][2]?> comp WH" class="fa fa-whatsapp send-piwik-event" title="Compartir en Whatsapp" data-href="<?php echo URL_SITE; ?>rosa-garcia" data-action="share/whatsapp/share" href="whatsapp://send?text=<?=urlencode('Ya he firamado para que Rosa cumpla su ilusión de conseguir justicia por ser torturada #EstaNavidadToca https://goo.gl/FGacKb')?>"></a></li>
+                            <li><a data-e_c="justiciapornavidad" data-e_a="<?=$casos[$caso][2]?> comp WH" data-e_l="<?=$casos[$caso][2]?> comp WH" class="fa fa-whatsapp send-piwik-event" title="Compartir en Whatsapp" data-href="<?php echo URL_SITE; ?>rosa-garcia" data-action="share/whatsapp/share" href="whatsapp://send?text=<?=urlencode('Ya he firmado para que Rosa cumpla su ilusión de conseguir justicia por ser torturada #EstaNavidadToca https://goo.gl/FGacKb')?>"></a></li>
 <?php
 }
 ?>

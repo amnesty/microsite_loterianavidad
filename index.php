@@ -170,7 +170,7 @@ if($isMobile) {
                 <div class="box-content clearfix">
                     <div class="box-text">
                         <h3><a data-e_c="justiciapornavidad" data-e_a="home boton firma_por_Antonio" data-e_l="home boton firma_por_Antonio" href="antonio-narvaez" title="Antonio Narváez" class="send-piwik-event">Antonio Narváez,</a></h3>
-                        <p><a data-e_c="justiciapornavidad" data-e_a="home boton firma_por_Antonio" data-e_l="home boton firma_por_Antonio" href="antonio-narvaez" title="sus padres están en una fosa común" class="send-piwik-event">sus padres están en una fosa común.</a></p>
+                        <p><a data-e_c="justiciapornavidad" data-e_a="home boton firma_por_Antonio" data-e_l="home boton firma_por_Antonio" href="antonio-narvaez" title="sus padres estarían en una fosa común" class="send-piwik-event">sus padres estarían en una fosa común.</a></p>
                     </div>
                     <div class="box-boton">
                         <a data-e_c="justiciapornavidad" data-e_a="home boton firma_por_Antonio" data-e_l="home boton firma_por_Antonio" class="btn-caso send-piwik-event" href="antonio-narvaez" title="Ver su historia">Ver su historia</a>
@@ -183,7 +183,7 @@ if($isMobile) {
                 <div class="box-content clearfix">
                     <div class="box-text">
                         <h3><a data-e_c="justiciapornavidad" data-e_a="home boton firma_por_Rosa" data-e_l="home boton firma_por_Rosa" class="disabled send-piwik-event" href="rosa-garcia" title="Rosa María">Rosa García,</a></h3>
-                        <p><a data-e_c="justiciapornavidad" data-e_a="home boton firma_por_Rosa" data-e_l="home boton firma_por_Rosa" class="disabled send-piwik-event" href="rosa-garcia" title="la historia de una mujer torturada">la historia de una mujer torturada.</a></p>
+                        <p><a data-e_c="justiciapornavidad" data-e_a="home boton firma_por_Rosa" data-e_l="home boton firma_por_Rosa" class="disabled send-piwik-event" href="rosa-garcia" title="denuncia que fue torturada">denuncia que fue torturada.</a></p>
                     </div>
                     <div class="box-boton">
                         <a data-e_c="justiciapornavidad" data-e_a="home boton firma_por_Rosa" data-e_l="home boton firma_por_Rosa" class="btn-caso disabled send-piwik-event" href="rosa-garcia" title="Ver su historia">Ver su historia</a>
@@ -209,7 +209,7 @@ if($isMobile) {
                 <div class="box-content clearfix">
                     <div class="box-text">
                         <h3><a data-e_c="justiciapornavidad" data-e_a="home boton firma_por_Soledad" data-e_l="home boton firma_por_Soledad" class="disabled send-piwik-event" href="soledad-luque" title="Soledad">Soledad Luque,</a></h3>
-                        <p><a data-e_c="justiciapornavidad" data-e_a="home boton firma_por_Soledad" data-e_l="home boton firma_por_Soledad" class="disabled send-piwik-event" href="soledad-luque" title="sigue buscando a su tío">la historia de un bebé robado.</a></p>
+                        <p><a data-e_c="justiciapornavidad" data-e_a="home boton firma_por_Soledad" data-e_l="home boton firma_por_Soledad" class="disabled send-piwik-event" href="soledad-luque" title="su hermano podría ser un "bebé robado"">su hermano podría ser un "bebé robado".</a></p>
                     </div>
                     <div class="box-boton">
                         <a data-e_c="justiciapornavidad" data-e_a="home boton firma_por_Soledad" data-e_l="home boton firma_por_Soledad" class="btn-caso disabled send-piwik-event" href="soledad-luque" title="Ver su historia">Ver su historia</a>
