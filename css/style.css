@@ -950,7 +950,7 @@ form.formulario-firma.row{
 .modulo-interior{
 	width: 100%;
 	background: #f3efe7;
-	padding: 110px 0 30px;
+	padding: 100px 0 20px;
 }
 .modulo-interior h1{
 	font-family: 'Archer-Bold';
@@ -969,11 +969,23 @@ form.formulario-firma.row{
 }
 .modulo-interior .box-text p{
 	font-family: 'Archer-Medium';
+	margin-bottom: 10px;
 }
 .modulo-interior .box-text p.subtitle{
 	font-family: 'Archer-SemiboldItalic';
 	font-size: 20px;
 	line-height: 24px;
+}
+.template-caso .modulo-firma{
+	padding: 30px 0;
+}
+.template-caso .modulo-firma .box-text p {
+	font-size: 18px;
+	line-height: 22px;
+    margin: 0 auto 10px;
+}
+.template-caso .modulo-firma .formulario-inicial .box-text p{
+	margin: 0 auto 20px;
 }
 .modulo-interior .navegacion{
 	position: relative;
@@ -987,10 +999,11 @@ form.formulario-firma.row{
 	text-decoration: underline;
 }
 .modulo-interior .youtubevideowrap {
-  width: 100%;
+  width: 88%;
   /*max-width: 600px;*/
   margin: 0 auto;
   margin-bottom: 10px;
+  float: right;
 }
 .modulo-interior .video-container {
   position: relative;
@@ -1007,6 +1020,7 @@ form.formulario-firma.row{
 }
 .modulo-interior .rrss{
 	position: relative;
+	clear: both;
 }
 .modulo-interior .rrss ul{
 	padding: 0;
@@ -1170,7 +1184,10 @@ footer a{
 		margin: auto;
 	}
 	.modulo-interior .youtubevideowrap {
-	    margin-top: 20px;
+		width: 100%;
+		max-width: 600px;
+		margin: 20px auto 10px;
+		float: none;
 	}
 }
 /* max-widht: 900px */
