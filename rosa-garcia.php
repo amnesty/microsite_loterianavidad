@@ -91,11 +91,10 @@ $caso = 2;
 			<div class="row">
 				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
 					<div class="box-text">
-						<p class="subtitle">“Me detuvieron en la calle a las 11 de la noche porque yo estaba militando en una asociación de estudiantes. Me llevaron a la Dirección General de Seguridad. Allí me recibió Billy El Niño a bofetadas, puñetazos, golpes.”</p>
-                        <p>Rosa fue detenida y cuenta que fue torturada por pertenecer a una asociación de estudiantes.</p>
-                        <p>Rosa va a interponer una denuncia por tortura contra Antonio González Pacheco, alias Billy el Niño. En 2013, la juez argentina María Servini dictó una orden de extradición para interrogar a Billy el Niño por su posible relación con otros casos de torturas. Pero el gobierno español está bloqueando la investigación.</p>
-                        <p>Su ilusión es que se haga justicia y que el gobierno español deje de bloquear la investigación sobre otros casos como el suyo.</p>
-                        <p>El caso de Rosa no es único. Muchas personas fueron detenidas injustamente y torturadas durante el franquismo entre otras razones, por motivos políticos. Personas que todavía hoy mantienen viva la ilusión de conseguir justicia.</p>
+						<p class="subtitle">“Me detuvieron en la calle a las 11 de la noche… Me llevaron a la Dirección General de Seguridad. Allí me recibió Billy El Niño a bofetadas, puñetazos, golpes… Violar, matar. Era una amenaza bastante común a las mujeres.”</p>
+                        <p>Rosa tiene previsto interponer una denuncia por tortura contra el antiguo miembro de la policía franquista Antonio González Pacheco, alias Billy el Niño. Y no será la primera en hacerlo. En 2013, la juez argentina María Servini dictó una orden de extradición para interrogar a Billy el Niño por su posible relación con otros casos de torturas. Pero el gobierno español está bloqueando la investigación.</p>
+                        <p>La ilusión de Rosa es que se haga justicia.</p>
+                        <p>Su caso no es único. Muchas personas fueron detenidas injustamente y torturadas durante el franquismo por motivos políticos, entre otras razones. Todavía hoy mantienen viva la ilusión de conseguir justicia.</p>
                     </div><!-- /box-text -->
 				</div>
 

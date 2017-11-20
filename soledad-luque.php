@@ -87,14 +87,13 @@ $caso = 4;
 
 	<section class="modulo-interior clearfix">
 		<div class="container">
-            <h1>Soledad Luque, sospecha que su hermano fue un "bebé robado" </h1>
+            <h1>Soledad Luque, sospecha que su hermano fue un "bebé robado"</h1>
 			<div class="row">
 				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
 					<div class="box-text">
-						<p class="subtitle">Soledad y su hermano mellizo Francisco nacieron en enero de 1965 en la maternidad de O’Donnell de Madrid. Allí dijeron a sus padres que el niño se quedaba en la incubadora y, semanas después, que había muerto. No les dejaron ver el cadáver.</p>
-                        <p>¿Dónde está el hermano de Soledad?</p>
-                        <p>La maternidad O’Donnell de Madrid es una de las clínicas de entonces en las que se han denunciado más robos de bebés durante el franquismo, con la presunta complicidad de personal médico y religioso. Los historiales clínicos han desaparecido y los libros de partos de la clínica tienen hojas arrancadas.</p>
-                        <p>Soledad y sus hermanos denunciaron en España el robo de Francisco y se archivó un año después. En 2012, constituyeron la asociación “Todos los niños robados son también mis niños” y, un tiempo después, se sumaron a la querella argentina que investiga los crímenes cometidos durante la Guerra Civil y el franquismo, entre ellos, casos de bebés robados. Pero el gobierno español está bloqueando la investigación.</p>
+						<p class="subtitle">Soledad y su hermano mellizo Francisco nacieron en enero de 1965 en la maternidad de O’Donnell de Madrid. A sus padres les dijeron que el niño se quedaba en la incubadora y, semanas después, que había muerto. No les dejaron ver el cadáver.</p>
+                        <p>La maternidad O’Donnell es una de las clínicas de entonces en las que se han denunciado más robos de bebés durante el franquismo, con la presunta complicidad de personal médico y religioso. Los historiales clínicos han desaparecido y los libros de partos de la clínica tienen hojas arrancadas.</p>
+                        <p>Soledad y sus hermanos denunciaron en España el robo de Francisco pero se archivó un año después. Entonces constituyeron la asociación ‘Todos los niños robados son también mis niños’ y se sumaron a la querella argentina que investiga crímenes como este, con la oposición del gobierno español.</p>
                         <p>El caso de Soledad no es único. Miles de niños y niñas podrían haber sido víctimas de apropiación, desaparición forzada y/o sustitución de su identidad.</p>
                         <p>Sus familias todavía hoy mantienen viva la ilusión de conseguir justicia.</p>
                     </div><!-- /box-text -->
