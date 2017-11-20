@@ -78,7 +78,7 @@ $caso = 1;
     <link href="https://fonts.googleapis.com/css?family=Maven+Pro:400,700" rel="stylesheet">
 
 </head>
-<body>
+<body class="template-caso">
 
     <!-- Modal Carta petición -->
     <?php include "includes/peticion.php";?>
