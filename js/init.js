@@ -231,6 +231,8 @@ $(window).scroll(function(event) {
         crearCookie('cookieAlert3', '1', 365, '.es.amnesty.org');
         crearCookie('cookieAlert3', '1', 365, ''); //localhost
     }
+    //CERRAR AVISO COOKIES AL HACER SCROLL
+    jQuery('#cookie-law-info-bar').fadeOut();
 
 });
 
