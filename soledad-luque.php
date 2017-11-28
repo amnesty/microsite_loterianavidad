@@ -21,9 +21,9 @@ $caso = 4;
     <meta property="og:url" content="<?php echo URL_SITE; ?>soledad-luque" />
     <meta property="og:type" content="website" />
     <meta property="og:locale" content="es_ES" />
-    <meta property="og:title" content="Esta Navidad toca" />
+    <meta property="og:title" content="Esta Navidad toca justicia" />
     <meta property="og:description" content="Este vídeo de Soledad me ha emocionado. Yo ya he firmado para que cumpla su ilusión de conseguir justicia por lo que le ocurrió a su hermano #EstaNavidadToca" />
-    <meta property="og:site_name" content="Esta Navidad toca" />
+    <meta property="og:site_name" content="Esta Navidad toca justicia" />
     <meta property="og:image" content="<?php echo URL_SITE; ?>images/compartir-fb-caso-soledad.png" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
@@ -33,12 +33,12 @@ $caso = 4;
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="@amnistiaespana">
     <meta name="twitter:creator" content="@amnistiaespana">
-    <meta name="twitter:title" content="Esta Navidad toca" />
+    <meta name="twitter:title" content="Esta Navidad toca justicia" />
     <meta name="twitter:description" content="Este vídeo de Soledad me ha emocionado. Yo ya he firmado para que cumpla su ilusión de conseguir justicia por lo que le ocurrió a su hermano #EstaNavidadToca" />
     <meta name="twitter:image" content="<?php echo URL_SITE; ?>images/compartir-tw-caso-soledad.png" />
     <meta name="twitter:image:width" content="1024" />
     <meta name="twitter:image:height" content="512" />
-    <meta name="twitter:image:alt" content="Esta Navidad toca" />
+    <meta name="twitter:image:alt" content="Esta Navidad toca justicia" />
     <!--Open Graph-->
 
     <!-- Owl Stylesheets -->
