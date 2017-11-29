@@ -12,7 +12,7 @@ $caso = 4;
 	<title>Esta Navidad toca justicia – Amnistía Internacional</title>
     <meta name="description" content="Este vídeo de Soledad me ha emocionado. Yo ya he firmado para que cumpla su ilusión de conseguir justicia por lo que le ocurrió a su hermano #EstaNavidadToca">
     <link rel="canonical" href="<?php echo URL_SITE; ?>soledad-luque" />
-    <link rel="image_src" href="<?php echo URL_SITE; ?>images/compartir-tw-caso-soledad.png" />
+    <link rel="image_src" href="<?php echo URL_SITE; ?>images/new_social/compartir-tw-caso-soledad.png" />
     <link rel="icon" href="favicon.ico?v=3" type="image/x-icon" />
     <meta name="pinterest-rich-pin" content="false" />
     <meta name="pinterest" content="nopin" />
@@ -24,7 +24,7 @@ $caso = 4;
     <meta property="og:title" content="Esta Navidad toca justicia" />
     <meta property="og:description" content="Este vídeo de Soledad me ha emocionado. Yo ya he firmado para que cumpla su ilusión de conseguir justicia por lo que le ocurrió a su hermano #EstaNavidadToca" />
     <meta property="og:site_name" content="Esta Navidad toca justicia" />
-    <meta property="og:image" content="<?php echo URL_SITE; ?>images/compartir-fb-caso-soledad.png" />
+    <meta property="og:image" content="<?php echo URL_SITE; ?>images/new_social/compartir-fb-caso-soledad.png" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
 
@@ -35,7 +35,7 @@ $caso = 4;
     <meta name="twitter:creator" content="@amnistiaespana">
     <meta name="twitter:title" content="Esta Navidad toca justicia" />
     <meta name="twitter:description" content="Este vídeo de Soledad me ha emocionado. Yo ya he firmado para que cumpla su ilusión de conseguir justicia por lo que le ocurrió a su hermano #EstaNavidadToca" />
-    <meta name="twitter:image" content="<?php echo URL_SITE; ?>images/compartir-tw-caso-soledad.png" />
+    <meta name="twitter:image" content="<?php echo URL_SITE; ?>images/new_social/compartir-tw-caso-soledad.png" />
     <meta name="twitter:image:width" content="1024" />
     <meta name="twitter:image:height" content="512" />
     <meta name="twitter:image:alt" content="Esta Navidad toca justicia" />
