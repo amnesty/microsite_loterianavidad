@@ -52,8 +52,10 @@ $(document).ready(function() {
 
 	$('.facebook-share').click(function(e){
 		e.preventDefault();
-		var shareurl = $(this).data('shareurl');		
+		var shareurl = $(this).data('shareurl');
+		shareurl = window.encodeURIComponent(shareurl);		
 		window.open('https://www.facebook.com/sharer/sharer.php?u=' + shareurl +'' , 'ventana-facebook', "toolbar=0, status=0, width=650, height=450");
+
 	});
 
 
