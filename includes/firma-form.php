@@ -32,7 +32,7 @@ if ( isset($_GET['utm_campaign']) || isset($_GET['pk_kwd']) ){
 <?php
 $num_firmas_total = NUM_FIRMAS_TOTAL; // config.php -> Se puede modificar bajo demanda. Establecido a 5000
 $num_firmas = ""; // Guardar en esta variable "$num_firmas" el nº de firmas actualziado que se lleva para esta campaña.
-$num_firmas_bd_bak = "154477"; // Numero de firmas de la tabla datos_firmas_backup (83252) + datos_firmas (71331). Pte incorporar a tabla firmas
+$num_firmas_bd_bak = "154749"; // Numero de firmas de la tabla datos_firmas_backup (83252) + datos_firmas (71331). Pte incorporar a tabla firmas. + firmas recogidas en Facebook (272)
 
 if($tabla == 'test_firmas')
   $num_firmas_bd_bak = 0;
@@ -149,6 +149,7 @@ $progress_percent = (($num_firmas_bd_bak+$num_firmas) / $num_firmas_total)*100;
                       <option value="184">Liechtenstein</option>
                       <option value="308">Lituania</option>
                       <option value="185">Luxemburgo</option>
+
                       <option value="317">Malta</option>
                       <option value="327">Marruecos</option>
                       <option value="318">Martinica</option>
