@@ -9,8 +9,8 @@ $caso = 4;
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0" />
-	<title>Esta Navidad toca justicia – Amnistía Internacional</title>
-    <meta name="description" content="Este vídeo de Soledad me ha emocionado. Yo ya he firmado para que cumpla su ilusión de conseguir justicia por lo que le ocurrió a su hermano #EstaNavidadToca">
+	<title>Seguimos pidiendo justicia – Amnistía Internacional</title>
+    <meta name="description" content="Ya he firmado para que Soledad cumpla su ilusión de conseguir justicia por lo que le ocurrió a su hermano #PedimosJusticia">
     <link rel="canonical" href="<?php echo URL_SITE; ?>soledad-luque" />
     <link rel="image_src" href="<?php echo URL_SITE; ?>images/new_social/compartir-tw-caso-soledad.png" />
     <link rel="icon" href="favicon.ico?v=3" type="image/x-icon" />
@@ -21,9 +21,9 @@ $caso = 4;
     <meta property="og:url" content="<?php echo URL_SITE; ?>soledad-luque" />
     <meta property="og:type" content="website" />
     <meta property="og:locale" content="es_ES" />
-    <meta property="og:title" content="Esta Navidad toca justicia" />
-    <meta property="og:description" content="Este vídeo de Soledad me ha emocionado. Yo ya he firmado para que cumpla su ilusión de conseguir justicia por lo que le ocurrió a su hermano #EstaNavidadToca" />
-    <meta property="og:site_name" content="Esta Navidad toca justicia" />
+    <meta property="og:title" content="Seguimos pidiendo justicia – Amnistía Internacional" />
+    <meta property="og:description" content="Ya he firmado para que Soledad cumpla su ilusión de conseguir justicia por lo que le ocurrió a su hermano #PedimosJusticia" />
+    <meta property="og:site_name" content="Seguimos pidiendo justicia" />
     <meta property="og:image" content="<?php echo URL_SITE; ?>images/new_social/compartir-fb-caso-soledad.png" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
@@ -33,12 +33,12 @@ $caso = 4;
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="@amnistiaespana">
     <meta name="twitter:creator" content="@amnistiaespana">
-    <meta name="twitter:title" content="Esta Navidad toca justicia" />
-    <meta name="twitter:description" content="Este vídeo de Soledad me ha emocionado. Yo ya he firmado para que cumpla su ilusión de conseguir justicia por lo que le ocurrió a su hermano #EstaNavidadToca" />
+    <meta name="twitter:title" content="Seguimos pidiendo justicia – Amnistía Internacional" />
+    <meta name="twitter:description" content="Yo ya he firmado para pedir justicia y para que se cumpla la ilusión de miles de personas. ¡Firma ahora!" />
     <meta name="twitter:image" content="<?php echo URL_SITE; ?>images/new_social/compartir-tw-caso-soledad.png" />
     <meta name="twitter:image:width" content="1024" />
     <meta name="twitter:image:height" content="512" />
-    <meta name="twitter:image:alt" content="Esta Navidad toca justicia" />
+    <meta name="twitter:image:alt" content="Seguimos pidiendo justicia – Amnistía Internacional" />
     <!--Open Graph-->
 
     <!-- Owl Stylesheets -->
@@ -109,11 +109,11 @@ $caso = 4;
                     <div class="rrss">
                         <ul class="clearfix">
                             <li><a data-e_c="justiciapornavidad" data-e_a="<?=$casos[$caso][2]?> comp FB" data-e_l="<?=$casos[$caso][2]?> comp FB" data-shareurl="<?php echo URL_SITE . 'soledad-luque' . TRACK_FB_UTM ; ?>" class="fa fa-facebook facebook-share send-piwik-event" href="#" title="Compartir en Facebook"></a></li>
-                            <li><a data-e_c="justiciapornavidad" data-e_a="<?=$casos[$caso][2]?> comp TW" data-e_l="<?=$casos[$caso][2]?> comp TW" data-shareurl="<?php echo urlencode('https://goo.gl/EMGX8F'); ?>" data-texto="Ya he firmado para que Soledad cumpla su ilusión de conseguir justicia por lo que le ocurrió a su hermano #EstaNavidadToca" class="fa fa-twitter twitter-share send-piwik-event" title="Compartir en Twitter" href="#"></a></li>
+                            <li><a data-e_c="justiciapornavidad" data-e_a="<?=$casos[$caso][2]?> comp TW" data-e_l="<?=$casos[$caso][2]?> comp TW" data-shareurl="<?php echo urlencode('https://goo.gl/EMGX8F'); ?>" data-texto="Ya he firmado para que Soledad cumpla su ilusión de conseguir justicia por lo que le ocurrió a su hermano #PedimosJusticia" class="fa fa-twitter twitter-share send-piwik-event" title="Compartir en Twitter" href="#"></a></li>
 <?php
 if($isMobile) {
 ?>
-                            <li><a data-e_c="justiciapornavidad" data-e_a="<?=$casos[$caso][2]?> comp WH" data-e_l="<?=$casos[$caso][2]?> comp WH" class="fa fa-whatsapp send-piwik-event" title="Compartir en Whatsapp" data-href="<?php echo URL_SITE; ?>soledad-luque" data-action="share/whatsapp/share" href="whatsapp://send?text=<?=urlencode('Ya he firmado para que Soledad cumpla su ilusión de conseguir justicia por lo que le ocurrió a su hermano #EstaNavidadToca https://goo.gl/EMGX8F')?>"></a></li>
+                            <li><a data-e_c="justiciapornavidad" data-e_a="<?=$casos[$caso][2]?> comp WH" data-e_l="<?=$casos[$caso][2]?> comp WH" class="fa fa-whatsapp send-piwik-event" title="Compartir en Whatsapp" data-href="<?php echo URL_SITE; ?>soledad-luque" data-action="share/whatsapp/share" href="whatsapp://send?text=<?=urlencode('Ya he firmado para que Soledad cumpla su ilusión de conseguir justicia por lo que le ocurrió a su hermano #PedimosJusticia https://goo.gl/EMGX8F')?>"></a></li>
 <?php
 }
 ?>

@@ -15,13 +15,19 @@ session_start();
 
 ini_set('display_errors', 0);
 ini_set('display_startup_errors', 0);
+// Turn off all error reporting
+error_reporting(0);
 
 /***********************
 *     CONSTANTES       *
 ***********************/
 
 //ESTABLECE LA URL DEL SITE para construir las URLs y usarlas en Redes Sociales y Meta Etiquetas
-if ( strpos ( $_SERVER['SERVER_NAME'], "amnistia.bit" )) {
+
+
+if ( strpos ( $_SERVER['SERVER_NAME'], "estresarte.com" )) {
+	define("URL_SITE",     "http://testing.estresarte.com/amnistia/microsite_loterianavidad"); // Servidor Testing estrés
+} elseif ( strpos ( $_SERVER['SERVER_NAME'], "amnistia.bit" )) {
 	define("URL_SITE",     "http://dev.amnistia.bit/microsite_loterianavidad/"); // Servidor Local estrés
 } elseif ( $_SERVER['SERVER_NAME'] == "localhost" && $_SERVER["SERVER_PORT"] == '8080' ) {
 	define("URL_SITE",     "http://localhost:8080/loteria/"); // Local amnistia 2

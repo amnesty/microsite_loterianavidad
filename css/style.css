@@ -577,6 +577,7 @@ header.interior{
 .modulo-home .box-text{
 	height: 100%;
 	text-align: left;
+	padding-left: 105px;
 }
 .modulo-home .box-text img{
 	max-width: 390px;
@@ -584,7 +585,6 @@ header.interior{
 	display: block;
 }
 .modulo-home .box-text .box{
-	padding-left: 105px;
 	margin-top: 20px;
 }
 .modulo-home .box-text p{
@@ -894,29 +894,49 @@ form.formulario-firma.row{
 /* ---------------------- */
 .modulo-colabora{
 	position: relative;
-	padding: 40px 0;
 }
-.modulo-colabora .box-sms{
+.modulo-colabora .box-content-sms{
+	padding: 40px 40px;
+}
+.modulo-colabora .box-content-sms .box-sms{
 	position: relative;
 	max-width: 650px;
 	width: 100%;
 	margin: auto;
-	padding: 20px;
+	padding: 20px 10px;
 	background-color: #cca562;
 	text-align: center;
 }
-.modulo-colabora .box-sms p{
+.modulo-colabora .box-content-sms .box-sms p{
 	font-size: 2.188em;
 	margin-bottom: 0;
 }
-.modulo-colabora .box-sms p sup{
+.modulo-colabora .box-content-sms .box-sms p sup{
 	font-size: 0.650em;
 }
-.modulo-colabora .box-sms h4{
+.modulo-colabora .box-content-sms .box-sms h4{
 	font-family: 'Archer-Semibold';
-	font-size: 4.125em;
+	font-size: 60px;
 	color: #ffffff;
 	text-shadow: 4px 4px 2px rgba(104, 104, 104, 1);
+}
+.modulo-colabora .box-content-campanas{
+	padding: 40px 0;
+	background: url(../images/imagen-seccion-sms.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.modulo-colabora .box-content-campanas .row{
+	height: 100%;
+}
+.modulo-colabora .box-content-campanas .box-text{
+	padding: 0 20px;
+}
+.modulo-colabora .box-content-campanas .box-text h2{
+	font-size: 34px;
+	line-height: 38px;
+	color: #ffffff;
 }
 .modulo-socio{
 	position: relative;
@@ -1063,6 +1083,32 @@ form.formulario-firma.row{
     background: red;
 }
 
+
+/* seguimos-pidiendo-justicia */
+.modulo-interior.seguimos-pidiendo-justicia h1{
+	font-style: italic;
+}
+.modulo-interior.seguimos-pidiendo-justicia p{
+	max-width: 1040px;
+	width: 100%;
+	margin: 0 auto 20px;
+	text-align: center;
+}
+.modulo-interior.seguimos-pidiendo-justicia .videos-campanas{
+	margin-top: 40px;
+}
+.modulo-interior.seguimos-pidiendo-justicia .youtubevideowrap{
+	width: 100%;
+}
+.modulo-interior.seguimos-pidiendo-justicia .videos-campanas .box-video{
+	padding-right: 10px;
+}
+.modulo-interior.seguimos-pidiendo-justicia .videos-campanas .box-video:last-child{
+	padding-left: 10px;
+	padding-right: 0;
+}
+
+
 /* gracias-firma */
 .gracias-firma{
 	padding-top: 70px;
@@ -1192,6 +1238,9 @@ footer a{
 }
 /* max-widht: 900px */
 @media only screen and (max-width: 900px) {
+	.modulo-colabora .box-content-sms .box-sms h4{
+		font-size: 44px;
+	}
 	.modulo-dona .bola img{
 		max-width: 240px;
 	}
@@ -1217,19 +1266,38 @@ footer a{
 	header {
     padding: 10px 20px;
 	}
-	h2, .modulo-interior h1,
-	.gracias-firma h4{
+	h2, 
+	.modulo-interior h1,
+	.gracias-firma h4,
+	.modulo-colabora .box-content-campanas .box-text h2{
 		font-size: 2.125em;
 		line-height: 1.118em;
 	}
-	.modulo-colabora .box-sms p{
+	.modulo-home .box-text {
+    	padding-left: 0;
+	}
+	.modulo-colabora .box-content-sms .box-sms p{
 		font-size: 1.875em;
 		line-height: 1.133em;
 	}
-	.modulo-colabora .box-sms h4{
-		font-size: 3.500em;
-		line-height: 1.071em;
+	.modulo-colabora .box-content-sms .box-sms h4{
 		margin: 10px 0;
+	}
+	.modulo-colabora .box-content-campanas {
+    	min-height: 350px;
+	}
+	/* seguimos-pidiendo-justicia */
+	.modulo-interior.seguimos-pidiendo-justicia .videos-campanas .box-video.col-sm-6{
+		-webkit-flex: 0 0 100%;
+		-ms-flex: 0 0 100%;
+		flex: 0 0 100%;
+		max-width: 100%;
+	}
+	.modulo-interior.seguimos-pidiendo-justicia .videos-campanas .box-video{
+		padding-right: 0;
+	}
+	.modulo-interior.seguimos-pidiendo-justicia .videos-campanas .box-video:last-child{
+		padding-left: 0;
 	}
 }
 /* max-widht: 700px */
@@ -1276,7 +1344,10 @@ footer a{
 	header .botones {
     display: none;
 	}
-	h2, .modulo-interior h1, .gracias-firma h4 {
+	h2, 
+	.modulo-interior h1, 
+	.gracias-firma h4, 
+	.modulo-colabora .box-content-campanas .box-text h2 {
     font-size: 1.750em;
     line-height: 1.143em;
 	}
@@ -1289,7 +1360,7 @@ footer a{
     margin-top: 0;
     top: 20px;
 	}
-	.modulo-colabora .box-sms h4 {
+	.modulo-colabora .box-content-sms .box-sms h4 {
     font-size: 3.00em;
 	}
 	.modulo-dona .box-content {
@@ -1309,11 +1380,11 @@ footer a{
 }
 /* max-widht: 400px */
 @media only screen and (max-width: 450px) {
-	.modulo-colabora .box-sms p {
+	.modulo-colabora .box-content-sms .box-sms p {
     font-size: 1.500em;
     line-height: 1.167em;
 	}
-	.modulo-colabora .box-sms h4 {
+	.modulo-colabora .box-content-sms .box-sms h4 {
     font-size: 2.40em;
 	}
 

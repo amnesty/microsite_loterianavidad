@@ -43,7 +43,8 @@ $(document).ready(function() {
 		e.preventDefault();
 		var shareurl = $(this).data('shareurl');
 		var texto = $(this).data('texto');
-		var long_tweet = 113;
+		//var long_tweet = 113;
+		var long_tweet = 220;
 		var texto2 = (texto.length > long_tweet) ? texto.slice(0, long_tweet) : texto;
 		texto2 += (texto.length > long_tweet) ? '...' : '';
 		texto2 = window.encodeURIComponent(texto2);
@@ -134,9 +135,10 @@ if (existeCookie('cookieAlert3')) {
 	if (is_novideo (param_video) ) {
 	    videoOnReady = "hideVideo";
 	}else {
-	    videoOnReady = "showVideo";
+	    videoOnReady = "hideVideo";
 	}
 }
+
 
 // FUNCION SENG GOOGLE EVENT
 function piwik_event(category, action, label) {

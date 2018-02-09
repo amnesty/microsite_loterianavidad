@@ -4,10 +4,10 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0" />
-	<title>Esta Navidad toca justicia – Amnistía Internacional</title>
-    <meta name="description" content="No te pierdas este emotivo anuncio de Navidad. Haz que se cumpla la ilusión de miles de personas.">
+	<title>Seguimos pidiendo justicia - Amnistía Internacional</title>
+    <meta name="description" content="Yo ya he firmado para pedir justicia y para que se cumpla la ilusión de miles de personas. ¡Firma ahora!">
 	<link rel="canonical" href="<?php echo URL_SITE; ?>" />
-    <link rel="image_src" href="<?php echo URL_SITE; ?>images/compartir-tw.png" />
+    <link rel="image_src" href="<?php echo URL_SITE; ?>images/COMPARTIR-TWT-WEB-fase2.png" />
     <link rel="icon" href="favicon.ico?v=3" type="image/x-icon" />
     <meta name="pinterest-rich-pin" content="false" />
     <meta name="pinterest" content="nopin" />
@@ -16,10 +16,10 @@
     <meta property="og:url" content="<?php echo URL_SITE; ?>" />
     <meta property="og:type" content="website" />
     <meta property="og:locale" content="es_ES" />
-    <meta property="og:title" content="Esta Navidad toca justicia – Amnistía Internacional" />
-    <meta property="og:description" content="No te pierdas este emotivo anuncio de Navidad. Haz que se cumpla la ilusión de miles de personas." />
-    <meta property="og:site_name" content="Esta Navidad toca justicia – Amnistía Internacional" />
-    <meta property="og:image" content="<?php echo URL_SITE; ?>images/compartir-fb.png" />
+    <meta property="og:title" content="Seguimos pidiendo justicia - Amnistía Internacional" />
+    <meta property="og:description" content="Yo ya he firmado para pedir justicia y para que se cumpla la ilusión de miles de personas. ¡Firma ahora!" />
+    <meta property="og:site_name" content="Seguimos pidiendo justicia" />
+    <meta property="og:image" content="<?php echo URL_SITE; ?>images/COMPARTIR-FB-WEB-fase2.png" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
 
@@ -28,12 +28,12 @@
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="@amnistiaespana">
     <meta name="twitter:creator" content="@amnistiaespana">
-    <meta name="twitter:title" content="Esta Navidad toca justicia – Amnistía Internacional" />
-    <meta name="twitter:description" content="No te pierdas este emotivo anuncio de Navidad. Haz que se cumpla la ilusión de miles de personas." />
-    <meta name="twitter:image" content="<?php echo URL_SITE; ?>images/compartir-tw.png" />
+    <meta name="twitter:title" content="Seguimos pidiendo justicia - Amnistía Internacional" />
+    <meta name="twitter:description" content="Yo ya he firmado para pedir justicia y para que se cumpla la ilusión de miles de personas. ¡Firma ahora!" />
+    <meta name="twitter:image" content="<?php echo URL_SITE; ?>images/COMPARTIR-TWT-WEB-fase2.png" />
     <meta name="twitter:image:width" content="1024" />
     <meta name="twitter:image:height" content="512" />
-    <meta name="twitter:image:alt" content="Esta Navidad toca justicia – Amnistía Internacional" />
+    <meta name="twitter:image:alt" content="Seguimos pidiendo justicia - Amnistía Internacional" />
     <!--Open Graph-->
 
     <!-- Owl Stylesheets -->
@@ -97,6 +97,7 @@ if($isMobile) {
     </div>
 
     <!-- Modal Video -->
+    <?php /*
     <div class="modal modal-video fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
       <div class="modal-dialog" role="document">
         <div class="modal-content">
@@ -113,6 +114,7 @@ if($isMobile) {
         </div>
       </div>
     </div>
+    */ ?>
 
     <!-- Modal Carta petición -->
     <?php include "includes/peticion.php";?>
@@ -125,11 +127,11 @@ if($isMobile) {
         <div class="rrss">
             <ul class="clearfix">
                 <li><a data-e_c="justiciapornavidad" data-e_a="home comp FB" data-e_l="home comp FB" data-shareurl="<?php echo URL_SITE . TRACK_FB_UTM; ?>" class="fa fa-facebook-official facebook-share send-piwik-event" href="#" title="Compartir en Facebook"></a></li>
-                <li><a data-e_c="justiciapornavidad" data-e_a="home comp TW" data-e_l="home comp TW" data-shareurl="<?php echo urlencode('https://goo.gl/MxgU6p') ; ?>" data-texto="Me ha encantado este anuncio de Navidad de @amnistiaespana. ¡Emocionante! #EstaNavidadToca" class="fa fa-twitter twitter-share send-piwik-event" title="Compartir en Twitter" href="#"></a></li>
+                <li><a data-e_c="justiciapornavidad" data-e_a="home comp TW" data-e_l="home comp TW" data-shareurl="<?php echo urlencode('https://goo.gl/MxgU6p') ; ?>" data-texto="Me ha encantado esta campaña de @amnistiaespana para pedir justicia. ¡Emocionante! #PedimosJusticia" class="fa fa-twitter twitter-share send-piwik-event" title="Compartir en Twitter" href="#"></a></li>
 <?php
 if($isMobile) {
 ?>
-                <li><a data-e_c="justiciapornavidad" data-e_a="home comp WH" data-e_l="home comp WH" class="fa fa-whatsapp send-piwik-event" title="Compartir en Whatsapp" data-enlace="<?php echo URL_SITE; ?>" data-action="share/whatsapp/share" href="whatsapp://send?text=<?=urlencode('Me ha encantado este anuncio de Navidad de Amnistia España. ¡Emocionante! #EstaNavidadToca https://goo.gl/uF4wXP')?>"></a></li>
+                <li><a data-e_c="justiciapornavidad" data-e_a="home comp WH" data-e_l="home comp WH" class="fa fa-whatsapp send-piwik-event" title="Compartir en Whatsapp" data-enlace="<?php echo URL_SITE; ?>" data-action="share/whatsapp/share" href="whatsapp://send?text=<?=urlencode('Yo ya he firmado esta campaña de Amnistía Internacional para pedir justicia y para que se cumpla la ilusión de miles de personas. ¡Firma ahora! https://goo.gl/uF4wXP')?>"></a></li>
 <?php
 }
 ?>
@@ -139,11 +141,11 @@ if($isMobile) {
 		<div class="container">
             <div class="box-text row center middle">
                 <div class="col-12">
-                    <h1><img src="images/logo-loteria.png" alt="Esta Navidad toca Justicia"></h1>
+                    <h1><img src="images/logo-loteria.png" alt="Seguimos pidiendo justicia - Amnistía Internacional"></h1>
 
                     <div class="box">
                         <p>Firma para hacer realidad la ilusión de miles de personas.</p>
-                        <a data-e_c="justiciapornavidad" data-e_a="home boton ver video" data-e_l="home boton ver video" id="myplay" href="#" title="play" data-toggle="modal" data-target="#videoModal" class="send-piwik-event"><img src="images/play-button.png" alt=""><span>Ver vídeo</span></a>
+                        <?php /* <a data-e_c="justiciapornavidad" data-e_a="home boton ver video" data-e_l="home boton ver video" id="myplay" href="#" title="play" data-toggle="modal" data-target="#videoModal" class="send-piwik-event"><img src="images/play-button.png" alt=""><span>Ver vídeo</span></a> */ ?>
                     </div>
 
                 </div>
@@ -240,14 +242,14 @@ if($isMobile) {
         <div class="container">
             <div class="row">
                 <div class="bola col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                    <img src="images/estrella.png" alt="Bola navidad">
+                    <!--<img src="images/estrella.png" alt="Bola navidad">-->
                 </div>
                 <div class="box-content col-xs-12 col-sm-12 col-md-6 col-lg-6">
                     <div class="box-content-text">
-                        <h2>Adorna esta Navidad de una forma diferente</h2>
+                        <h2>Decora tu casa de una forma diferente.</h2>
                         <p>Decora tu casa y a la vez colabora con el trabajo que hacemos por el derecho a la verdad, justicia y reparación de todas las personas.</p>
-                        <p><b>Haz un donativo y recibirás en tu casa esta estrella</b> en el idioma que escojas, para que la cuelgues en el árbol, en tu puerta o para regalarla a quien quieras. Así ayudarás a mantener viva la ilusión de miles de personas durante estas fechas.</p>
-                        <a data-e_c="justiciapornavidad" data-e_a="home boton haz donativo" data-e_l="home boton haz donativo" class="btn-principal send-piwik-event" target="_blank" href="https://crm.es.amnesty.org/haz-un-donativo-loteria/?origen=justiciapornavidad" title="Consigue el adorno">Consigue el adorno</a>
+                        <p><b>Haz un donativo y recibirás en tu casa esta estrella</b> en el idioma que escojas para colocarla junto a tus cuadros o fotos, o para regalarla a quien quieras. Un símbolo para mantener viva la ilusión de miles de personas durante todo el año.</p>
+                        <a data-e_c="justiciapornavidad" data-e_a="home boton haz donativo" data-e_l="home boton haz donativo" class="btn-principal send-piwik-event" target="_blank" href="https://crm.es.amnesty.org/haz-un-donativo-loteria/?origen=justiciapornavidad" title="Dona">Dona</a>
                     </div>
                 </div>
             </div>
@@ -257,12 +259,29 @@ if($isMobile) {
     <!-- Módulo colabora -->
     <section class="modulo-colabora">
         <div class="container">
-            <h2>Colabora con la campaña.</h2>
-            <div class="box-sms">
-                <p>Envía un SMS<sup>*</sup> con la palabra</p>
-                <h4>JUSTICIA al 28014</h4>
-                <p>para donar 1,20€.</p>
-            </div>
+            <div class="row">
+                 <div class="box-content-sms col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                    <h2>Colabora con la campaña.</h2>
+                    <div class="box-sms">
+                        <p>Envía un SMS<sup>*</sup> con la palabra</p>
+                        <h4>JUSTICIA al 28014</h4>
+                        <p>para donar 1,20€.</p>
+                    </div>
+                 </div>
+
+                 <div class="box-content-campanas col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                    <div class="row center bottom">
+                        <div class="col-12">
+                            <div class="box-text">
+                                <h2>Así pedimos justicia cada Navidad</h2>
+                                <a data-e_c="justiciapornavidad" data-e_a="home boton ver campaña" data-e_l="home boton ver campaña" class="btn-principal send-piwik-event" target="_blank" href="seguimos-pidiendo-justicia" title="Ver campaña">Ver campaña</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                 </div>
+
+            </div><!--/row -->
         </div>
     </section>
 
