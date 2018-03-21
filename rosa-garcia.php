@@ -92,7 +92,7 @@ $caso = 2;
 				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
 					<div class="box-text">
 						<p class="subtitle">“Me detuvieron en la calle a las 11 de la noche… Me llevaron a la Dirección General de Seguridad. Allí me recibió Billy El Niño a bofetadas, puñetazos, golpes… Violar, matar. Era una amenaza bastante común a las mujeres.”</p>
-                        <p>Rosa tiene previsto interponer una denuncia por tortura contra el antiguo miembro de la policía franquista Antonio González Pacheco, alias Billy el Niño. Y no será la primera en hacerlo. En 2013, la juez argentina María Servini dictó una orden de extradición para interrogar a Billy el Niño por su posible relación con otros casos de torturas. Pero el gobierno español está bloqueando la investigación.</p>
+                        <p>Rosa ha interpuesto una denuncia por tortura contra el antiguo miembro de la policía franquista Antonio González Pacheco, alias Billy el Niño. Y no será la primera en hacerlo. En 2013, la juez argentina María Servini dictó una orden de extradición para interrogar a Billy el Niño por su posible relación con otros casos de torturas. Pero el gobierno español está bloqueando la investigación.</p>
                         <p>La ilusión de Rosa es que se haga justicia.</p>
                         <p>Su caso no es único. Muchas personas fueron detenidas injustamente y torturadas durante el franquismo por motivos políticos, entre otras razones. Todavía hoy mantienen viva la ilusión de conseguir justicia.</p>
                     </div><!-- /box-text -->
