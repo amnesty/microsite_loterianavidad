@@ -278,7 +278,7 @@ if($isMobile) {
                             </div>
                         </div>
                     </div>
-                    
+
                  </div>
 
             </div><!--/row -->
@@ -292,7 +292,7 @@ if($isMobile) {
             <div class="box-text">
                 <p>Hacer realidad la ilusión de conseguir justicia depende de personas como Antonio, Rosa María y Jaime. Y también de personas como tú. Ser socio/a es hacer más fuerte la defensa de las víctimas de graves violaciones de derechos humanos.</p>
                 <p>Sin ti, no hay Amnistía Internacional: <b>necesitamos tu apoyo.</b></p>
-                <a data-e_c="justiciapornavidad" data-e_a="home boton socio" data-e_l="home boton socio" class="btn-principal send-piwik-event" target="_blank" href="https://crm.es.amnesty.org/unete-a-amnistia-loteria/?origen=justiciapornavidad" title="Hazte socio/a">Hazte socio/a</a>
+                <a data-e_c="justiciapornavidad" data-e_a="home boton socio" data-e_l="home boton socio" class="btn-principal send-piwik-event" target="_blank" href="https://crm.es.amnesty.org/unete-a-amnistia/loteria/?origen=justiciapornavidad" title="Hazte socio/a">Hazte socio/a</a>
             </div>
         </div>
     </section>
