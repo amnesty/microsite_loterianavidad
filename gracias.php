@@ -141,7 +141,7 @@ if($_GET['error_form'] == 1){
                                             <div class="col-12">
                                                 <p><b>Sigue colaborando con la campaña</b> y, al mismo tiempo, decora tu casa o la de tus familiares, amigos o amigas con buenos deseos. Haz un donativo y te enviaremos este adorno para que lo coloques en casa o lo regales a quien tú quieras.</p>
 
-                                                <a data-e_c="justiciapornavidad" data-e_a="gracias boton haz donativo" data-e_l="gracias boton haz donativo" class="btn-principal send-piwik-event" target="_blank" href="https://crm.es.amnesty.org/haz-un-donativo-loteria/<?=$segmentacion_origen?>" title="Consigue el adorno">Consigue el adorno</a>
+                                                <a data-e_c="justiciapornavidad" data-e_a="gracias boton haz donativo" data-e_l="gracias boton haz donativo" class="btn-principal send-piwik-event" target="_blank" href="https://crm.es.amnesty.org/haz-un-donativo/loteria/<?=$segmentacion_origen?>" title="Consigue el adorno">Consigue el adorno</a>
                                             </div>
                                         </div>
                                     </div>

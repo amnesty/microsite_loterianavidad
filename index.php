@@ -249,7 +249,7 @@ if($isMobile) {
                         <h2>Decora tu casa de una forma diferente.</h2>
                         <p>Decora tu casa y a la vez colabora con el trabajo que hacemos por el derecho a la verdad, justicia y reparación de todas las personas.</p>
                         <p><b>Haz un donativo y recibirás en tu casa esta estrella</b> en el idioma que escojas para colocarla junto a tus cuadros o fotos, o para regalarla a quien quieras. Un símbolo para mantener viva la ilusión de miles de personas durante todo el año.</p>
-                        <a data-e_c="justiciapornavidad" data-e_a="home boton haz donativo" data-e_l="home boton haz donativo" class="btn-principal send-piwik-event" target="_blank" href="https://crm.es.amnesty.org/haz-un-donativo-loteria/?origen=justiciapornavidad" title="Dona">Dona</a>
+                        <a data-e_c="justiciapornavidad" data-e_a="home boton haz donativo" data-e_l="home boton haz donativo" class="btn-principal send-piwik-event" target="_blank" href="https://crm.es.amnesty.org/haz-un-donativo/loteria/?origen=justiciapornavidad" title="Dona">Dona</a>
                     </div>
                 </div>
             </div>
