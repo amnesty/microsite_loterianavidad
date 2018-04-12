@@ -157,7 +157,7 @@ if($_GET['error_form'] == 1){
                                 <div class="box-text">
                                     <p><b>ÚNETE a Amnistía Internacional para apoyar la defensa de los derechos humanos todos los días.</b></p>
                                     <p>Somos independientes porque no aceptamos subvenciones de gobiernos ni donaciones de partidos políticos. La independencia nos hace libres para defender los derechos humanos en cualquier lugar.</p>
-                                    <a data-e_c="justiciapornavidad" data-e_a="gracias boton socio" data-e_l="gracias boton socio" class="btn-principal send-piwik-event" href="https://crm.es.amnesty.org/unete-a-amnistia-loteria/<?=$segmentacion_origen?>" target="_blank" title="Únete">Únete</a>
+                                    <a data-e_c="justiciapornavidad" data-e_a="gracias boton socio" data-e_l="gracias boton socio" class="btn-principal send-piwik-event" href="https://crm.es.amnesty.org/unete-a-amnistia/loteria/<?=$segmentacion_origen?>" target="_blank" title="Únete">Únete</a>
                                 </div>
                             </div>
                         </section>
