@@ -58,6 +58,8 @@
 
     <!-- jQuery 1.12.4 -->
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+		<!--<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>-->
     <!-- tether.min Obligatorio para BS tooltip -->
     <script type="text/javascript" src="js/tether.min.js"></script>
     <!-- Bootstrap v4.0.0 -->

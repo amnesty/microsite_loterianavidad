@@ -6,6 +6,9 @@ Se cambió: where accion = 'justiciapornavidad' por: where accion LIKE 'justicia
 porque tendremos la segementación por casos por quién firman
 */
 
+?>
+		<script type="text/javascript" src="js/politica.js"></script>
+<?php
 // Origenes
 $origen='';
 if ( isset($_GET['utm_content']) || isset($_GET['pk_campaign']) ){
@@ -196,12 +199,17 @@ $progress_percent = (($num_firmas_bd_bak+$num_firmas) / $num_firmas_total)*100;
                   <div class="box-check">
                       <button id="btnEnviar" type="submit" class="btn-formulario">Envía tu firma</button>
                       <button id="btnEnviando" type="button" class="btn-formulario" style="display:none;">Enviando...</button>
-
                       <!--<p>Al participar aceptas la <a href="https://www.es.amnesty.org/politica-de-privacidad/" title="Política de Privacidad." target="_blank">Política de Privacidad.</a></p>-->
+                  </div>
+                  <div class="form-check clearfix" id="check_privacidad" style="display: none;">
+                    <label class="form-check-label">
+                      <input type="checkbox" checked="false" class="form-check-input" name="politica">
+                      <span>Deseo más información de Amnistía Internacional.</span>
+                    </label>
                   </div>
                   <div class="form-check clearfix">
                     <label class="form-check-label">
-                      <input type="checkbox" checked="true" class="form-check-input" name="politica">
+											<input type="checkbox" checked="false" class="form-check-input" name="politica">
                       <span>Deseo más información de Amnistía Internacional. Al participar aceptas la <a href="https://www.es.amnesty.org/politica-de-privacidad/" title="Política de Privacidad." target="_blank">Política de Privacidad.</a></span>
                     </label>
                   </div>
