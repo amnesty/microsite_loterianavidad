@@ -40,7 +40,7 @@ if( $_POST['guardar_form'] ) {
 	// Política
 	if($politika == 'on') {
 		$masinfo = 1;
-			$no_fundraising = 0;
+		$no_fundraising = 0;
 	}
 	else {
 		$masinfo = 0;
@@ -147,28 +147,31 @@ if( $_POST['guardar_form'] ) {
 
 			// Conexión con la API
 
-			//$token = get_token();
-			$product_id = get_product_by_productcode("$segmentacion")[0]["id"];
-			$member_id = get_member_by_email($email)[0]["id"];
+			if ($no_fundraising == 0)
+			{
+					//$token = get_token();
+					$product_id = get_product_by_productcode("$segmentacion")[0]["id"];
+					$member_id = get_member_by_email($email)[0]["id"];
 
-			// si no existe el member, lo creamos internamente
-			if(!isset($member_id)) {
-				$member = post_member_ai($email, $nombre, $apellidos, $telefono, $pais_siglas, $pais_nombre);
-				$member_id = $member['id'];
-				//insertamos el member en la plaforma de envio de correos
-				post_member_experian($member_id, $nombre, $apellidos, $email, $telefono, $pais_siglas, $pais_nombre);
-			}
-			// vemos si existe la purchase internamente
-			$purchase = get_purchase_by_member_product($product_id, $member_id);
+					// si no existe el member, lo creamos internamente
+					if(!isset($member_id)) {
+						$member = post_member_ai($email, $nombre, $apellidos, $telefono, $pais_siglas, $pais_nombre);
+						$member_id = $member['id'];
+						//insertamos el member en la plaforma de envio de correos
+						post_member_experian($member_id, $nombre, $apellidos, $email, $telefono, $pais_siglas, $pais_nombre);
+					}
+					// vemos si existe la purchase internamente
+					$purchase = get_purchase_by_member_product($product_id, $member_id);
 
-			// si no existe la purchase, la creamos en experian, junto con el member (crear o actualizar)
-			if($purchase["count"] == 0) {
-				$purchase = post_purchase_ai($member_id, $product_id);
-				$purchase_id = $purchase["id"];
-				post_member_purchase_experian($purchase_id, $product_id, $member_id, $email);
-			}
-			else {
-				$purchase_id = $purchase["results"][0]["id"];
+					// si no existe la purchase, la creamos en experian, junto con el member (crear o actualizar)
+					if($purchase["count"] == 0) {
+						$purchase = post_purchase_ai($member_id, $product_id);
+						$purchase_id = $purchase["id"];
+						post_member_purchase_experian($purchase_id, $product_id, $member_id, $email);
+					}
+					else {
+						$purchase_id = $purchase["results"][0]["id"];
+					}
 			}
 
 		}
