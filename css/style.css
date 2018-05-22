@@ -732,10 +732,19 @@ form.formulario-firma.row{
 .formulario-firma .form-check span a:hover {
   color: #111010;
 }
-.formulario-firma .form-check-input {
-  margin-top: 2px;
+.form-check-input {
+  margin-top: -2px;
   width: 16px;
   height: 16px;
+  position: relative;
+  display: inline-block;
+  border: 2px solid #292 !important;
+  color: #292 !important;
+  border-radius: .25em;
+  width: 1.6em;
+  height: 1.6em;
+  float: left;
+  margin-right: .5em;
 }
 .formulario-firma .form-check {
 	margin-bottom: 0;
@@ -1266,7 +1275,7 @@ footer a{
 	header {
     padding: 10px 20px;
 	}
-	h2, 
+	h2,
 	.modulo-interior h1,
 	.gracias-firma h4,
 	.modulo-colabora .box-content-campanas .box-text h2{
@@ -1344,9 +1353,9 @@ footer a{
 	header .botones {
     display: none;
 	}
-	h2, 
-	.modulo-interior h1, 
-	.gracias-firma h4, 
+	h2,
+	.modulo-interior h1,
+	.gracias-firma h4,
 	.modulo-colabora .box-content-campanas .box-text h2 {
     font-size: 1.750em;
     line-height: 1.143em;
@@ -1423,3 +1432,15 @@ footer a{
 	    margin-right: 10px;
 	}
 }
+/*
+input[type="checkbox"] {
+  position: relative;
+  display: inline-block;
+  border: 2px solid #292;
+  color: #292;
+  border-radius: .25em;
+  width: 1.6em;
+  height: 1.6em;
+  float: left;
+  margin-right: .5em;
+}*/

@@ -40,9 +40,11 @@ if( $_POST['guardar_form'] ) {
 	// Política
 	if($politika == 'on') {
 		$masinfo = 1;
+			$no_fundraising = 0;
 	}
 	else {
 		$masinfo = 0;
+		$no_fundraising = 1;
 	}
 
 	try {
