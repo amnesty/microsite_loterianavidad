@@ -67,7 +67,7 @@ if( $_POST['guardar_form'] ) {
 
 		// 0 = interesado, 1 = socio
 		$estado = 'interesado_a';
-		if ($essocio == 1)
+		if ($socio == 1)
 		{
 				$estado = 'socio_a';
 		}
@@ -154,8 +154,7 @@ if( $_POST['guardar_form'] ) {
 
 			// Conexión con la API
 
-			if ($no_fundraising == 0)
-			{
+			if ($no_fundraising == 0){
 					//$token = get_token();
 					$product_id = get_product_by_productcode("$segmentacion")[0]["id"];
 					$member_id = get_member_by_email($email)[0]["id"];
