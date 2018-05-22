@@ -65,6 +65,13 @@ if( $_POST['guardar_form'] ) {
 		//nuev@s interesad@s
 		$socio = es_interesado($email);
 
+		// 0 = interesado, 1 = socio
+		$estado = 'interesado_a';
+		if ($essocio == 1)
+		{
+				$estado = 'socio_a';
+		}
+
 		if(!isset($existe)) {
 
 			// fichero texto
@@ -155,10 +162,10 @@ if( $_POST['guardar_form'] ) {
 
 					// si no existe el member, lo creamos internamente
 					if(!isset($member_id)) {
-						$member = post_member_ai($email, $nombre, $apellidos, $telefono, $pais_siglas, $pais_nombre);
+						$member = post_member_ai($email, $nombre, $apellidos, $telefono, $pais_siglas, $pais_nombre, $estado, $no_fundraising);
 						$member_id = $member['id'];
 						//insertamos el member en la plaforma de envio de correos
-						post_member_experian($member_id, $nombre, $apellidos, $email, $telefono, $pais_siglas, $pais_nombre);
+						post_member_experian($member_id, $nombre, $apellidos, $email, $telefono, $pais_siglas, $pais_nombre, $estado, $no_fundraising);
 					}
 					// vemos si existe la purchase internamente
 					$purchase = get_purchase_by_member_product($product_id, $member_id);
