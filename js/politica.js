@@ -12,11 +12,15 @@ $(document).ready(function() {
                        //$("#resultado").html("Procesando, espere por favor...");
                },
                success:  function (response) {
-                       if (response.member_id == null)
+                       if ((response.id == null) || (response.no_fundraising == 1))
                        {
                           $("input[name=politica]").prop('checked',false);
                           $('#check_privacidad').show();
+                       }else {
+                          $("input[name=politica]").prop('checked',true);
+                          $('#check_privacidad').hide();
                        }
+
                }
         });
    }
