@@ -164,7 +164,7 @@ if( $_POST['guardar_form'] ) {
 						$member = post_member_ai($email, $nombre, $apellidos, $telefono, $pais_siglas, $pais_nombre, $estado, $no_fundraising);
 						$member_id = $member['id'];
 						//insertamos el member en la plaforma de envio de correos
-						post_member_experian($member_id, $nombre, $apellidos, $email, $telefono, $pais_siglas, $pais_nombre, $estado, $no_fundraising);
+						post_member_experian($member_id, $nombre, $apellidos, $email, $telefono, $pais_siglas, $pais_nombre);
 					}
 					// vemos si existe la purchase internamente
 					$purchase = get_purchase_by_member_product($product_id, $member_id);
