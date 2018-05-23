@@ -227,7 +227,6 @@ $progress_percent = (($num_firmas_bd_bak+$num_firmas) / $num_firmas_total)*100;
 										      <!--<form class="ai-accion-firma__form" >-->
 										          <label class="ai-accion-firma__check bigger">
 										              <input type="checkbox" id="ai-accion-firma__masinfo_reminder" class="form-check-input"/>
-										              <span class="cr"><i class="cr-icon">✓</i></span>
 										              Quiero recibir acciones para cambiar el mundo
 										          </label>
 										      <!--</form>-->
