@@ -217,8 +217,7 @@ $progress_percent = (($num_firmas_bd_bak+$num_firmas) / $num_firmas_total)*100;
 									<!-- TEST POPUP -->
 									<!--<button id="btnTestEnviar" type="button">Button - Submit Envía tu firma</button>-->
 									<!--<a href="#test-popup" class="open-popup-link">Show inline popup</a>-->
-									<div id="test-popup" class="white-popup mfp-hide">
-										<div>
+									<div id="test-popup" class="modal-dialog mfp-hide white-popup mfp-hide" role="document">
 										  <div class="modal-content">
 										    <div class="modal-body">
 										      <p>Si quieres recibir otras acciones como esta e información adicional de Amnistía Internacional, recuerda marcar la casilla verde antes de enviar tu firma</p>
@@ -232,7 +231,6 @@ $progress_percent = (($num_firmas_bd_bak+$num_firmas) / $num_firmas_total)*100;
 										      <!--</form>-->
 										    </div>
 										  </div>
-										</div>
 									</div>
 									<!--END TEST POPUP -->
 
