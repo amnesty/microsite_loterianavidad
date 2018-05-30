@@ -164,6 +164,10 @@ if( $_POST['guardar_form'] ) {
 				$member_id = $member['id'];
 				//insertamos el member en la plaforma de envio de correos
 				post_member_experian($member_id, $nombre, $apellidos, $email, $telefono, $pais_siglas, $pais_nombre, $estado, $no_fundraising);
+			}else{
+				// Si existe actualizamos el campo no_fundraising siempre y cuando acepte recibir información (no_fundraising = 0)
+				put_member_ai($member_id, $email, $no_fundraising); // API interna
+				put_member_experian($members_id, $email, $no_fundraising); // API Experian
 			}
 			// vemos si existe la purchase internamente
 			$purchase = get_purchase_by_member_product($product_id, $member_id);
