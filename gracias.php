@@ -141,7 +141,7 @@ if($_GET['error_form'] == 1){
                                             <div class="col-12">
                                                 <p><b>Sigue colaborando con la campaña</b> y, al mismo tiempo, decora tu casa o la de tus familiares, amigos o amigas con buenos deseos. Haz un donativo y te enviaremos este adorno para que lo coloques en casa o lo regales a quien tú quieras.</p>
 
-                                                <a data-e_c="justiciapornavidad" data-e_a="gracias boton haz donativo" data-e_l="gracias boton haz donativo" class="btn-principal send-piwik-event" target="_blank" href="https://crm.es.amnesty.org/haz-un-donativo-loteria/<?=$segmentacion_origen?>" title="Consigue el adorno">Consigue el adorno</a>
+                                                <a data-e_c="justiciapornavidad" data-e_a="gracias boton haz donativo" data-e_l="gracias boton haz donativo" class="btn-principal send-piwik-event" target="_blank" href="https://crm.es.amnesty.org/haz-un-donativo/loteria/<?=$segmentacion_origen?>" title="Consigue el adorno">Consigue el adorno</a>
                                             </div>
                                         </div>
                                     </div>
@@ -157,7 +157,7 @@ if($_GET['error_form'] == 1){
                                 <div class="box-text">
                                     <p><b>ÚNETE a Amnistía Internacional para apoyar la defensa de los derechos humanos todos los días.</b></p>
                                     <p>Somos independientes porque no aceptamos subvenciones de gobiernos ni donaciones de partidos políticos. La independencia nos hace libres para defender los derechos humanos en cualquier lugar.</p>
-                                    <a data-e_c="justiciapornavidad" data-e_a="gracias boton socio" data-e_l="gracias boton socio" class="btn-principal send-piwik-event" href="https://crm.es.amnesty.org/unete-a-amnistia-loteria/<?=$segmentacion_origen?>" target="_blank" title="Únete">Únete</a>
+                                    <a data-e_c="justiciapornavidad" data-e_a="gracias boton socio" data-e_l="gracias boton socio" class="btn-principal send-piwik-event" href="https://crm.es.amnesty.org/unete-a-amnistia/loteria/<?=$segmentacion_origen?>" target="_blank" title="Únete">Únete</a>
                                 </div>
                             </div>
                         </section>
@@ -173,7 +173,7 @@ if($_GET['error_form'] == 1){
 
     <footer class="clearfix">
       <div class="container">
-        <p class="title">Amnistía Internacional 2017</p>
+        <p class="title">Amnistía Internacional <?php echo date("Y"); ?></p>
         <p>*Coste 1,2 euros (donación integra para la ONG). Servicio de SMS para recaudación de fondos en campaña de tipo solidario operado por Altiria TIC, <a href="http://www.altiria.com" target="_blank">www.altiria.com</a>, y la Asociación Española de Fundraising, <a href="http://www.aefundraising.org" target="_blank">www.aefundraising.org</a>, nº. atn. clte. 902 00 28 98, apdo. correos 36059 –28080 Madrid.<br/> Colaboran Movistar, Vodafone, Orange, Yoigo, Euskaltel y Telecable.<br/> Más información sobre el uso de los datos en <a href="https://www.es.amnesty.org/politica-de-privacidad" target="_blank">https://www.es.amnesty.org/politica-de-privacidad</a></p>
       </div>
     </footer>

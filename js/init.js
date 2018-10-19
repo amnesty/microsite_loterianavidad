@@ -34,7 +34,7 @@ $(document).ready(function() {
 			767:{
 				items:2
 			}
-		}		
+		}
 	});
 
 
@@ -54,7 +54,7 @@ $(document).ready(function() {
 	$('.facebook-share').click(function(e){
 		e.preventDefault();
 		var shareurl = $(this).data('shareurl');
-		shareurl = window.encodeURIComponent(shareurl);		
+		shareurl = window.encodeURIComponent(shareurl);
 		window.open('https://www.facebook.com/sharer/sharer.php?u=' + shareurl +'' , 'ventana-facebook', "toolbar=0, status=0, width=650, height=450");
 
 	});
@@ -171,7 +171,7 @@ function onYouTubeIframeAPIReady() {
 }
 
 function onPlayerStateChange(event) {
-	if (event.data == YT.PlayerState.ENDED) {		
+	if (event.data == YT.PlayerState.ENDED) {
 		$('#videoModal').modal('hide');
 	}
 }
@@ -346,14 +346,57 @@ function validarFormFirma(f) {
 		error = 1;
 	}
 
+  $('.open-popup-link').magnificPopup({
+    type:'inline',
+    midClick: true // Allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source in href.
+  });
+
 	if(error == 1){
 		//MOSTRAR LOS ERRORES
 		return false;
 	}else{
 
+    var check = $("#check_reminder");
+    var check_reminder_modal = $('#ai-accion-firma__masinfo_reminder');
+
+    if(!check.prop("checked") && check_reminder_modal.length > 0 && check_reminder_modal.data("shown") != 1) { // in case that exist an reminder_modal div
+            $.magnificPopup.open({
+                items: {
+                    src: '#test-popup'
+
+                },
+                removalDelay: 50,
+                callbacks: {
+                  open: function() {
+                    var popup = this;
+                    var input = popup.currItem.inlineElement.find("input");
+                    var check = $("#ai-accion-firma__masinfo");
+                    input.prop("checked", false);
+                    check.prop("checked", false);
+                    $('#test-popup').data("shown", 1);
+                    _paq.push(["trackEvent", "popup_check", "mostrado"]);
+
+                    input.change(function(){
+                        var check = $("#ai-accion-firma__masinfo");
+                        check.prop("checked", true);
+                        $("#check_reminder").prop("checked", true);
+                        document.formFirma.submit();
+                    });
+                  },
+                  beforeClose: function(){
+                        document.formFirma.submit();
+                  }
+                },
+                midClick: true
+            });
+            event.stopImmediatePropagation();
+            return false;
+    }
+
 		$('#btnEnviar').css('display', 'none');
 		$('#btnEnviando').css('display', 'block');
-
+    //$('#formFirma').submit();
+    document.formFirma.submit();
 		return true;
 	}
 }

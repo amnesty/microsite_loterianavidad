@@ -6,6 +6,11 @@ Se cambió: where accion = 'justiciapornavidad' por: where accion LIKE 'justicia
 porque tendremos la segementación por casos por quién firman
 */
 
+?>
+		<link rel="stylesheet" href="js/magnific-popup/dist/magnific-popup.css">
+		<script type="text/javascript" src="js/magnific-popup/dist/jquery.magnific-popup.js"></script>
+		<script type="text/javascript" src="js/politica.js"></script>
+<?php
 // Origenes
 $origen='';
 if ( isset($_GET['utm_content']) || isset($_GET['pk_campaign']) ){
@@ -59,7 +64,13 @@ $progress_percent = (($num_firmas_bd_bak+$num_firmas) / $num_firmas_total)*100;
               </div>
             </div>
 
-            <form style="display: visible" id="formFirma" class="formulario-firma row" action="includes/enviar_form.php" method="post" onsubmit="return validarFormFirma(document.forms['formFirma']);">
+            <form style="display: visible" id="formFirma" name="formFirma" class="formulario-firma row" action="includes/enviar_form.php" method="post" onsubmit="return validarFormFirma(document.forms['formFirma']);">
+
+									<div class="form-group">
+										<input type="text" class="form-control" name="email" placeholder="Email*">
+										<p class="error email">No has introducido este dato.</p>
+										<!--<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>-->
+									</div>
 
                   <div class="form-group">
                     <input type="text" class="form-control" name="nombre" placeholder="Nombre*">
@@ -69,12 +80,6 @@ $progress_percent = (($num_firmas_bd_bak+$num_firmas) / $num_firmas_total)*100;
                   <div class="form-group">
                     <input type="text" class="form-control" name="apellidos" placeholder="Apellidos*">
                     <p class="error apellidos">No has introducido este dato.</p>
-                  </div>
-
-                  <div class="form-group">
-                    <input type="text" class="form-control" name="email" placeholder="Email*">
-                    <p class="error email">No has introducido este dato.</p>
-                    <!--<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>-->
                   </div>
 
                   <div class="form-group">
@@ -194,17 +199,41 @@ $progress_percent = (($num_firmas_bd_bak+$num_firmas) / $num_firmas_total)*100;
 
 
                   <div class="box-check">
-                      <button id="btnEnviar" type="submit" class="btn-formulario">Envía tu firma</button>
+                      <button id="btnEnviar" type="button" class="btn-formulario" onclick="validarFormFirma(document.forms['formFirma']);">Envía tu firma</button>
                       <button id="btnEnviando" type="button" class="btn-formulario" style="display:none;">Enviando...</button>
-
                       <!--<p>Al participar aceptas la <a href="https://www.es.amnesty.org/politica-de-privacidad/" title="Política de Privacidad." target="_blank">Política de Privacidad.</a></p>-->
+                  </div>
+                  <div id="check_privacidad" style="display: none;">
+                    <label class="form-check-label">
+                      <input type="checkbox" id="check_reminder" checked="true" class="form-check-input" name="politica">
+                      <span>Deseo más información de Amnistía Internacional.</span>
+                    </label>
                   </div>
                   <div class="form-check clearfix">
                     <label class="form-check-label">
-                      <input type="checkbox" checked="true" class="form-check-input" name="politica">
-                      <span>Deseo más información de Amnistía Internacional. Al participar aceptas la <a href="https://www.es.amnesty.org/politica-de-privacidad/" title="Política de Privacidad." target="_blank">Política de Privacidad.</a></span>
+                      <span>Al participar aceptas la <a href="https://www.es.amnesty.org/politica-de-privacidad/" title="Política de Privacidad." target="_blank">Política de Privacidad.</a></span>
                     </label>
                   </div>
+									<!-- TEST POPUP -->
+									<!--<button id="btnTestEnviar" type="button">Button - Submit Envía tu firma</button>-->
+									<!--<a href="#test-popup" class="open-popup-link">Show inline popup</a>-->
+									<div id="test-popup" class="modal-dialog mfp-hide white-popup mfp-hide" role="document">
+										  <div class="modal-content">
+										    <div class="modal-body">
+										      <p>Si quieres recibir otras acciones como esta e información adicional de Amnistía Internacional, recuerda marcar la casilla verde antes de enviar tu firma</p>
+										    </div>
+										    <div class="modal-footer">
+										      <!--<form class="ai-accion-firma__form" >-->
+										          <label class="ai-accion-firma__check bigger">
+										              <input type="checkbox" id="ai-accion-firma__masinfo_reminder" class="form-check-input"/>
+										              Quiero recibir acciones para cambiar el mundo
+										          </label>
+										      <!--</form>-->
+										    </div>
+										  </div>
+									</div>
+									<!--END TEST POPUP -->
+
                   <input type="hidden" name="guardar_form" value="1">
                   <input type="hidden" name="origen" value="<?php echo $origen; ?>">
                   <input type="hidden" name="campanya" value="<?php echo $campaign; ?>">

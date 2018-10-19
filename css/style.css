@@ -732,10 +732,20 @@ form.formulario-firma.row{
 .formulario-firma .form-check span a:hover {
   color: #111010;
 }
-.formulario-firma .form-check-input {
-  margin-top: 2px;
+.form-check-input {
+  margin-top: -2px;
   width: 16px;
   height: 16px;
+  position: relative;
+  display: inline-block;
+  /*border: 2px solid #292 !important;*/
+  outline: 3px solid #292;
+  color: #292 !important;
+  border-radius: .25em;
+  width: 1.6em;
+  height: 1.6em;
+  float: left;
+  margin-right: .5em;
 }
 .formulario-firma .form-check {
 	margin-bottom: 0;
@@ -1266,7 +1276,7 @@ footer a{
 	header {
     padding: 10px 20px;
 	}
-	h2, 
+	h2,
 	.modulo-interior h1,
 	.gracias-firma h4,
 	.modulo-colabora .box-content-campanas .box-text h2{
@@ -1344,9 +1354,9 @@ footer a{
 	header .botones {
     display: none;
 	}
-	h2, 
-	.modulo-interior h1, 
-	.gracias-firma h4, 
+	h2,
+	.modulo-interior h1,
+	.gracias-firma h4,
 	.modulo-colabora .box-content-campanas .box-text h2 {
     font-size: 1.750em;
     line-height: 1.143em;
@@ -1422,4 +1432,81 @@ footer a{
 	header .botones {
 	    margin-right: 10px;
 	}
+}
+/*
+input[type="checkbox"] {
+  position: relative;
+  display: inline-block;
+  border: 2px solid #292;
+  color: #292;
+  border-radius: .25em;
+  width: 1.6em;
+  height: 1.6em;
+  float: left;
+  margin-right: .5em;
+}*/
+/*.ai-accion-firma__check {
+  margin-top: 0.7142857143rem;
+  font-size: .8rem;
+  display: block;
+}
+
+.ai-accion-firma__check .cr {
+  display: none;
+}
+
+.ai-accion-firma__check.bigger {
+  margin-top: 0.7142857143rem;
+  font-size: 1rem;
+  font-weight: normal;
+  text-align: left;
+}
+
+.ai-accion-firma__check.bigger .cr {
+  position: relative;
+  display: inline-block;
+  border: 2px solid #292;
+  color: #292;
+  border-radius: .25em;
+  width: 1.6em;
+  height: 1.6em;
+  float: left;
+  margin-right: .5em;
+}
+
+.ai-accion-firma__check.bigger .cr .cr-icon {
+  position: absolute;
+  font-size: 1.4em;
+  line-height: 0;
+  top: 55%;
+  left: 0%;
+}
+
+.ai-accion-firma__check.bigger [type="checkbox"] {
+  display: none;
+}
+
+.ai-accion-firma__check.bigger [type="checkbox"] + .cr > .cr-icon {
+  opacity: 0;
+}
+
+.ai-accion-firma__check.bigger [type="checkbox"]:checked + .cr > .cr-icon {
+  opacity: 1;
+}
+
+.ai-accion-firma__check.bigger [type="checkbox"]:disabled + .cr {
+  opacity: .5;
+}*/
+.modal-dialog{
+  border-radius: .25em;
+}
+.white-popup{
+  max-width: 768px !important;
+}
+.modal-content{
+  border: 0px;
+}
+.ai-accion-firma__check{
+  display: flex;
+  margin-left: 7%;
 }

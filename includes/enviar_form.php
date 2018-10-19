@@ -40,9 +40,11 @@ if( $_POST['guardar_form'] ) {
 	// Política
 	if($politika == 'on') {
 		$masinfo = 1;
+		$no_fundraising = "0";
 	}
 	else {
 		$masinfo = 0;
+		$no_fundraising = "1";
 	}
 
 	try {
@@ -62,6 +64,13 @@ if( $_POST['guardar_form'] ) {
 
 		//nuev@s interesad@s
 		$socio = es_interesado($email);
+
+		// 0 = interesado, 1 = socio
+		$estado = 'interesado_a';
+		if ($socio == 1)
+		{
+				$estado = 'socio_a';
+		}
 
 		if(!isset($existe)) {
 
@@ -151,10 +160,14 @@ if( $_POST['guardar_form'] ) {
 
 			// si no existe el member, lo creamos internamente
 			if(!isset($member_id)) {
-				$member = post_member_ai($email, $nombre, $apellidos, $telefono, $pais_siglas, $pais_nombre);
+				$member = post_member_ai($email, $nombre, $apellidos, $telefono, $pais_siglas, $pais_nombre, $estado, $no_fundraising);
 				$member_id = $member['id'];
 				//insertamos el member en la plaforma de envio de correos
-				post_member_experian($member_id, $nombre, $apellidos, $email, $telefono, $pais_siglas, $pais_nombre);
+				post_member_experian($member_id, $nombre, $apellidos, $email, $telefono, $pais_siglas, $pais_nombre, $estado, $no_fundraising);
+			}else{
+				// Si existe actualizamos el campo no_fundraising siempre y cuando acepte recibir información (no_fundraising = 0)
+				put_member_ai($member_id, $email, $no_fundraising); // API interna
+				put_member_experian($member_id, $email, $no_fundraising); // API Experian
 			}
 			// vemos si existe la purchase internamente
 			$purchase = get_purchase_by_member_product($product_id, $member_id);
@@ -168,7 +181,6 @@ if( $_POST['guardar_form'] ) {
 			else {
 				$purchase_id = $purchase["results"][0]["id"];
 			}
-
 		}
 		header("location: ../gracias?s=$socio&caso=$caso"); //Añadir &caso=$caso para mostrar en la página de gracias por quién ha firmado
 
