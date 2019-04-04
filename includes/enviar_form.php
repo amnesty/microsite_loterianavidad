@@ -185,7 +185,7 @@ if( $_POST['guardar_form'] ) {
 		// Política
 		if($politika != 'on') {
 			$socio = 3;
-		}
+		} 
 
 		header("location: ../gracias?s=$socio&caso=$caso"); //Añadir &caso=$caso para mostrar en la página de gracias por quién ha firmado
 
