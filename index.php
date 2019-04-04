@@ -55,6 +55,13 @@
     <!-- cli-style.css -->
     <link href="css/cli-style.css" rel="stylesheet">
 
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-5JHK4F4');</script>
+<!-- End Google Tag Manager -->
 
     <!-- jQuery 1.12.4 -->
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
@@ -91,8 +98,24 @@ if($isMobile) {
 	<!-- Tipografía Maven -->
     <link href="https://fonts.googleapis.com/css?family=Maven+Pro:400,700" rel="stylesheet">
 
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-129198217-1"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+
+gtag('config', 'UA-129198217-1', { 'optimize_id': 'GTM-WM7GM4Z'});
+</script>
+
 </head>
 <body>
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5JHK4F4"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
     <div class="KW_progressContainer">
         <div class="KW_progressBar">
         </div>
@@ -248,9 +271,7 @@ if($isMobile) {
                 </div>
                 <div class="box-content col-xs-12 col-sm-12 col-md-6 col-lg-6">
                     <div class="box-content-text">
-                        <h2>Decora tu casa de una forma diferente.</h2>
-                        <p>Decora tu casa y a la vez colabora con el trabajo que hacemos por el derecho a la verdad, justicia y reparación de todas las personas.</p>
-                        <p><b>Haz un donativo y recibirás en tu casa esta estrella</b> en el idioma que escojas para colocarla junto a tus cuadros o fotos, o para regalarla a quien quieras. Un símbolo para mantener viva la ilusión de miles de personas durante todo el año.</p>
+                        <p><b>Haz un donativo</b> y ayúdanos a seguir trabajando por el derecho a la verdad, la justicia y la reparación de las víctimas del franquismo y de la guerra civil, y de sus familias. Tu apoyo mantiene viva la ilusión de miles de personas de conseguirlo: este año puede pasar.</p>
                         <a data-e_c="justiciapornavidad" data-e_a="home boton haz donativo" data-e_l="home boton haz donativo" class="btn-principal send-piwik-event" target="_blank" href="https://crm.es.amnesty.org/haz-un-donativo/loteria/?origen=justiciapornavidad" title="Dona">Dona</a>
                     </div>
                 </div>
