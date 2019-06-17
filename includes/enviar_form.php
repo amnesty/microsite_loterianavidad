@@ -4,7 +4,7 @@
 
 Se añadió la segmentación por casos $segmentacion = $casos[$caso][1];
 */
-
+ini_set('error_log', '/var/www/seccion/logs/php_errors.log');
 if( $_POST['guardar_form'] ) {
 
 	// Config
@@ -46,14 +46,14 @@ if( $_POST['guardar_form'] ) {
 		$masinfo = 0;
 		$no_fundraising = "1";
 	}
-
+	
 	try {
-
-		// País
-		//$query_pais = "SELECT nombre FROM paises WHERE id_mp=".$pais_id;
 		$query_pais = "SELECT ISO_Country_es AS nombre, IdWeb AS siglas FROM correos.countries WHERE IdMailSolutions=".$pais_id;
 		$result = mysqli_query( $id_connect, $query_pais ); //or die( 'Error: ' . mysqli_connect_errno() );
 		$pais = $result->fetch_array(MYSQLI_ASSOC);
+	
+		// País
+		//$query_pais = "SELECT nombre FROM paises WHERE id_mp=".$pais_id;
 		$pais_nombre = $pais["nombre"];
 		$pais_siglas = $pais["siglas"];
 

@@ -1,7 +1,7 @@
 # Hbilita el módulo de Reescritura
 RewriteEngine On
 AddDefaultCharset UTF-8
-php_value default_charset UTF-8
+#php_value default_charset UTF-8
 
 
 # Server Local estrés
