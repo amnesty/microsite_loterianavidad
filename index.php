@@ -321,7 +321,7 @@ if($isMobile) {
     </section>
 
     <!-- Footer -->
-    <?php include "includes/footer.php";?>
+    <?php include "includes/footer-home.php";?>
 
     <!-- Boton Firma -->
     <a data-e_c="justiciapornavidad" data-e_a="home boton footer firma" data-e_l="home boton footer firma" href="#firma" title="Firma" class="boton-fijo btns btn-firma send-piwik-event">Firma</a>
