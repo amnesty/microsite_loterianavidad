@@ -134,11 +134,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     <div class="rrss">
                         <ul class="clearfix">
                             <li><a data-e_c="justiciapornavidad" data-e_a="<?=$casos[$caso][2]?> comp FB" data-e_l="<?=$casos[$caso][2]?> comp FB" data-shareurl="<?php echo URL_SITE . 'antonio-narvaez' . TRACK_FB_UTM ; ?>" class="fa fa-facebook facebook-share send-piwik-event" href="#" title="Compartir en Facebook"></a></li>                            
-                            <li><a data-e_c="justiciapornavidad" data-e_a="<?=$casos[$caso][2]?> comp TW" data-e_l="<?=$casos[$caso][2]?> comp TW" data-shareurl="<?php echo urlencode('https://goo.gl/ocmNEn'); ?>" data-texto="Acabo de firmar para que Antonio cumpla su ilusión de conseguir justicia #PedimosJusticia" class="fa fa-twitter twitter-share send-piwik-event" title="Compartir en Twitter" href="#"></a></li>
+                            <li><a data-e_c="justiciapornavidad" data-e_a="<?=$casos[$caso][2]?> comp TW" data-e_l="<?=$casos[$caso][2]?> comp TW" data-shareurl="<?php echo urlencode('http://amn.st/60031ZBHZ'); ?>" data-texto="Acabo de firmar para que Antonio cumpla su ilusión de conseguir justicia #PedimosJusticia" class="fa fa-twitter twitter-share send-piwik-event" title="Compartir en Twitter" href="#"></a></li>
 <?php
 if($isMobile) {
 ?>
-                            <li><a data-e_c="justiciapornavidad" data-e_a="<?=$casos[$caso][2]?> comp WH" data-e_l="<?=$casos[$caso][2]?> comp WH" class="fa fa-whatsapp send-piwik-event" title="Compartir en Whatsapp" data-href="<?php echo URL_SITE; ?>antonio-narvaez" data-action="share/whatsapp/share" href="whatsapp://send?text=<?=urlencode('Acabo de firmar para que Antonio cumpla su ilusión de conseguir justicia #PedimosJusticia https://goo.gl/Cvfrbu')?>"></a></li>
+                            <li><a data-e_c="justiciapornavidad" data-e_a="<?=$casos[$caso][2]?> comp WH" data-e_l="<?=$casos[$caso][2]?> comp WH" class="fa fa-whatsapp send-piwik-event" title="Compartir en Whatsapp" data-href="<?php echo URL_SITE; ?>antonio-narvaez" data-action="share/whatsapp/share" href="whatsapp://send?text=<?=urlencode('Acabo de firmar para que Antonio cumpla su ilusión de conseguir justicia #PedimosJusticia http://amn.st/60071ZBHx')?>"></a></li>
 <?php
 }
 ?>

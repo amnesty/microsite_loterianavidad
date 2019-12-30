@@ -50,9 +50,9 @@ define ("NUM_FIRMAS_TOTAL", "620000");
 
 
 //Trackeado de enlaces con UTM de Google Analytics
-define ("TRACK_FB_UTM", "?utm_source=facebook&utm_campaign=comp&utm_medium=social_com&utm_term=Killings_disappearances&utm_content=Web_petition-justicia2017-facebook");
-define ("TRACK_TW_UTM", "?utm_source=twitter&utm_campaign=comp&utm_medium=social_com&utm_term=Killings_disappearances&utm_content=Web_petition-justicia2017-twitter");
-define ("TRACK_WH_UTM", "?utm_source=whatsapp&utm_campaign=comp&utm_medium=social_com&utm_term=Killings_disappearances&utm_content=Web_petition-justicia2017-whatsapp");
+define ("TRACK_FB_UTM", "?utm_source=facebook&utm_campaign=comp_justiciapornavidad&utm_medium=social_com&utm_content=Web_petition-justiciapornavidad-facebook");
+define ("TRACK_TW_UTM", "?utm_source=twitter&utm_campaign=comp_justiciapornavidad&utm_medium=social_com&utm_content=Web_petition-justiciapornavidad-twitter");
+define ("TRACK_WH_UTM", "?utm_source=whatsapp&utm_campaign=comp_justiciapornavidad&utm_medium=social_com&utm_content=Web_petition-justiciapornavidad-whatsapp");
 
 
 /***********************

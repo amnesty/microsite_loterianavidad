@@ -133,11 +133,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     <div class="rrss">
                         <ul class="clearfix">
                             <li><a data-e_c="justiciapornavidad" data-e_a="<?=$casos[$caso][2]?> comp FB" data-e_l="<?=$casos[$caso][2]?> comp FB" data-shareurl="<?php echo URL_SITE . 'soledad-luque' . TRACK_FB_UTM ; ?>" class="fa fa-facebook facebook-share send-piwik-event" href="#" title="Compartir en Facebook"></a></li>
-                            <li><a data-e_c="justiciapornavidad" data-e_a="<?=$casos[$caso][2]?> comp TW" data-e_l="<?=$casos[$caso][2]?> comp TW" data-shareurl="<?php echo urlencode('https://goo.gl/EMGX8F'); ?>" data-texto="Ya he firmado para que Soledad cumpla su ilusión de conseguir justicia por lo que le ocurrió a su hermano #PedimosJusticia" class="fa fa-twitter twitter-share send-piwik-event" title="Compartir en Twitter" href="#"></a></li>
+                            <li><a data-e_c="justiciapornavidad" data-e_a="<?=$casos[$caso][2]?> comp TW" data-e_l="<?=$casos[$caso][2]?> comp TW" data-shareurl="<?php echo urlencode('http://amn.st/60051ZBKL'); ?>" data-texto="Ya he firmado para que Soledad cumpla su ilusión de conseguir justicia por lo que le ocurrió a su hermano #PedimosJusticia" class="fa fa-twitter twitter-share send-piwik-event" title="Compartir en Twitter" href="#"></a></li>
 <?php
 if($isMobile) {
 ?>
-                            <li><a data-e_c="justiciapornavidad" data-e_a="<?=$casos[$caso][2]?> comp WH" data-e_l="<?=$casos[$caso][2]?> comp WH" class="fa fa-whatsapp send-piwik-event" title="Compartir en Whatsapp" data-href="<?php echo URL_SITE; ?>soledad-luque" data-action="share/whatsapp/share" href="whatsapp://send?text=<?=urlencode('Ya he firmado para que Soledad cumpla su ilusión de conseguir justicia por lo que le ocurrió a su hermano #PedimosJusticia https://goo.gl/EMGX8F')?>"></a></li>
+                            <li><a data-e_c="justiciapornavidad" data-e_a="<?=$casos[$caso][2]?> comp WH" data-e_l="<?=$casos[$caso][2]?> comp WH" class="fa fa-whatsapp send-piwik-event" title="Compartir en Whatsapp" data-href="<?php echo URL_SITE; ?>soledad-luque" data-action="share/whatsapp/share" href="whatsapp://send?text=<?=urlencode('Ya he firmado para que Soledad cumpla su ilusión de conseguir justicia por lo que le ocurrió a su hermano #PedimosJusticia http://amn.st/60071ZBzV')?>"></a></li>
 <?php
 }
 ?>

@@ -152,11 +152,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="rrss">
             <ul class="clearfix">
                 <li><a data-e_c="justiciapornavidad" data-e_a="home comp FB" data-e_l="home comp FB" data-shareurl="<?php echo URL_SITE . TRACK_FB_UTM; ?>" class="fa fa-facebook-official facebook-share send-piwik-event" href="#" title="Compartir en Facebook"></a></li>
-                <li><a data-e_c="justiciapornavidad" data-e_a="home comp TW" data-e_l="home comp TW" data-shareurl="<?php echo urlencode('https://goo.gl/MxgU6p') ; ?>" data-texto="Me ha encantado esta campaña de @amnistiaespana para pedir justicia. ¡Emocionante! #PedimosJusticia" class="fa fa-twitter twitter-share send-piwik-event" title="Compartir en Twitter" href="#"></a></li>
+                <li><a data-e_c="justiciapornavidad" data-e_a="home comp TW" data-e_l="home comp TW" data-shareurl="<?php echo urlencode('http://amn.st/60081ZB1i') ; ?>" data-texto="Me ha encantado esta campaña de @amnistiaespana para pedir justicia. ¡Emocionante! #PedimosJusticia" class="fa fa-twitter twitter-share send-piwik-event" title="Compartir en Twitter" href="#"></a></li>
 <?php
 if($isMobile) {
 ?>
-                <li><a data-e_c="justiciapornavidad" data-e_a="home comp WH" data-e_l="home comp WH" class="fa fa-whatsapp send-piwik-event" title="Compartir en Whatsapp" data-enlace="<?php echo URL_SITE; ?>" data-action="share/whatsapp/share" href="whatsapp://send?text=<?=urlencode('Yo ya he firmado esta campaña de Amnistía Internacional para pedir justicia y para que se cumpla la ilusión de miles de personas. ¡Firma ahora! https://goo.gl/uF4wXP')?>"></a></li>
+                <li><a data-e_c="justiciapornavidad" data-e_a="home comp WH" data-e_l="home comp WH" class="fa fa-whatsapp send-piwik-event" title="Compartir en Whatsapp" data-enlace="<?php echo URL_SITE; ?>" data-action="share/whatsapp/share" href="whatsapp://send?text=<?=urlencode('Yo ya he firmado esta campaña de Amnistía Internacional para pedir justicia y para que se cumpla la ilusión de miles de personas. ¡Firma ahora! http://amn.st/60081ZB12')?>"></a></li>
 <?php
 }
 ?>

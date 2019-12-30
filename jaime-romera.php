@@ -134,11 +134,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     <div class="rrss">
                         <ul class="clearfix">
                             <li><a data-e_c="justiciapornavidad" data-e_a="<?=$casos[$caso][2]?> comp FB" data-e_l="<?=$casos[$caso][2]?> comp FB" data-shareurl="<?php echo URL_SITE . 'jaime-romera' . TRACK_FB_UTM ; ?>" class="fa fa-facebook facebook-share send-piwik-event" href="#" title="Compartir en Facebook"></a></li>
-                            <li><a data-e_c="justiciapornavidad" data-e_a="<?=$casos[$caso][2]?> comp TW" data-e_l="<?=$casos[$caso][2]?> comp TW" data-shareurl="<?php echo urlencode('https://goo.gl/HJLhqK'); ?>" data-texto="Ya he firmado para que Jaime cumpla su ilusión de conseguir justicia y encontrar a su tío que estaría en una fosa común #PedimosJusticia" class="fa fa-twitter twitter-share send-piwik-event" title="Compartir en Twitter" href="#"></a></li>
+                            <li><a data-e_c="justiciapornavidad" data-e_a="<?=$casos[$caso][2]?> comp TW" data-e_l="<?=$casos[$caso][2]?> comp TW" data-shareurl="<?php echo urlencode('http://amn.st/60081ZBJ4'); ?>" data-texto="Ya he firmado para que Jaime cumpla su ilusión de conseguir justicia y encontrar a su tío que estaría en una fosa común #PedimosJusticia" class="fa fa-twitter twitter-share send-piwik-event" title="Compartir en Twitter" href="#"></a></li>
 <?php
 if($isMobile) {
 ?>
-                            <li><a data-e_c="justiciapornavidad" data-e_a="<?=$casos[$caso][2]?> comp WH" data-e_l="<?=$casos[$caso][2]?> comp WH" class="fa fa-whatsapp send-piwik-event" title="Compartir en Whatsapp" data-href="<?php echo URL_SITE; ?>jaime-romera" data-action="share/whatsapp/share" href="whatsapp://send?text=<?=urlencode('Ya he firmado para que Jaime cumpla su ilusión de conseguir justicia y encontrar a su tío que estaría en una fosa común #PedimosJusticia https://goo.gl/LFNHgG')?>"></a></li>
+                            <li><a data-e_c="justiciapornavidad" data-e_a="<?=$casos[$caso][2]?> comp WH" data-e_l="<?=$casos[$caso][2]?> comp WH" class="fa fa-whatsapp send-piwik-event" title="Compartir en Whatsapp" data-href="<?php echo URL_SITE; ?>jaime-romera" data-action="share/whatsapp/share" href="whatsapp://send?text=<?=urlencode('Ya he firmado para que Jaime cumpla su ilusión de conseguir justicia y encontrar a su tío que estaría en una fosa común #PedimosJusticia http://amn.st/60061ZBKM')?>"></a></li>
 <?php
 }
 ?>

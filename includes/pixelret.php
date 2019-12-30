@@ -57,7 +57,7 @@ if (isset($_COOKIE['cookieAlert3']) && $_COOKIE['cookieAlert3'] == 1) {
 	}
 	
 	//VIENE DE FACEBOOK
-    if($_SESSION['pk_campaign'] == 'anunfbk' || $_SESSION['utm_campaign'] == 'anunfbk' || $_SESSION['utm_source'] == 'FBPAGE' || $_SESSION['utm_source'] == 'fbpage') {
+    if($_SESSION['utm_medium'] == 'paidsocial' || $_SESSION['utm_source'] == 'FBPAGE' || $_SESSION['utm_source'] == 'fbpage') {
 ?>
 		<!-- Facebook Pixel Code para formularios 20/07/2017 -->
 	    <script>
