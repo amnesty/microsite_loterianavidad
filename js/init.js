@@ -113,7 +113,7 @@ $(document).ready(function() {
 	});
 
 	//EVENTOS GOOGLE ANALYTICS
-    $('.send-piwik-event').on('click', function(event) {
+/*    $('.send-piwik-event').on('click', function(event) {
     	if ( !$(this).hasClass( "disabled" )) {
 	        var category  = $(this).data("e_c");
 	        var action  = $(this).data("e_a");
@@ -123,7 +123,7 @@ $(document).ready(function() {
         }
 
     });
-
+*/
 
 });//.document ready
 
@@ -141,10 +141,10 @@ if (existeCookie('cookieAlert3')) {
 
 
 // FUNCION SENG GOOGLE EVENT
-function piwik_event(category, action, label) {
+/*function piwik_event(category, action, label) {
     _paq.push(['trackEvent', category, action, label]);
 }
-
+*/
 
 // Setup a callback for the YouTube api to attach video event handlers
 function onYouTubeIframeAPIReady() {
