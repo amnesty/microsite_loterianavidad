@@ -99,7 +99,7 @@ if($isMobile) {
     <link href="https://fonts.googleapis.com/css?family=Maven+Pro:400,700" rel="stylesheet">
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-129198217-1"></script>
+<!--<script async src="https://www.googletagmanager.com/gtag/js?id=UA-129198217-1"></script>
 <script>
 window.dataLayer = window.dataLayer || [];
 function gtag(){dataLayer.push(arguments);}
@@ -107,7 +107,7 @@ gtag('js', new Date());
 
 gtag('config', 'UA-129198217-1', { 'optimize_id': 'GTM-WM7GM4Z'});
 </script>
-
+-->
 </head>
 <body>
 
