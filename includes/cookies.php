@@ -377,12 +377,14 @@ label.cookie-consent__radio-label {
   display: none;
 }
 
+
 .cookie-consent__modal-header {
   padding: 0.75em 1.25em 0.25em;
   display: flex;
   align-items: center;
   justify-content: space-between;
   flex-shrink: 0;
+  position: inherit;
 }
 
 .cookie-consent__description {
@@ -753,6 +755,7 @@ catch(err) {
     }
     if (classList.length > 1) Util.removeClass(el, classList.slice(1).join(' '));
   };
+
 
   Util.toggleClass = function(el, className, bool) {
     if(bool) Util.addClass(el, className);
