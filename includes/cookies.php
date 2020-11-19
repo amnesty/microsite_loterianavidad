@@ -436,16 +436,6 @@ label.cookie-consent__radio-label {
   margin-bottom: 1em;
 }
 
-.cookie-consent__modal {
-  width: 100vw;
-  height: 100vh;
-  padding-bottom: 5em;
-}
-
-.cookie-consent__modal-header {
-  padding: 1.75em 1.25em 0.25em;
-}
-
 @media screen and (min-width: 768px) {
   .cookie-consent__modal-content {
     height: auto;
