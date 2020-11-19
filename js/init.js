@@ -92,10 +92,10 @@ $(document).ready(function() {
 	});
 
 	//AVISO COOKIES
-	cli_show_cookiebar({
+/*	cli_show_cookiebar({
 		settings: '{"animate_speed_hide":"500","animate_speed_show":"500","background":"#fff","border":"#cea153","border_on":true,"button_1_button_colour":"#cea153","button_1_button_hover":"#cea153","button_1_link_colour":"#fff","button_1_as_button":true,"button_2_button_colour":"#333","button_2_button_hover":"#292929","button_2_link_colour":"#cea153","button_2_as_button":false,"header_fix":false,"notify_animate_hide":true,"notify_animate_show":false,"notify_div_id":"#cookie-law-info-bar","notify_position_horizontal":"right","notify_position_vertical":"top","scroll_close":false,"scroll_close_reload":false,"showagain_tab":false,"showagain_background":"#fff","showagain_border":"#000","showagain_div_id":"#cookie-law-info-again","showagain_x_position":"100px","text":"#838383","show_once_yn":false,"show_once":"10000"}'
 	});
-
+*/
 	$('#videoModal').on('show.bs.modal', function (e) {
 		if(!isMobile) {
 			playVideo();
@@ -127,7 +127,7 @@ $(document).ready(function() {
 
 });//.document ready
 
-
+/*
 if (existeCookie('cookieAlert3')) {
 	videoOnReady = "hideVideo";
 }else {
@@ -138,7 +138,7 @@ if (existeCookie('cookieAlert3')) {
 	    videoOnReady = "hideVideo";
 	}
 }
-
+*/
 
 // FUNCION SENG GOOGLE EVENT
 /*function piwik_event(category, action, label) {
@@ -231,7 +231,7 @@ $(window).scroll(function(event) {
 	}
 
 	//CREAR COOKIE AL HACER SCROLL
-    if(!existeCookie('cookieAlert3')) {
+/*    if(!existeCookie('cookieAlert3')) {
         crearCookie('cookieAlert3', '1', 365, '.es.amnesty.org');
         crearCookie('cookieAlert3', '1', 365, ''); //localhost
     }
@@ -239,6 +239,7 @@ $(window).scroll(function(event) {
     jQuery('#cookie-law-info-bar').fadeOut();
 
 });
+*/
 
 function getParameterByName(name, url) {
     if (!url) {
