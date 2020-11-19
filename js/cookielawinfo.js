@@ -1,1 +1,1 @@
-//Va todo en cookies.php
+//va todo en cookies.php
