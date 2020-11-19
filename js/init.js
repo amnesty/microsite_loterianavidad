@@ -238,8 +238,9 @@ $(window).scroll(function(event) {
     //CERRAR AVISO COOKIES AL HACER SCROLL
     jQuery('#cookie-law-info-bar').fadeOut();
 
-});
 */
+});
+
 
 function getParameterByName(name, url) {
     if (!url) {
@@ -438,3 +439,4 @@ function callbackOwl(event) {
 	$('.owl-item .item.num-'+page+' a').addClass('enabled');
 	$('.owl-item .item.num-'+page+' a').attr('href', $('.owl-item .item.num-'+page).data('enlace'));
 }
+
