@@ -16,14 +16,14 @@
   overflow: auto;
   -webkit-overflow-scrolling: touch;
 
-  font-size: 1.125em;
+  font-size: .9em;
 }
 
 .cookie-consent__title {
   position: relative;
   margin-bottom: 0.5em;
 
-  font-size: 1em;
+  font-size: .9em;
   font-weight: 600;
   line-height: 1.4;
   text-transform: uppercase;
@@ -60,7 +60,7 @@
   appearance: none;
 
   color: black;
-  font-size: 1em;
+  font-size: .9em;
   font-weight: 600;
   text-transform: uppercase;
 
@@ -163,13 +163,13 @@
   width: 100%;
   margin-bottom: 0;
   font-weight: 600;
-  font-size: 1.25em;
+  font-size: 1em;
   color: black;
 }
 
 .cookie-consent__box p {
   width: 100%;
-  font-size: 1em;
+  font-size: .9em;
   margin-top: 1em;
   color: black;
 }
