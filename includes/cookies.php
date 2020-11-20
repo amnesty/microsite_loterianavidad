@@ -1111,8 +1111,12 @@ catch(err) {
     },
     setCookie: function(name, value, days) {
       var d = new Date;
+      domain='',
+      domains = ['.es.amnesty.org', '.amnistiacatalunya.org'];
+      if (domains.includes(cookieDomain))
+          domain = ";domain=" + cookieDomain;
       d.setTime(d.getTime() + 24*60*60*1000*days);
-      document.cookie = name + "=" + value + ";path=/;domain=.es.amnesty.org;expires=" + d.toGMTString() + ";SameSite=Lax";
+      document.cookie = name + "=" + value + domain + ";path=/;expires=" + d.toGMTString() + ";SameSite=Lax";
     },
     deleteCookie: function(name){ omCookieUtility.setCookie(name, '', -1); }
   };
