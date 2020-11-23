@@ -597,6 +597,8 @@ catch(err) {
 }
 
 (function() {
+   var cookieDomain = ".es.amnesty.org";
+
   // ** ONLOAD FUNCTION ** //
   document.addEventListener('DOMContentLoaded', function(){
     var panelButtons = document.querySelectorAll('[data-omcookie-panel-save]');
