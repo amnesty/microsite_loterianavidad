@@ -624,7 +624,9 @@ catch(err) {
       if (obsoleteCookie == "2") {
         omCookieUtility.setCookie('omCookieConsent', 'group-4.1,group-1.0,group-2.0,dismiss', 364);
       }
+      cookieDomain = '';
       omCookieUtility.deleteCookie('cookieAlert3');
+      cookieConsentData = omCookieUtility.getCookie('omCookieConsent');
     }
 
     //Enable stuff by Cookie
