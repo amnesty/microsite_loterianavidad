@@ -615,7 +615,9 @@ catch(err) {
 
     //Migrate previous system to new one
     var obsoleteCookie = omCookieUtility.getCookie('cookieAlert3');
-    if (obsoleteCookie){
+    var cookieConsentData = omCookieUtility.getCookie('omCookieConsent');
+
+    if (obsoleteCookie && cookieConsentData == null){
       if (obsoleteCookie == "1") {
         omCookieUtility.setCookie('omCookieConsent', 'group-4.1,group-1.1,group-2.1,dismiss', 364);
       }
@@ -626,7 +628,6 @@ catch(err) {
     }
 
     //Enable stuff by Cookie
-    var cookieConsentData = omCookieUtility.getCookie('omCookieConsent');
     if(cookieConsentData !== null && cookieConsentData.length > 0){
       //dont open the panel if we have the cookie
       openCookiePanel = false;
