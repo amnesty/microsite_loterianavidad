@@ -199,7 +199,6 @@ if($_GET['error_form'] == 1){
     <footer class="clearfix">
       <div class="container">
         <p class="title">Amnistía Internacional <?php echo date("Y"); ?></p>
-        <p>*Coste 1,2 euros (donación integra para la ONG). Servicio de SMS para recaudación de fondos en campaña de tipo solidario operado por Altiria TIC, <a href="http://www.altiria.com" target="_blank">www.altiria.com</a>, y la Asociación Española de Fundraising, <a href="http://www.aefundraising.org" target="_blank">www.aefundraising.org</a>, nº. atn. clte. 902 00 28 98, apdo. correos 36059 –28080 Madrid.<br/> Colaboran Movistar, Vodafone, Orange, Yoigo, Euskaltel y Telecable.<br/> Más información sobre el uso de los datos en <a href="https://www.es.amnesty.org/politica-de-privacidad" target="_blank">https://www.es.amnesty.org/politica-de-privacidad</a></p>
       </div>
     </footer>
 
