@@ -387,6 +387,8 @@ label.cookie-consent__radio-label {
   align-items: center;
   justify-content: space-between;
   flex-shrink: 0;
+  position: inherit;
+  background-color: #fff !important;
 }
 
 .cookie-consent__description {
