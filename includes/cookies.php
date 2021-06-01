@@ -1021,7 +1021,6 @@ catch(err) {
                 }
                 var cookieStatsUrls = JSON.parse(document.getElementById('cookiestats').innerHTML);
                 ajaxCookieStatsSendRequest(cookieStatsUrls.all);
-                _paq.push(['trackEvent', 'Aviso', 'Todas']);
             break;
             case 'save':
                 for (i = 0; i < groups.length; i++) {
@@ -1036,13 +1035,10 @@ catch(err) {
                 var cookieStatsUrls = JSON.parse(document.getElementById('cookiestats').innerHTML);
                 if(omGtmEvents.includes('cookie_analitica') && omGtmEvents.includes('cookie_comportamental')){
                   ajaxCookieStatsSendRequest(cookieStatsUrls.all);
-                  _paq.push(['trackEvent', 'Aviso', 'Todas']);
                 } else if(omGtmEvents.includes('cookie_analitica')){
                   ajaxCookieStatsSendRequest(cookieStatsUrls.analytics);
-                  _paq.push(['trackEvent', 'Aviso', 'Analitica']);
                 } else if(omGtmEvents.includes('cookie_comportamental')){
                   ajaxCookieStatsSendRequest(cookieStatsUrls.marketing);
-                  _paq.push(['trackEvent', 'Aviso', 'Marketin']);
                 }
             break;
             case 'min':
@@ -1060,7 +1056,6 @@ catch(err) {
                 }
                 var cookieStatsUrls = JSON.parse(document.getElementById('cookiestats').innerHTML);
                 ajaxCookieStatsSendRequest(cookieStatsUrls.reject);
-                _paq.push(['trackEvent', 'Aviso', 'Rechazo']);
             break;
         }
         //replace dismiss to the end of the cookie
