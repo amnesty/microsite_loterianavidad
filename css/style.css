@@ -657,10 +657,9 @@ header.interior{
 }
 .progress-wrap-firmas {
   background: #d4bd94;
-  margin: 20px 0;
+  margin: 0 auto 20px auto;
   overflow: hidden;
   position: relative;
-  margin: auto;
 }
 .progress-bar-firmas {
 	background: #ddd;
