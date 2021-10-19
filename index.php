@@ -323,9 +323,9 @@ if($isMobile) {
     <!-- Footer -->
     <?php include "includes/footer-home.php";?>
 
-    <!-- Boton Firma -->
+    <!-- Boton Firma - deshabilitado en el cierre
     <a data-e_c="justiciapornavidad" data-e_a="home boton footer firma" data-e_l="home boton footer firma" href="#firma" title="Firma" class="boton-fijo btns btn-firma send-piwik-event">Firma</a>
-
+-->
     <!-- cookies  -->
     <?php include "includes/cookies.php";?>
 

@@ -158,9 +158,9 @@ if($isMobile) {
     <!-- Footer -->
     <?php include "includes/footer.php";?>
 
-    <!-- Boton Firma -->
+    <!-- Boton Firma - deshabilitado en el cierre
     <a href="#firma" title="Firma" class="boton-fijo btns btn-firma">Firma</a>
-
+-->
     <!-- cookies  -->
     <?php include "includes/cookies.php";?>
 
