@@ -166,7 +166,7 @@ if($isMobile) {
 		<div class="container">
             <div class="box-text row center middle">
                 <div class="col-12">
-                    <h1 style="letter-spacing: -9999px;"><img src="images/logo-loteria.png" alt="Seguimos pidiendo justicia - Amnistía Internacional"><span>Seguimos pidiendo justicia</span></h1> 
+                    <h1 style="text-indent:-99999px;"><img src="images/logo-loteria.png" alt="Seguimos pidiendo justicia - Amnistía Internacional"><span>Seguimos pidiendo justicia</span></h1> 
 
                     <div class="box">
                         <p>Firma para hacer realidad la ilusión de miles de personas.</p>
