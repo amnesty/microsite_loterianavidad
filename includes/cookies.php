@@ -494,7 +494,7 @@ label.cookie-consent__radio-label {
   <!-- Intro -->
   <div class="cookie-consent__modal-content cookie-consent__modal-content--intro js-cookie-consent__intro" role="alertdialog">
     <header class="cookie-consent__modal-header">
-      <h1 class="cookie-consent__title">Esta web utiliza cookies</h1>
+      <h2 class="cookie-consent__title">Esta web utiliza cookies</h2>
     </header>
     <section class="cookie-consent__body" aria-label="Configuración inicial de cookies">
       <div class="cookie-consent__description">
@@ -512,7 +512,7 @@ label.cookie-consent__radio-label {
   <!-- Preferences -->
   <div class="cookie-consent__modal-content cookie-consent__modal-content--preferences js-cookie-consent__preferences" role="alertdialog">
     <header class="cookie-consent__modal-header">
-      <h1 class="cookie-consent__title">Esta web utiliza cookies</h1>
+      <h2 class="cookie-consent__title">Esta web utiliza cookies</h2>
       <button class="cookie-consent__button cookie-consent__button--close js-cookie-consent__preferences-back">
         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M20 5.66038L13.6604 12L20 18.3396L18.3396 20L12 13.6604L5.66038 20L4 18.3396L10.3396 12L4 5.66038L5.66038 4L12 10.3396L18.3396 4L20 5.66038Z" style="fill: black;" /></svg>
       </button>
